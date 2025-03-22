@@ -1,4 +1,4 @@
-Here are the list of files produced and any relevant scripts:
+Here is the list of files produced and any relevant scripts:
 
 Filename: subject-info.csv
 Information: Original data from MUSIC study found on https://physionet.org/content/music-sudden-cardiac-death/1.0.1/
