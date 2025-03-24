@@ -1,0 +1,1546 @@
+,Patient ID,Prompts,Outcome
+836,P0884,"Age: 70
+Gender: Female 
+Weight: 70 kg
+Height: 165 cm
+NYHA Class: II
+Blood Pressure: 140/80 mmHg
+Past Medical History: Hypertensive cardiomyopathy, Hypertension
+Albumin (g/L): 34
+ALT or GPT (IU/L): 43.0
+AST or GOT (IU/L): 34.0
+Total Cholesterol (mmol/L): 4,01
+Creatinine (mmol/L): 53.0
+Gamma-glutamil transpeptidase (IU/L): 39
+Glucose (mmol/L): 6,6
+Hemoglobin (g/L): 146.0
+HDL (mmol/L): 1,32
+Potassium (mEq/L): 4,3
+LDL (mmol/L): 2,22
+Sodium (mEq/L): 144.0
+Pro-BNP (ng/L): 2773.0
+Protein (g/L): 75
+T4 (ng/L): 15
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 2,23
+Urea (mg/dL): 4,99
+LVEF (%): 60.0
+Medications: Loop Diuretics, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",pump failure death
+788,P0329,"Age: 61
+Gender: Female 
+Weight: 95 kg
+Height: 162 cm
+NYHA Class: II
+Blood Pressure: 140/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Hypertension, Myocardial Infarction
+Albumin (g/L): 39,2
+ALT or GPT (IU/L): 14.0
+AST or GOT (IU/L): 12.0
+Total Cholesterol (mmol/L): 4,68
+Creatinine (mmol/L): 99.0
+Gamma-glutamil transpeptidase (IU/L): 31
+Glucose (mmol/L): 17,2
+Hemoglobin (g/L): 165.0
+HDL (mmol/L): 1,09
+Potassium (mEq/L): 4,8
+LDL (mmol/L): 1,78
+Sodium (mEq/L): 140.0
+Pro-BNP (ng/L): 10340.0
+Protein (g/L): 73
+T3 (pg/dL): 0,04
+T4 (ng/L): 16
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 1,44
+Urea (mg/dL): 7,35
+LVEF (%): 24.0
+Medications: Diabetes Medication, Digoxin, Spironolactone, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death
+810,P0594,"Age: 78
+Gender: Male 
+Weight: 61 kg
+Height: 151 cm
+NYHA Class: II
+Blood Pressure: 128/83 mmHg
+Past Medical History: Hypertropic cardiomyopathy, Hypertension
+Albumin (g/L): 39
+ALT or GPT (IU/L): 24.0
+AST or GOT (IU/L): 17.0
+Total Cholesterol (mmol/L): 6,28
+Creatinine (mmol/L): 115.0
+Gamma-glutamil transpeptidase (IU/L): 32
+Glucose (mmol/L): 4,5
+Hemoglobin (g/L): 140.0
+HDL (mmol/L): 1,19
+Potassium (mEq/L): 4,9
+LDL (mmol/L): 4,47
+Sodium (mEq/L): 139.0
+Pro-BNP (ng/L): 1627.0
+Protein (g/L): 67
+T3 (pg/dL): 0,04
+T4 (ng/L): 19
+TSH (mIU/L): 2,39
+Urea (mg/dL): 11,82
+LVEF (%): 40.0
+Medications: Amiodarone, Loop Diuretics, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",pump failure death
+778,P0265,"Age: 83
+Gender: Female 
+Weight: 77 kg
+Height: 150 cm
+NYHA Class: II
+Blood Pressure: 155/90 mmHg
+Past Medical History: Hypertensive cardiomyopathy, Diabetes, Dyslipemia, Hypertension, Myocardial Infarction
+Albumin (g/L): 38,2
+ALT or GPT (IU/L): 17.0
+AST or GOT (IU/L): 17.0
+Total Cholesterol (mmol/L): 3,99
+Creatinine (mmol/L): 97.0
+Gamma-glutamil transpeptidase (IU/L): 20
+Glucose (mmol/L): 8,6
+Hemoglobin (g/L): 134.0
+HDL (mmol/L): 1,68
+Potassium (mEq/L): 3,66
+LDL (mmol/L): 2,03
+Sodium (mEq/L): 139.0
+Pro-BNP (ng/L): 984.0
+Protein (g/L): 67
+T4 (ng/L): 20
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 0,29
+Urea (mg/dL): 9,7
+LVEF (%): 70.0
+Medications: Beta Blockers, Loop Diuretics, Statins, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death
+745,P0034,"Age: 71
+Gender: Male 
+Weight: 61 kg
+Height: 151 cm
+NYHA Class: III
+Blood Pressure: 110/60 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Dyslipemia, Myocardial Infarction
+Albumin (g/L): 39,7
+ALT or GPT (IU/L): 9.0
+AST or GOT (IU/L): 17.0
+Total Cholesterol (mmol/L): 4,84
+Creatinine (mmol/L): 102.0
+Gamma-glutamil transpeptidase (IU/L): 9
+Glucose (mmol/L): 4,2
+Hemoglobin (g/L): 124.0
+HDL (mmol/L): 1,32
+Potassium (mEq/L): 4,4
+LDL (mmol/L): 2,97
+Sodium (mEq/L): 141.0
+Pro-BNP (ng/L): 32552.0
+Protein (g/L): 79
+T3 (pg/dL): 0,04
+T4 (ng/L): 16
+Troponin (ng/mL): 0,05
+TSH (mIU/L): 4,9
+Urea (mg/dL): 10,24
+LVEF (%): 26.0
+Medications: Digoxin, Loop Diuretics, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",pump failure death
+750,P0056,"Age: 54
+Gender: Male 
+Weight: 80 kg
+Height: 160 cm
+NYHA Class: III
+Blood Pressure: 110/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Peripheral vascular disease, Myocardial Infarction
+Albumin (g/L): 47,19
+ALT or GPT (IU/L): 22.0
+AST or GOT (IU/L): 15.0
+Total Cholesterol (mmol/L): 3,72
+Creatinine (mmol/L): 124.0
+Gamma-glutamil transpeptidase (IU/L): 249
+Glucose (mmol/L): 6,3
+Hemoglobin (g/L): 151.0
+HDL (mmol/L): 1,01
+Potassium (mEq/L): 4
+LDL (mmol/L): 1,99
+Sodium (mEq/L): 141.0
+Pro-BNP (ng/L): 3258.0
+Protein (g/L): 75
+T3 (pg/dL): 0,05
+T4 (ng/L): 19
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 3,58
+Urea (mg/dL): 12,03
+LVEF (%): 25.0
+Medications: Calcium Channel Blocker, Beta Blockers, Loop Diuretics, Spironolactone, Statins, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: No
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death
+743,P0030,"Age: 77
+Gender: Female 
+Weight: 60 kg
+Height: 146 cm
+NYHA Class: II
+Blood Pressure: 95/70 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy, Diabetes
+Albumin (g/L): 42,9
+ALT or GPT (IU/L): 8.0
+AST or GOT (IU/L): 16.0
+Total Cholesterol (mmol/L): 6,31
+Creatinine (mmol/L): 100.0
+Gamma-glutamil transpeptidase (IU/L): 26
+Glucose (mmol/L): 9,9
+Hemoglobin (g/L): 138.0
+HDL (mmol/L): 1,53
+Potassium (mEq/L): 4,7
+LDL (mmol/L): 4,03
+Sodium (mEq/L): 137.0
+Pro-BNP (ng/L): 2118.0
+Protein (g/L): 75
+T3 (pg/dL): 0,05
+T4 (ng/L): 17
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 1,71
+Urea (mg/dL): 10,02
+LVEF (%): 20.0
+Medications: Diabetes Medication, Beta Blockers, Loop Diuretics, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death
+816,P0679,"Age: 67
+Gender: Male 
+Weight: 76 kg
+Height: 170 cm
+NYHA Class: II
+Blood Pressure: 140/55 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy
+Albumin (g/L): 47
+ALT or GPT (IU/L): 16.0
+AST or GOT (IU/L): 11.0
+Total Cholesterol (mmol/L): 5,61
+Creatinine (mmol/L): 135.0
+Gamma-glutamil transpeptidase (IU/L): 47
+Glucose (mmol/L): 5,27
+Hemoglobin (g/L): 109.0
+HDL (mmol/L): 0,93
+Potassium (mEq/L): 4,75
+LDL (mmol/L): 1,81
+Sodium (mEq/L): 140.0
+Pro-BNP (ng/L): 62.0
+Protein (g/L): 75,3
+T3 (pg/dL): 0,0429
+T4 (ng/L): 14,14
+Troponin (ng/mL): 0,7
+TSH (mIU/L): 4,1
+Urea (mg/dL): 19,6
+LVEF (%): 30.0
+Medications: Amiodarone, Beta Blockers, Digoxin, Loop Diuretics, Spironolactone, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death
+801,P0509,"Age: 76
+Gender: Female 
+Weight: 60 kg
+Height: 160 cm
+NYHA Class: II
+Blood Pressure: 140/80 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy
+Albumin (g/L): 36,7
+ALT or GPT (IU/L): 22.0
+AST or GOT (IU/L): 24.0
+Total Cholesterol (mmol/L): 4,4
+Creatinine (mmol/L): 108.0
+Gamma-glutamil transpeptidase (IU/L): 67
+Glucose (mmol/L): 4,7
+Hemoglobin (g/L): 114.0
+HDL (mmol/L): 1,63
+Potassium (mEq/L): 4,3
+LDL (mmol/L): 2,28
+Sodium (mEq/L): 140.0
+Pro-BNP (ng/L): 2094.0
+Protein (g/L): 67
+T3 (pg/dL): 0,04
+T4 (ng/L): 17
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 3,58
+Urea (mg/dL): 13,14
+LVEF (%): 24.0
+Medications: Digoxin, Loop Diuretics, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",pump failure death
+749,P0054,"Age: 55
+Gender: Male 
+Weight: 72 kg
+Height: 170 cm
+NYHA Class: III
+Blood Pressure: 90/60 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Hypertension, Myocardial Infarction
+Albumin (g/L): 47
+ALT or GPT (IU/L): 30.0
+AST or GOT (IU/L): 28.0
+Total Cholesterol (mmol/L): 3
+Creatinine (mmol/L): 147.0
+Gamma-glutamil transpeptidase (IU/L): 246
+Glucose (mmol/L): 9,3
+Hemoglobin (g/L): 139.0
+HDL (mmol/L): 1,09
+Potassium (mEq/L): 5,1
+LDL (mmol/L): 1,66
+Sodium (mEq/L): 137.0
+Pro-BNP (ng/L): 3765.0
+Protein (g/L): 77
+T3 (pg/dL): 0,05
+T4 (ng/L): 24
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 2,46
+Urea (mg/dL): 16,26
+LVEF (%): 25.0
+Medications: Diabetes Medication, Beta Blockers, Digoxin, Loop Diuretics, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death
+844,P0981,"Age: 73
+Gender: Male 
+Weight: 63 kg
+Height: 160 cm
+NYHA Class: II
+Blood Pressure: 110/70 mmHg
+Past Medical History: Other HF etiology, Diabetes, Dyslipemia, Hypertension, Myocardial Infarction
+Albumin (g/L): 40,5
+ALT or GPT (IU/L): 8.0
+AST or GOT (IU/L): 14.0
+Total Cholesterol (mmol/L): 4,06
+Creatinine (mmol/L): 111.0
+Gamma-glutamil transpeptidase (IU/L): 29
+Glucose (mmol/L): 4,4
+Hemoglobin (g/L): 106.0
+HDL (mmol/L): 1,73
+Potassium (mEq/L): 5,1
+LDL (mmol/L): 2,02
+Sodium (mEq/L): 144.0
+Protein (g/L): 74
+T4 (ng/L): 19
+TSH (mIU/L): 0,19
+Urea (mg/dL): 9,48
+LVEF (%): 69.0
+Medications: Diabetes Medication, Angiotensin II Receptor Blocker, Beta Blockers, Loop Diuretics, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",pump failure death
+793,P0448,"Age: 71
+Gender: Male 
+Weight: 60 kg
+Height: 165 cm
+NYHA Class: II
+Blood Pressure: 130/70 mmHg
+Past Medical History: Hypertensive cardiomyopathy, Diabetes, Dyslipemia, Hypertension
+Albumin (g/L): 38
+ALT or GPT (IU/L): 45.0
+AST or GOT (IU/L): 31.0
+Total Cholesterol (mmol/L): 4,42
+Creatinine (mmol/L): 194.0
+Gamma-glutamil transpeptidase (IU/L): 52
+Glucose (mmol/L): 4,8
+Hemoglobin (g/L): 149.0
+HDL (mmol/L): 1,4
+Potassium (mEq/L): 4,9
+LDL (mmol/L): 2,69
+Sodium (mEq/L): 140.0
+Pro-BNP (ng/L): 2285.0
+Protein (g/L): 69
+T3 (pg/dL): 0,03
+T4 (ng/L): 10
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 3,69
+Urea (mg/dL): 15,14
+LVEF (%): 55.0
+Medications: Diabetes Medication, Angiotensin II Receptor Blocker, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: No
+            ",pump failure death
+806,P0555,"Age: 80
+Gender: Male 
+Weight: 76 kg
+Height: 159 cm
+NYHA Class: II
+Blood Pressure: 120/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Dyslipemia, Hypertension, Myocardial Infarction
+Albumin (g/L): 45
+ALT or GPT (IU/L): 18.0
+AST or GOT (IU/L): 13.0
+Total Cholesterol (mmol/L): 4,6
+Creatinine (mmol/L): 133.0
+Gamma-glutamil transpeptidase (IU/L): 20
+Glucose (mmol/L): 4,9
+Hemoglobin (g/L): 155.0
+HDL (mmol/L): 1,29
+Potassium (mEq/L): 4,9
+LDL (mmol/L): 2,66
+Sodium (mEq/L): 141.0
+Protein (g/L): 71
+T3 (pg/dL): 0,06
+T4 (ng/L): 18
+Troponin (ng/mL): 0,08
+TSH (mIU/L): 1,72
+Urea (mg/dL): 13,31
+LVEF (%): 25.0
+Medications: Calcium Channel Blocker, Beta Blockers, Loop Diuretics, Statins, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",pump failure death
+744,P0031,"Age: 76
+Gender: Male 
+Weight: 81 kg
+Height: 166 cm
+NYHA Class: II
+Blood Pressure: 130/60 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Myocardial Infarction
+Albumin (g/L): 43,2
+ALT or GPT (IU/L): 10.0
+AST or GOT (IU/L): 16.0
+Total Cholesterol (mmol/L): 7,14
+Creatinine (mmol/L): 195.0
+Gamma-glutamil transpeptidase (IU/L): 26
+Glucose (mmol/L): 5,4
+Hemoglobin (g/L): 138.0
+HDL (mmol/L): 0,85
+Potassium (mEq/L): 4,4
+LDL (mmol/L): 4,91
+Sodium (mEq/L): 140.0
+Pro-BNP (ng/L): 310.0
+Protein (g/L): 77
+T3 (pg/dL): 0,05
+T4 (ng/L): 18
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 2,1
+Urea (mg/dL): 23,82
+LVEF (%): 33.0
+Medications: Diabetes Medication, Beta Blockers, Digoxin, Loop Diuretics, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death
+764,P0160,"Age: 71
+Gender: Male 
+Weight: 62 kg
+Height: 165 cm
+NYHA Class: III
+Blood Pressure: 120/70 mmHg
+Past Medical History: Valvular cardiomyopathy
+Albumin (g/L): 41
+ALT or GPT (IU/L): 8.0
+AST or GOT (IU/L): 20.0
+Total Cholesterol (mmol/L): 4,11
+Creatinine (mmol/L): 156.0
+Gamma-glutamil transpeptidase (IU/L): 107
+Glucose (mmol/L): 4,7
+Hemoglobin (g/L): 123.0
+Potassium (mEq/L): 4,59
+Sodium (mEq/L): 137.0
+Pro-BNP (ng/L): 27357.0
+Protein (g/L): 74,9
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 3,15
+Urea (mg/dL): 19,2
+LVEF (%): 13.0
+Medications: Beta Blockers, Digoxin, Loop Diuretics, Spironolactone, Hydralazine, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",pump failure death
+713,P0649,"Age: 70
+Gender: Male 
+Weight: 110 kg
+Height: 180 cm
+NYHA Class: II
+Blood Pressure: 120/70 mmHg
+Past Medical History: Enolic dilated cardiomyopathy, Diabetes, Dyslipemia, Hypertension
+Albumin (g/L): 44
+ALT or GPT (IU/L): 10.0
+AST or GOT (IU/L): 18.0
+Total Cholesterol (mmol/L): 3,49
+Creatinine (mmol/L): 85.0
+Gamma-glutamil transpeptidase (IU/L): 29
+Glucose (mmol/L): 10,8
+Hemoglobin (g/L): 129.0
+HDL (mmol/L): 0,98
+Potassium (mEq/L): 5,4
+LDL (mmol/L): 2,22
+Sodium (mEq/L): 143.0
+Pro-BNP (ng/L): 437.0
+Protein (g/L): 72
+T3 (pg/dL): 0,04
+T4 (ng/L): 16
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 3,99
+Urea (mg/dL): 6,24
+LVEF (%): 40.0
+Medications: Diabetes Medication, Loop Diuretics, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",sudden cardiac death
+699,P0416,"Age: 46
+Gender: Male 
+Weight: 77 kg
+Height: 174 cm
+NYHA Class: II
+Blood Pressure: 105/70 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy
+Albumin (g/L): 48
+ALT or GPT (IU/L): 51.0
+AST or GOT (IU/L): 32.0
+Total Cholesterol (mmol/L): 5,38
+Creatinine (mmol/L): 115.0
+Gamma-glutamil transpeptidase (IU/L): 25
+Glucose (mmol/L): 8
+Hemoglobin (g/L): 158.0
+HDL (mmol/L): 1,16
+Potassium (mEq/L): 4,7
+LDL (mmol/L): 3,41
+Sodium (mEq/L): 135.0
+Pro-BNP (ng/L): 247.0
+Protein (g/L): 79
+T3 (pg/dL): 0,05
+T4 (ng/L): 21
+Troponin (ng/mL): 0,12
+TSH (mIU/L): 3,63
+Urea (mg/dL): 6,32
+LVEF (%): 30.0
+Medications: Diabetes Medication, Amiodarone, Beta Blockers, Digoxin, Loop Diuretics, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",sudden cardiac death
+706,P0520,"Age: 67
+Gender: Male 
+Weight: 63 kg
+Height: 158 cm
+NYHA Class: III
+Blood Pressure: 90/60 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Hypertension
+Albumin (g/L): 42,4
+ALT or GPT (IU/L): 22.0
+AST or GOT (IU/L): 14.0
+Total Cholesterol (mmol/L): 3,7
+Creatinine (mmol/L): 135.0
+Gamma-glutamil transpeptidase (IU/L): 56
+Glucose (mmol/L): 7,2
+Hemoglobin (g/L): 98.0
+HDL (mmol/L): 0,83
+Potassium (mEq/L): 3,6
+LDL (mmol/L): 1,27
+Sodium (mEq/L): 139.0
+Pro-BNP (ng/L): 6274.0
+Protein (g/L): 68
+T3 (pg/dL): 0,04
+T4 (ng/L): 18
+Troponin (ng/mL): 0,04
+TSH (mIU/L): 1,31
+Urea (mg/dL): 11,13
+LVEF (%): 23.0
+Medications: Diabetes Medication, Loop Diuretics, Spironolactone, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",sudden cardiac death
+715,P0656,"Age: 57
+Gender: Male 
+Weight: 70 kg
+Height: 164 cm
+NYHA Class: III
+Blood Pressure: 140/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Hypertension, Myocardial Infarction
+Albumin (g/L): 33,5
+ALT or GPT (IU/L): 41.0
+AST or GOT (IU/L): 30.0
+Total Cholesterol (mmol/L): 3,15
+Creatinine (mmol/L): 226.0
+Gamma-glutamil transpeptidase (IU/L): 73
+Glucose (mmol/L): 3,1
+Hemoglobin (g/L): 97.0
+HDL (mmol/L): 1,06
+Potassium (mEq/L): 5,9
+LDL (mmol/L): 1,58
+Sodium (mEq/L): 133.0
+Pro-BNP (ng/L): 19425.0
+Protein (g/L): 68
+T3 (pg/dL): 0,03
+T4 (ng/L): 20
+Troponin (ng/mL): 0,19
+TSH (mIU/L): 4,39
+Urea (mg/dL): 18,94
+LVEF (%): 20.0
+Medications: Diabetes Medication, Beta Blockers, Loop Diuretics, Spironolactone, Statins, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",sudden cardiac death
+665,P0079,"Age: 70
+Gender: Male 
+Weight: 75 kg
+Height: 163 cm
+NYHA Class: II
+Blood Pressure: 110/80 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Peripheral vascular disease, Hypertension, Myocardial Infarction
+Albumin (g/L): 43,4
+ALT or GPT (IU/L): 11.0
+AST or GOT (IU/L): 16.0
+Total Cholesterol (mmol/L): 4,6
+Creatinine (mmol/L): 91.0
+Gamma-glutamil transpeptidase (IU/L): 11
+Glucose (mmol/L): 6,6
+Hemoglobin (g/L): 132.0
+HDL (mmol/L): 1,16
+Potassium (mEq/L): 4,7
+LDL (mmol/L): 2,56
+Sodium (mEq/L): 144.0
+Pro-BNP (ng/L): 517.0
+Protein (g/L): 75
+T3 (pg/dL): 0,04
+T4 (ng/L): 21
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 3,45
+Urea (mg/dL): 7,35
+LVEF (%): 48.0
+Medications: Calcium Channel Blocker, Diabetes Medication, Beta Blockers, Statins, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: Third-degree AVB
+            ",sudden cardiac death
+731,P0880,"Age: 84
+Gender: Male 
+Weight: 80 kg
+Height: 162 cm
+NYHA Class: II
+Blood Pressure: 110/70 mmHg
+Past Medical History: Hypertensive cardiomyopathy, Diabetes, Hypertension
+Albumin (g/L): 42
+ALT or GPT (IU/L): 24.0
+AST or GOT (IU/L): 20.0
+Total Cholesterol (mmol/L): 3,49
+Creatinine (mmol/L): 106.0
+Gamma-glutamil transpeptidase (IU/L): 16
+Glucose (mmol/L): 8,8
+Hemoglobin (g/L): 132.0
+HDL (mmol/L): 1,01
+Potassium (mEq/L): 4,2
+LDL (mmol/L): 2,09
+Sodium (mEq/L): 144.0
+Pro-BNP (ng/L): 444.0
+Protein (g/L): 71
+T4 (ng/L): 17
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 1,46
+Urea (mg/dL): 10,48
+LVEF (%): 30.0
+Medications: Diabetes Medication, Beta Blockers, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",sudden cardiac death
+738,P0974,"Age: 80
+Gender: Female 
+Weight: 52 kg
+Height: 154 cm
+NYHA Class: III
+Blood Pressure: 130/70 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy
+Albumin (g/L): 42
+ALT or GPT (IU/L): 25.0
+AST or GOT (IU/L): 17.0
+Total Cholesterol (mmol/L): 6,03
+Creatinine (mmol/L): 97.0
+Gamma-glutamil transpeptidase (IU/L): 30
+Glucose (mmol/L): 5,8
+Hemoglobin (g/L): 135.0
+HDL (mmol/L): 1,11
+Potassium (mEq/L): 4,1
+LDL (mmol/L): 4,37
+Sodium (mEq/L): 137.0
+Pro-BNP (ng/L): 4255.0
+Protein (g/L): 75
+T4 (ng/L): 15
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 0,609
+Urea (mg/dL): 9,32
+LVEF (%): 27.0
+Medications: Digoxin, Loop Diuretics, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",sudden cardiac death
+718,P0671,"Age: 69
+Gender: Male 
+Weight: 72 kg
+Height: 154 cm
+NYHA Class: II
+Blood Pressure: 150/90 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Hypertension, Myocardial Infarction
+Albumin (g/L): 44,1
+ALT or GPT (IU/L): 23.0
+AST or GOT (IU/L): 28.0
+Total Cholesterol (mmol/L): 5,74
+Creatinine (mmol/L): 145.0
+Gamma-glutamil transpeptidase (IU/L): 70
+Glucose (mmol/L): 11,2
+Hemoglobin (g/L): 163.0
+HDL (mmol/L): 0,88
+Potassium (mEq/L): 4,5
+LDL (mmol/L): 3,93
+Sodium (mEq/L): 142.0
+Pro-BNP (ng/L): 1824.0
+Protein (g/L): 76,6
+T4 (ng/L): 19
+TSH (mIU/L): 0,36
+Urea (mg/dL): 10,65
+LVEF (%): 35.0
+Medications: Calcium Channel Blocker, Diabetes Medication
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",sudden cardiac death
+653,P0008,"Age: 44
+Gender: Male 
+Weight: 114 kg
+Height: 179 cm
+NYHA Class: II
+Blood Pressure: 140/80 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Hypertension
+Albumin (g/L): 42,19
+ALT or GPT (IU/L): 29.0
+AST or GOT (IU/L): 24.0
+Total Cholesterol (mmol/L): 5,07
+Creatinine (mmol/L): 93.0
+Gamma-glutamil transpeptidase (IU/L): 29
+Glucose (mmol/L): 12,3
+Hemoglobin (g/L): 143.0
+HDL (mmol/L): 1,37
+Potassium (mEq/L): 4,5
+LDL (mmol/L): 2,77
+Sodium (mEq/L): 136.0
+Pro-BNP (ng/L): 623.0
+Protein (g/L): 76
+T3 (pg/dL): 0,02
+T4 (ng/L): 16
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 2,58
+Urea (mg/dL): 9,8
+LVEF (%): 30.0
+Medications: Diabetes Medication, Beta Blockers, Loop Diuretics, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",sudden cardiac death
+709,P0559,"Age: 51
+Gender: Male 
+Weight: 62 kg
+Height: 163 cm
+NYHA Class: II
+Blood Pressure: 130/90 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy, Hypertension
+Albumin (g/L): 45
+ALT or GPT (IU/L): 32.0
+AST or GOT (IU/L): 24.0
+Total Cholesterol (mmol/L): 5,4
+Creatinine (mmol/L): 94.0
+Gamma-glutamil transpeptidase (IU/L): 49
+Glucose (mmol/L): 5,2
+Hemoglobin (g/L): 147.0
+HDL (mmol/L): 1,68
+Potassium (mEq/L): 3,08
+LDL (mmol/L): 3,23
+Sodium (mEq/L): 142.0
+Pro-BNP (ng/L): 2928.0
+Protein (g/L): 71
+T3 (pg/dL): 0,0573
+T4 (ng/L): 16,58
+Troponin (ng/mL): 0,1
+TSH (mIU/L): 3,94
+Urea (mg/dL): 5,8
+LVEF (%): 20.0
+Medications: Calcium Channel Blocker, Amiodarone, Beta Blockers, Digoxin, Loop Diuretics, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",sudden cardiac death
+662,P0057,"Age: 66
+Gender: Male 
+Weight: 77 kg
+Height: 165 cm
+NYHA Class: III
+Blood Pressure: 110/60 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Hypertension, Myocardial Infarction
+Albumin (g/L): 41,7
+ALT or GPT (IU/L): 20.0
+AST or GOT (IU/L): 24.0
+Total Cholesterol (mmol/L): 4,14
+Creatinine (mmol/L): 155.0
+Gamma-glutamil transpeptidase (IU/L): 168
+Glucose (mmol/L): 4,6
+Hemoglobin (g/L): 152.0
+HDL (mmol/L): 1,14
+Potassium (mEq/L): 5
+LDL (mmol/L): 2,48
+Sodium (mEq/L): 141.0
+Pro-BNP (ng/L): 3996.0
+Protein (g/L): 81
+T3 (pg/dL): 0,04
+T4 (ng/L): 17
+Troponin (ng/mL): 0,02
+TSH (mIU/L): 8,79
+Urea (mg/dL): 15,15
+LVEF (%): 29.0
+Medications: Beta Blockers, Loop Diuretics, Statins, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",sudden cardiac death
+733,P0938,"Age: 71
+Gender: Male 
+Weight: 94 kg
+Height: 171 cm
+NYHA Class: III
+Blood Pressure: 96/67 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Myocardial Infarction
+Albumin (g/L): 37,1
+ALT or GPT (IU/L): 13.0
+AST or GOT (IU/L): 15.0
+Total Cholesterol (mmol/L): 4,24
+Creatinine (mmol/L): 88.0
+Gamma-glutamil transpeptidase (IU/L): 37
+Glucose (mmol/L): 6,9
+Hemoglobin (g/L): 103.0
+HDL (mmol/L): 1,03
+Potassium (mEq/L): 4,6
+LDL (mmol/L): 2,82
+Sodium (mEq/L): 143.0
+Protein (g/L): 71,9
+T4 (ng/L): 16
+TSH (mIU/L): 3,71
+Urea (mg/dL): 7,15
+LVEF (%): 25.0
+Medications: Calcium Channel Blocker, Loop Diuretics, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",sudden cardiac death
+711,P0618,"Age: 65
+Gender: Male 
+Weight: 93 kg
+Height: 176 cm
+NYHA Class: II
+Blood Pressure: 130/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Hypertension, Myocardial Infarction
+Albumin (g/L): 40,7
+ALT or GPT (IU/L): 57.0
+AST or GOT (IU/L): 24.0
+Total Cholesterol (mmol/L): 2,96
+Creatinine (mmol/L): 106.0
+Gamma-glutamil transpeptidase (IU/L): 95
+Glucose (mmol/L): 8
+Hemoglobin (g/L): 121.0
+HDL (mmol/L): 1,11
+Potassium (mEq/L): 4,56
+LDL (mmol/L): 1,45
+Sodium (mEq/L): 144.0
+Pro-BNP (ng/L): 12518.0
+Protein (g/L): 66,2
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 1,43
+Urea (mg/dL): 6,8
+LVEF (%): 20.0
+Medications: Diabetes Medication, Beta Blockers, Loop Diuretics, Spironolactone, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",sudden cardiac death
+693,P0346,"Age: 78
+Gender: Female 
+Weight: 52 kg
+Height: 150 cm
+NYHA Class: II
+Blood Pressure: 110/60 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Dyslipemia, Myocardial Infarction
+Albumin (g/L): 48,09
+ALT or GPT (IU/L): 10.0
+AST or GOT (IU/L): 25.0
+Total Cholesterol (mmol/L): 6,39
+Creatinine (mmol/L): 139.0
+Gamma-glutamil transpeptidase (IU/L): 79
+Glucose (mmol/L): 4,9
+Hemoglobin (g/L): 134.0
+HDL (mmol/L): 1,37
+Potassium (mEq/L): 4,7
+LDL (mmol/L): 4,53
+Sodium (mEq/L): 137.0
+Pro-BNP (ng/L): 1990.0
+Protein (g/L): 82
+T3 (pg/dL): 0,05
+T4 (ng/L): 18
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 3,25
+Urea (mg/dL): 12,69
+LVEF (%): 24.0
+Medications: Beta Blockers, Loop Diuretics, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",sudden cardiac death
+692,P0343,"Age: 63
+Gender: Male 
+Weight: 80 kg
+Height: 174 cm
+NYHA Class: II
+Blood Pressure: 100/60 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Hypertension, Myocardial Infarction
+Albumin (g/L): 42,4
+ALT or GPT (IU/L): 22.0
+AST or GOT (IU/L): 17.0
+Total Cholesterol (mmol/L): 4,14
+Creatinine (mmol/L): 112.0
+Gamma-glutamil transpeptidase (IU/L): 30
+Glucose (mmol/L): 8,9
+Hemoglobin (g/L): 116.0
+HDL (mmol/L): 0,98
+Potassium (mEq/L): 4,6
+LDL (mmol/L): 2,35
+Sodium (mEq/L): 137.0
+Pro-BNP (ng/L): 2125.0
+Protein (g/L): 74
+T3 (pg/dL): 0,02
+T4 (ng/L): 11
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 32,51
+Urea (mg/dL): 6,45
+LVEF (%): 40.0
+Medications: Diabetes Medication, Amiodarone, Loop Diuretics, Statins, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Parosysmal AF
+        - Bradycardia: No
+            ",sudden cardiac death
+647,P1057,"Age: 72
+Gender: Female 
+Weight: 72 kg
+Height: 150 cm
+NYHA Class: II
+Blood Pressure: 104/62 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy, Diabetes, Dyslipemia
+Albumin (g/L): 44
+ALT or GPT (IU/L): 14.0
+AST or GOT (IU/L): 16.0
+Total Cholesterol (mmol/L): 5,3
+Creatinine (mmol/L): 88.0
+Gamma-glutamil transpeptidase (IU/L): 11
+Glucose (mmol/L): 10,7
+Hemoglobin (g/L): 124.0
+HDL (mmol/L): 1,06
+Potassium (mEq/L): 4,8
+LDL (mmol/L): 2,59
+Sodium (mEq/L): 139.0
+Protein (g/L): 77
+T3 (pg/dL): 0,05
+T4 (ng/L): 15
+Troponin (ng/mL): 0,33
+TSH (mIU/L): 0,76
+Urea (mg/dL): 12,31
+LVEF (%): 35.0
+Medications: Diabetes Medication, Beta Blockers, Loop Diuretics, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",survivor
+344,P0564,"Age: 69
+Gender: Male 
+Weight: 75 kg
+Height: 176 cm
+NYHA Class: II
+Blood Pressure: 120/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Dyslipemia, Hypertension, Myocardial Infarction
+Albumin (g/L): 38
+ALT or GPT (IU/L): 39.0
+AST or GOT (IU/L): 20.0
+Total Cholesterol (mmol/L): 6,62
+Creatinine (mmol/L): 80.0
+Gamma-glutamil transpeptidase (IU/L): 56
+Glucose (mmol/L): 4,5
+Hemoglobin (g/L): 147.0
+HDL (mmol/L): 1,4
+Potassium (mEq/L): 4,7
+LDL (mmol/L): 4,37
+Sodium (mEq/L): 140.0
+Pro-BNP (ng/L): 277.0
+Protein (g/L): 74
+T4 (ng/L): 17
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 4,7
+Urea (mg/dL): 6,99
+LVEF (%): 45.0
+Medications: Beta Blockers, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: Second-degree AVB - type II
+            ",survivor
+142,P0234,"Age: 67
+Gender: Male 
+Weight: 69 kg
+Height: 167 cm
+NYHA Class: II
+Blood Pressure: 120/80 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Dyslipemia, Hypertension, Myocardial Infarction
+Albumin (g/L): 46
+ALT or GPT (IU/L): 23.0
+AST or GOT (IU/L): 27.0
+Total Cholesterol (mmol/L): 4,41
+Creatinine (mmol/L): 84.0
+Gamma-glutamil transpeptidase (IU/L): 57
+Glucose (mmol/L): 7
+Hemoglobin (g/L): 142.0
+HDL (mmol/L): 1,5
+Potassium (mEq/L): 4,16
+LDL (mmol/L): 1,5
+Sodium (mEq/L): 135.0
+Pro-BNP (ng/L): 2129.0
+Protein (g/L): 76,5
+T3 (pg/dL): 0,0471
+T4 (ng/L): 15,02
+Troponin (ng/mL): 0,9
+TSH (mIU/L): 1,05
+Urea (mg/dL): 7,2
+LVEF (%): 20.0
+Medications: Calcium Channel Blocker, Beta Blockers, Statins, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",survivor
+88,P0142,"Age: 67
+Gender: Female 
+Weight: 98 kg
+Height: 171 cm
+NYHA Class: II
+Blood Pressure: 120/85 mmHg
+Past Medical History: Valvular cardiomyopathy, Dyslipemia, Peripheral vascular disease, Hypertension
+Albumin (g/L): 40,8
+ALT or GPT (IU/L): 38.0
+AST or GOT (IU/L): 26.0
+Total Cholesterol (mmol/L): 4,8
+Creatinine (mmol/L): 73.0
+Gamma-glutamil transpeptidase (IU/L): 257
+Glucose (mmol/L): 4,4
+Hemoglobin (g/L): 125.0
+HDL (mmol/L): 1,13
+Potassium (mEq/L): 3,8
+LDL (mmol/L): 2,81
+Sodium (mEq/L): 143.0
+Pro-BNP (ng/L): 683.0
+Protein (g/L): 68,1
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 1,3
+Urea (mg/dL): 7,5
+LVEF (%): 55.0
+Medications: Digoxin, Loop Diuretics, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",survivor
+500,P0785,"Age: 72
+Gender: Male 
+Weight: 81 kg
+Height: 168 cm
+NYHA Class: II
+Blood Pressure: 100/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Myocardial Infarction
+Albumin (g/L): 42,6
+ALT or GPT (IU/L): 14.0
+AST or GOT (IU/L): 24.0
+Total Cholesterol (mmol/L): 5,54
+Creatinine (mmol/L): 130.0
+Gamma-glutamil transpeptidase (IU/L): 12
+Glucose (mmol/L): 5,7
+Hemoglobin (g/L): 133.0
+HDL (mmol/L): 1,84
+Potassium (mEq/L): 3,29
+LDL (mmol/L): 3,3
+Sodium (mEq/L): 142.0
+Pro-BNP (ng/L): 4250.0
+Protein (g/L): 71,8
+Troponin (ng/mL): 0,15
+TSH (mIU/L): 2,92
+Urea (mg/dL): 13,5
+LVEF (%): 30.0
+Medications: Angiotensin II Receptor Blocker, Beta Blockers, Loop Diuretics, Spironolactone, Statins
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",survivor
+194,P0324,"Age: 63
+Gender: Male 
+Weight: 78 kg
+Height: 159 cm
+NYHA Class: II
+Blood Pressure: 140/80 mmHg
+Past Medical History: Enolic dilated cardiomyopathy, Diabetes, Dyslipemia, Peripheral vascular disease, Hypertension
+Albumin (g/L): 45,59
+ALT or GPT (IU/L): 40.0
+AST or GOT (IU/L): 42.0
+Total Cholesterol (mmol/L): 4,53
+Creatinine (mmol/L): 94.0
+Gamma-glutamil transpeptidase (IU/L): 104
+Glucose (mmol/L): 8,8
+Hemoglobin (g/L): 113.0
+HDL (mmol/L): 0,88
+Potassium (mEq/L): 4,5
+LDL (mmol/L): 2,59
+Sodium (mEq/L): 135.0
+Pro-BNP (ng/L): 1148.0
+Protein (g/L): 72
+T3 (pg/dL): 0,04
+T4 (ng/L): 15
+Troponin (ng/mL): 0,02
+TSH (mIU/L): 2,61
+Urea (mg/dL): 7,57
+LVEF (%): 34.0
+Medications: Angiotensin II Receptor Blocker, Beta Blockers, Digoxin, Loop Diuretics, Spironolactone
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",survivor
+319,P0525,"Age: 69
+Gender: Male 
+Weight: 85 kg
+Height: 158 cm
+NYHA Class: II
+Blood Pressure: 145/90 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Peripheral vascular disease, Hypertension, Myocardial Infarction
+Albumin (g/L): 40,5
+ALT or GPT (IU/L): 22.0
+AST or GOT (IU/L): 18.0
+Total Cholesterol (mmol/L): 4,22
+Creatinine (mmol/L): 182.0
+Gamma-glutamil transpeptidase (IU/L): 30
+Glucose (mmol/L): 19,3
+Hemoglobin (g/L): 120.0
+HDL (mmol/L): 0,83
+Potassium (mEq/L): 4,6
+LDL (mmol/L): 1,34
+Sodium (mEq/L): 135.0
+Pro-BNP (ng/L): 241.0
+Protein (g/L): 64
+T3 (pg/dL): 0,04
+T4 (ng/L): 16
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 4,69
+Urea (mg/dL): 18,25
+LVEF (%): 35.0
+Medications: Diabetes Medication, Angiotensin II Receptor Blocker, Beta Blockers, Loop Diuretics, Statins
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",survivor
+80,P0125,"Age: 76
+Gender: Male 
+Weight: 79 kg
+Height: 180 cm
+NYHA Class: II
+Blood Pressure: 140/70 mmHg
+Past Medical History: Enolic dilated cardiomyopathy, Hypertension
+Albumin (g/L): 44
+ALT or GPT (IU/L): 37.0
+AST or GOT (IU/L): 23.0
+Total Cholesterol (mmol/L): 4,47
+Creatinine (mmol/L): 115.0
+Gamma-glutamil transpeptidase (IU/L): 54
+Glucose (mmol/L): 6,2
+Hemoglobin (g/L): 122.0
+HDL (mmol/L): 1,29
+Potassium (mEq/L): 4,4
+LDL (mmol/L): 2,66
+Sodium (mEq/L): 138.0
+Pro-BNP (ng/L): 303.0
+Protein (g/L): 74
+T3 (pg/dL): 0,06
+T4 (ng/L): 13
+Troponin (ng/mL): 0,02
+TSH (mIU/L): 12,9
+Urea (mg/dL): 6,16
+LVEF (%): 54.0
+Medications: Amiodarone, Beta Blockers, Loop Diuretics, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: Sinus Node Dysfunction
+            ",survivor
+417,P0668,"Age: 67
+Gender: Female 
+Weight: 70 kg
+Height: 146 cm
+NYHA Class: II
+Blood Pressure: 150/80 mmHg
+Past Medical History: Hypertensive cardiomyopathy, Diabetes, Dyslipemia, Peripheral vascular disease, Hypertension
+Albumin (g/L): 45,7
+ALT or GPT (IU/L): 24.0
+AST or GOT (IU/L): 23.0
+Total Cholesterol (mmol/L): 5,87
+Creatinine (mmol/L): 96.0
+Gamma-glutamil transpeptidase (IU/L): 45
+Glucose (mmol/L): 7
+Hemoglobin (g/L): 125.0
+HDL (mmol/L): 1,14
+Potassium (mEq/L): 4,2
+LDL (mmol/L): 2,77
+Sodium (mEq/L): 144.0
+Pro-BNP (ng/L): 1356.0
+Protein (g/L): 77
+T3 (pg/dL): 0,05
+T4 (ng/L): 17
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 2,39
+Urea (mg/dL): 14,92
+LVEF (%): 68.0
+Medications: Calcium Channel Blocker, Beta Blockers, Loop Diuretics, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",survivor
+593,P0925,"Age: 77
+Gender: Male 
+Weight: 82 kg
+Height: 170 cm
+NYHA Class: II
+Blood Pressure: 140/80 mmHg
+Past Medical History: Hypertropic cardiomyopathy
+Albumin (g/L): 40
+ALT or GPT (IU/L): 34.0
+AST or GOT (IU/L): 16.0
+Total Cholesterol (mmol/L): 5,07
+Creatinine (mmol/L): 106.0
+Gamma-glutamil transpeptidase (IU/L): 27
+Glucose (mmol/L): 5,2
+Hemoglobin (g/L): 150.0
+HDL (mmol/L): 0,96
+Potassium (mEq/L): 4,7
+LDL (mmol/L): 3,36
+Sodium (mEq/L): 141.0
+Pro-BNP (ng/L): 424.0
+Protein (g/L): 68
+T4 (ng/L): 10
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 1,33
+Urea (mg/dL): 6,66
+LVEF (%): 57.0
+Medications: Beta Blockers, Loop Diuretics
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",survivor
+376,P0609,"Age: 67
+Gender: Female 
+Weight: 74 kg
+Height: 158 cm
+NYHA Class: II
+Blood Pressure: 180/95 mmHg
+Past Medical History: Hypertropic cardiomyopathy, Diabetes
+Albumin (g/L): 46,2
+ALT or GPT (IU/L): 24.0
+AST or GOT (IU/L): 18.0
+Total Cholesterol (mmol/L): 4,99
+Creatinine (mmol/L): 61.0
+Gamma-glutamil transpeptidase (IU/L): 140
+Glucose (mmol/L): 7,9
+Hemoglobin (g/L): 137.0
+HDL (mmol/L): 1,91
+Potassium (mEq/L): 4,6
+LDL (mmol/L): 2,61
+Sodium (mEq/L): 141.0
+Pro-BNP (ng/L): 731.0
+Protein (g/L): 75,2
+T4 (ng/L): 14
+TSH (mIU/L): 3,47
+Urea (mg/dL): 3
+LVEF (%): 70.0
+Medications: Beta Blockers, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",survivor
+197,P0328,"Age: 64
+Gender: Male 
+Weight: 84 kg
+Height: 174 cm
+NYHA Class: II
+Blood Pressure: 120/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Dyslipemia, Peripheral vascular disease, Hypertension, Myocardial Infarction
+Albumin (g/L): 48,7
+ALT or GPT (IU/L): 12.0
+AST or GOT (IU/L): 12.0
+Total Cholesterol (mmol/L): 6,21
+Creatinine (mmol/L): 93.0
+Gamma-glutamil transpeptidase (IU/L): 24
+Glucose (mmol/L): 5,7
+Hemoglobin (g/L): 148.0
+HDL (mmol/L): 1,16
+Potassium (mEq/L): 4,8
+LDL (mmol/L): 4,42
+Sodium (mEq/L): 141.0
+Pro-BNP (ng/L): 511.0
+Protein (g/L): 76
+T3 (pg/dL): 0,03
+T4 (ng/L): 14
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 1,22
+Urea (mg/dL): 6,68
+LVEF (%): 35.0
+Medications: Beta Blockers, Statins, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",survivor
+648,P1058,"Age: 77
+Gender: Male 
+Weight: 63 kg
+Height: 169 cm
+NYHA Class: II
+Blood Pressure: 131/60 mmHg
+Past Medical History: Valvular cardiomyopathy, Dyslipemia
+Albumin (g/L): 40
+ALT or GPT (IU/L): 20.0
+AST or GOT (IU/L): 22.0
+Total Cholesterol (mmol/L): 5,28
+Creatinine (mmol/L): 88.0
+Gamma-glutamil transpeptidase (IU/L): 29
+Glucose (mmol/L): 4,5
+Hemoglobin (g/L): 136.0
+HDL (mmol/L): 0,96
+Potassium (mEq/L): 4,5
+LDL (mmol/L): 3,9
+Sodium (mEq/L): 140.0
+Protein (g/L): 72
+T3 (pg/dL): 0,05
+T4 (ng/L): 17
+Troponin (ng/mL): 0,03
+TSH (mIU/L): 0,58
+Urea (mg/dL): 9,98
+LVEF (%): 19.0
+Medications: Beta Blockers, Digoxin, Loop Diuretics, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",survivor
+412,P0660,"Age: 49
+Gender: Male 
+Weight: 81 kg
+Height: 171 cm
+NYHA Class: II
+Blood Pressure: 155/80 mmHg
+Past Medical History: Valvular cardiomyopathy, Diabetes, Hypertension
+Albumin (g/L): 50,59
+ALT or GPT (IU/L): 56.0
+AST or GOT (IU/L): 53.0
+Total Cholesterol (mmol/L): 7,89
+Creatinine (mmol/L): 103.0
+Gamma-glutamil transpeptidase (IU/L): 821
+Glucose (mmol/L): 11
+Hemoglobin (g/L): 166.0
+HDL (mmol/L): 1,27
+Potassium (mEq/L): 4,1
+LDL (mmol/L): 5,02
+Sodium (mEq/L): 137.0
+Pro-BNP (ng/L): 114.0
+Protein (g/L): 86
+T3 (pg/dL): 0,05
+T4 (ng/L): 19
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 11,8
+Urea (mg/dL): 6,91
+LVEF (%): 50.0
+Medications: Diabetes Medication, Amiodarone, Digoxin, Loop Diuretics, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",survivor
+48,P0082,"Age: 71
+Gender: Male 
+Weight: 70 kg
+Height: 167 cm
+NYHA Class: II
+Blood Pressure: 140/80 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy, Hypertension
+Albumin (g/L): 44,8
+ALT or GPT (IU/L): 11.0
+AST or GOT (IU/L): 18.0
+Total Cholesterol (mmol/L): 4,6
+Creatinine (mmol/L): 95.0
+Gamma-glutamil transpeptidase (IU/L): 14
+Glucose (mmol/L): 4,2
+Hemoglobin (g/L): 143.0
+HDL (mmol/L): 1,47
+Potassium (mEq/L): 4,5
+LDL (mmol/L): 2,66
+Sodium (mEq/L): 140.0
+Pro-BNP (ng/L): 430.0
+Protein (g/L): 70
+T3 (pg/dL): 0,04
+T4 (ng/L): 15
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 2,77
+Urea (mg/dL): 7,57
+LVEF (%): 24.0
+Medications: Digoxin, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",survivor
