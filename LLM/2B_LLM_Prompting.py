@@ -15,8 +15,11 @@ import os
 random.seed(0)
 torch.manual_seed(0)
 
+def prompt_outcome(note, outcome):
+    return note + "\nPATIENT OUTCOME: " + outcome
+
 def get_message(note):
-    system = 'You are a cardiologist. Your task is to generate a prognosis for the next few years with reasoning. The three possible prognoses are survivor, sudden cardiac death, and pump failure death. Please structure the results as follows: PREDICTION: [SURVIVOR | SUDDEN CARDIAC DEATH | PUMP FAILURE DEATH] \n REASONING: [Your explanation here]'
+    system = 'You are a cardiologist. You are given the patient outcome. Your task is to provide reasoning for the patient outcome. Please structure the results as follows: REASONING: [Your explanation here]'
     prompt = f"Here is the patient data: \n{note}"
 
     messages = [
@@ -47,7 +50,7 @@ if __name__ == "__main__":
                         torch_dtype=torch.float16, device_map='auto')
 
     # Load in csv file with prompts
-    df = pd.read_csv("../Data/subject-info-cleaned-with-prompts-sampled-repeated.csv") # Plan A requires repeats
+    df = pd.read_csv("../Data/subject-info-cleaned-with-prompts-sampled.csv") # Plan B does not require repeats
 
     # Create empty column to store results
     df['Prognosis'] = None
@@ -55,7 +58,7 @@ if __name__ == "__main__":
     # Prompt LLM
     for i in tqdm(range(len(df)), desc = "Generating responses"):
         # Get message
-        message = get_message(df['Prompts'][i])
+        message = get_message(prompt_outcome(df['Prompts'][i], df['Outcome'][i]))
     
         # Put message into LLM
         input_text = tokenizer.apply_chat_template(message, tokenize = False, add_generation_prompt = True)
@@ -71,4 +74,4 @@ if __name__ == "__main__":
         df.loc[i, 'Prognosis'] = result
 
     # Store dataframe as csv file
-    df.to_csv("../Data/subject-info-cleaned-with-prognosis-sampled-A.csv") # Plan A
+    df.to_csv("../Data/subject-info-cleaned-with-prognosis-sampled-B.csv") # Plan B
