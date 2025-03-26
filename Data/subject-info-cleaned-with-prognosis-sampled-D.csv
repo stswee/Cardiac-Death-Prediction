@@ -1,0 +1,2074 @@
+,Unnamed: 0,Patient ID,Prompts,Outcome,Prognosis
+0,771,P0213,"Age: 72
+Gender: Male 
+Weight: 94 kg
+Height: 171 cm
+NYHA Class: III
+Blood Pressure: 115/70 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy, Diabetes, Hypertension
+Albumin (g/L): 37
+ALT or GPT (IU/L): 12.0
+AST or GOT (IU/L): 16.0
+Total Cholesterol (mmol/L): 4,24
+Creatinine (mmol/L): 120.0
+Gamma-glutamil transpeptidase (IU/L): 23
+Glucose (mmol/L): 12,4
+Hemoglobin (g/L): 124.0
+HDL (mmol/L): 0,91
+Potassium (mEq/L): 3,44
+LDL (mmol/L): 2,59
+Sodium (mEq/L): 138.0
+Pro-BNP (ng/L): 1100.0
+Protein (g/L): 66,399
+T4 (ng/L): 17,63
+Troponin (ng/mL): 0,7
+TSH (mIU/L): 0,77
+Urea (mg/dL): 12,1
+LVEF (%): 30.0
+Medications: Diabetes Medication, Digoxin, Loop Diuretics, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",pump failure death,"RANKING: 1. Survivor, 2. Sudden Cardiac Death, 3. Pump Failure Death
+
+REASONING: 
+
+Based on the provided patient data, the patient's current health status suggests a high risk for adverse cardiac outcomes. The patient has a history of idiopathic dilated cardiomyopathy, which is a condition where the heart muscle becomes weak and the heart chambers enlarge, reducing the heart's ability to pump blood effectively. The patient's left ventricular ejection fraction (LVEF) is 30%, which is significantly below the normal range (50-70%), indicating severe systolic dysfunction. 
+
+The patient's NYHA Class III classification indicates that they experience symptoms of heart failure with moderate limitations in physical activity, which is consistent with their reduced LVEF. The elevated Pro-BNP level (1100.0 ng/L) also supports the presence of heart failure.
+
+However, the patient's current medications, including ACE inhibitor, Digoxin, Loop Diuretics, and Spironolactone, are standard treatments for heart failure with reduced ejection fraction (HFrEF) and may help manage symptoms and slow disease progression. The patient's blood pressure is well-controlled, and their lipid profile is relatively well-managed, which may help mitigate the risk of cardiovascular disease progression.
+
+Considering the patient's advanced age (72 years) and the severity of their heart failure, the most likely outcome is pump failure death. This is because the patient's heart is severely weakened, and despite current treatment, the heart's pumping function is significantly compromised.
+
+Sudden cardiac death is a possible outcome, given the patient's history of ventricular extrasystoles and the presence of non-diagnostic paroxysmal supraventricular tachyarrhythmia and bradycardia codes. However, the patient's overall clinical picture suggests that pump failure is a more immediate concern.
+
+Survival is the least likely outcome, given the patient's advanced age and severe heart failure. While the patient's current medications may help manage symptoms and slow disease progression, the underlying cardiac dysfunction is likely to continue to progress, leading to increased risk of complications and mortality."
+1,786,P0320,"Age: 69
+Gender: Male 
+Weight: 64 kg
+Height: 163 cm
+NYHA Class: II
+Blood Pressure: 110/75 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Dyslipemia, Myocardial Infarction
+Albumin (g/L): 43,8
+ALT or GPT (IU/L): 11.0
+AST or GOT (IU/L): 18.0
+Total Cholesterol (mmol/L): 3,96
+Creatinine (mmol/L): 98.0
+Gamma-glutamil transpeptidase (IU/L): 7
+Glucose (mmol/L): 4,6
+Hemoglobin (g/L): 138.0
+HDL (mmol/L): 1,27
+Potassium (mEq/L): 4,3
+LDL (mmol/L): 1,99
+Sodium (mEq/L): 136.0
+Pro-BNP (ng/L): 535.0
+Protein (g/L): 79
+T3 (pg/dL): 0,05
+T4 (ng/L): 16
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 0,983
+Urea (mg/dL): 7,35
+LVEF (%): 36.0
+Medications: Beta Blockers, Spironolactone, Statins, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death,"RANKING: 1. Survivor, 2. Sudden cardiac death, 3. Pump failure death
+
+REASONING: 
+
+Given the patient's profile, I would rank the prognoses as follows:
+
+1. Survivor: The patient is on optimal medical therapy for heart failure, including beta blockers, spironolactone, statins, and an ACE inhibitor, which suggests that the treatment plan is comprehensive and tailored to the patient's condition. The patient's LVEF (36%) is relatively preserved, indicating that the left ventricle is still functioning to some extent. The lack of ventricular tachycardia or non-sustained ventricular tachycardia on the ECG is a positive sign. Although the patient has a history of myocardial infarction and ischemic dilated cardiomyopathy, the patient's age and current medication regimen suggest that survival is the most likely outcome.
+
+2. Sudden cardiac death: The patient has a history of myocardial infarction and ischemic dilated cardiomyopathy, which increases the risk of sudden cardiac death. However, the patient's LVEF is not extremely low (36%), and the lack of ventricular tachycardia or non-sustained ventricular tachycardia on the ECG reduces the risk of sudden cardiac death. Additionally, the patient is on beta blockers, which are known to reduce the risk of sudden cardiac death.
+
+3. Pump failure death: The patient's LVEF is relatively low (36%), indicating that the left ventricle is not functioning optimally. The patient's creatinine level is elevated (98.0 mmol/L), suggesting impaired renal function, which is a common complication of heart failure. The patient's pro-BNP level is elevated (535.0 ng/L), which is a marker of heart failure severity. The patient's NYHA class is II, indicating moderate symptoms of heart failure. Considering these factors, pump failure death is the least likely outcome, but still a possibility if the patient's condition worsens or if the treatment plan is not optimized.
+
+It is essential to note that the patient's prognosis can be influenced by various factors, including adherence to medication, lifestyle modifications, and potential changes in the patient's condition over time. Regular follow-up appointments and monitoring of the patient's condition will be crucial to reassess the prognosis and adjust the treatment plan as needed."
+2,745,P0034,"Age: 71
+Gender: Male 
+Weight: 61 kg
+Height: 151 cm
+NYHA Class: III
+Blood Pressure: 110/60 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Dyslipemia, Myocardial Infarction
+Albumin (g/L): 39,7
+ALT or GPT (IU/L): 9.0
+AST or GOT (IU/L): 17.0
+Total Cholesterol (mmol/L): 4,84
+Creatinine (mmol/L): 102.0
+Gamma-glutamil transpeptidase (IU/L): 9
+Glucose (mmol/L): 4,2
+Hemoglobin (g/L): 124.0
+HDL (mmol/L): 1,32
+Potassium (mEq/L): 4,4
+LDL (mmol/L): 2,97
+Sodium (mEq/L): 141.0
+Pro-BNP (ng/L): 32552.0
+Protein (g/L): 79
+T3 (pg/dL): 0,04
+T4 (ng/L): 16
+Troponin (ng/mL): 0,05
+TSH (mIU/L): 4,9
+Urea (mg/dL): 10,24
+LVEF (%): 26.0
+Medications: Digoxin, Loop Diuretics, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",pump failure death,"Based on the provided patient data, here is the ranking of the three possible prognoses from most likely to least likely, along with the reasoning behind each:
+
+RANKING: 1. Sudden Cardiac Death
+ REASONING: The patient has a history of ischemic dilated cardiomyopathy and a low left ventricular ejection fraction (LVEF) of 26%, indicating significant heart failure. The elevated Pro-BNP level (32552 ng/L) further supports this, as it is a marker of heart failure. The patient's NYHA Class III classification also indicates severe symptoms of heart failure. While the patient is on medications that are appropriate for heart failure management, including ACE inhibitors and statins, the presence of ventricular extrasystoles on the ECG and a low T3 level (0.04 pg/dL) may indicate a higher risk of arrhythmias. Sudden cardiac death is a significant concern in patients with heart failure and reduced ejection fraction.
+
+RANKING: 2. Pump Failure Death
+ REASONING: The patient's low LVEF (26%) and NYHA Class III classification indicate severe heart failure. The elevated Pro-BNP level and low albumin level (39.7 g/L) further support this, as they are markers of heart failure and malnutrition. The patient's medications, including loop diuretics, are appropriate for heart failure management, but the patient's condition may still be deteriorating. Pump failure death is a possible outcome in patients with advanced heart failure.
+
+RANKING: 3. Survivor
+ REASONING: While the patient's condition is severe, with a low LVEF and NYHA Class III classification, the patient is being treated with appropriate medications for heart failure management. The patient's creatinine level (102.0 mmol/L) is elevated, but it is not extremely high, and the patient's blood pressure is within a relatively normal range (110/60 mmHg). The patient's T4 level (16 ng/L) is within the normal range, and the TSH level (4.9 mIU/L) is slightly elevated but not significantly abnormal. While the patient's prognosis is guarded, the fact that they are being treated and have some relatively normal laboratory values suggests that they may be able to survive for a longer period."
+3,754,P0083,"Age: 81
+Gender: Male 
+Weight: 70 kg
+Height: 165 cm
+NYHA Class: III
+Blood Pressure: 100/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Peripheral vascular disease, Myocardial Infarction
+Albumin (g/L): 40,9
+ALT or GPT (IU/L): 16.0
+AST or GOT (IU/L): 12.0
+Total Cholesterol (mmol/L): 3,9
+Creatinine (mmol/L): 207.0
+Gamma-glutamil transpeptidase (IU/L): 19
+Glucose (mmol/L): 6,9
+Hemoglobin (g/L): 119.0
+HDL (mmol/L): 1,03
+Potassium (mEq/L): 4,5
+LDL (mmol/L): 2,53
+Sodium (mEq/L): 144.0
+Pro-BNP (ng/L): 428.0
+Protein (g/L): 71
+T3 (pg/dL): 0,03
+T4 (ng/L): 17
+Troponin (ng/mL): 0,02
+TSH (mIU/L): 2,14
+Urea (mg/dL): 28,28
+LVEF (%): 35.0
+Medications: Diabetes Medication, Digoxin, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death,"Based on the provided patient data, here is the ranking of the prognoses from most likely to least likely:
+
+RANKING: 1. Sudden cardiac death
+ REASONING: The patient has a history of ischemic dilated cardiomyopathy, which is a significant risk factor for sudden cardiac death. The patient's LVEF of 35% indicates severe left ventricular dysfunction, and the presence of non-sustained ventricular tachycardia on the ECG further increases the risk of sudden cardiac death. Additionally, the patient's high Pro-BNP level (428.0 ng/L) suggests elevated filling pressures and potential fluid overload, which can contribute to arrhythmias and sudden cardiac death.
+
+RANKING: 2. Pump failure death
+ REASONING: The patient's LVEF of 35% and high Pro-BNP level suggest that the patient is at risk for pump failure death. The patient's NYHA Class III classification indicates that the patient experiences symptoms of heart failure, and the high creatinine level (207.0 mmol/L) suggests renal dysfunction, which can be a consequence of severe heart failure. However, the patient's overall condition and the presence of other risk factors make sudden cardiac death a more likely outcome.
+
+RANKING: 3. Survivor
+ REASONING: While the patient's condition is severe, the patient's age and the presence of multiple comorbidities (diabetes, peripheral vascular disease, and myocardial infarction) suggest that the patient may be at risk for mortality. However, the patient is currently on medications that can help manage the symptoms of heart failure and diabetes, and the patient's LVEF is not extremely low (35%). While the patient's condition is concerning, the likelihood of survival is higher than the likelihood of sudden cardiac death or pump failure death."
+4,840,P0913,"Age: 69
+Gender: Female 
+Weight: 70 kg
+Height: 151 cm
+NYHA Class: III
+Blood Pressure: 130/80 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Peripheral vascular disease, Hypertension, Myocardial Infarction
+Albumin (g/L): 40,7
+ALT or GPT (IU/L): 12.0
+AST or GOT (IU/L): 33.0
+Total Cholesterol (mmol/L): 4,94
+Creatinine (mmol/L): 63.0
+Gamma-glutamil transpeptidase (IU/L): 13
+Glucose (mmol/L): 5,7
+Hemoglobin (g/L): 119.0
+HDL (mmol/L): 1,4
+Potassium (mEq/L): 4
+LDL (mmol/L): 3,08
+Sodium (mEq/L): 141.0
+Pro-BNP (ng/L): 475.0
+Protein (g/L): 70,7
+T3 (pg/dL): 0,04
+T4 (ng/L): 14
+TSH (mIU/L): 1,94
+Urea (mg/dL): 6,16
+LVEF (%): 35.0
+Medications: Calcium Channel Blocker, Diabetes Medication, Beta Blockers, Loop Diuretics, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death,"Based on the provided patient data, I will rank the three possible prognoses from most likely to least likely as follows:
+
+RANKING: 1. Pump failure death
+REASONING: The patient has a history of ischemic dilated cardiomyopathy, which is a significant risk factor for heart failure. The patient's left ventricular ejection fraction (LVEF) is 35%, indicating severe systolic dysfunction. The patient is also on loop diuretics, which are typically used to manage fluid overload in heart failure. The elevated pro-BNP (475 ng/L) level further supports the diagnosis of heart failure. Additionally, the patient's history of myocardial infarction and peripheral vascular disease suggests a high risk of cardiovascular disease. Given the severity of the patient's heart failure and the presence of multiple comorbidities, pump failure death is the most likely prognosis.
+
+RANKING: 2. Sudden cardiac death
+REASONING: The patient has a history of ischemic dilated cardiomyopathy, which increases the risk of sudden cardiac death. The presence of polymorphic ventricular extrasystoles on the ECG suggests an increased risk of arrhythmias. However, the absence of non-sustained ventricular tachycardia and the patient's current medication regimen, which includes beta blockers, suggest that the risk of sudden cardiac death may be mitigated to some extent. Nevertheless, the patient's overall cardiovascular risk profile and history of heart failure make sudden cardiac death a plausible, although less likely, prognosis compared to pump failure death.
+
+RANKING: 3. Survivor
+REASONING: While the patient's cardiovascular disease and heart failure are significant concerns, the patient is currently on a comprehensive medication regimen, including ACE inhibitors, beta blockers, and loop diuretics, which are standard treatments for heart failure. The patient's LVEF is 35%, which is relatively low, but not extremely low, and the patient's blood pressure is well-controlled. Additionally, the patient's laboratory values, including electrolytes and liver function tests, are relatively stable. While the patient's prognosis is guarded, the current treatment plan and the absence of other significant comorbidities make survivorship a possible, although less likely, outcome compared to pump failure death or sudden cardiac death."
+5,748,P0046,"Age: 71
+Gender: Male 
+Weight: 93 kg
+Height: 170 cm
+NYHA Class: II
+Blood Pressure: 140/80 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy, Hypertension
+Albumin (g/L): 45,4
+ALT or GPT (IU/L): 12.0
+AST or GOT (IU/L): 19.0
+Total Cholesterol (mmol/L): 4,5
+Creatinine (mmol/L): 125.0
+Gamma-glutamil transpeptidase (IU/L): 24
+Glucose (mmol/L): 5
+Hemoglobin (g/L): 143.0
+HDL (mmol/L): 1,32
+Potassium (mEq/L): 4,5
+LDL (mmol/L): 2,69
+Sodium (mEq/L): 143.0
+Pro-BNP (ng/L): 475.0
+Protein (g/L): 75
+T3 (pg/dL): 0,03
+T4 (ng/L): 5
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 78,34
+Urea (mg/dL): 10,02
+LVEF (%): 30.0
+Medications: Amiodarone, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death,"RANKING: 1. Survivor, 2. Sudden cardiac death, 3. Pump failure death
+
+REASONING: 
+
+1. Survivor: The patient has a low LVEF of 30% which indicates severe systolic dysfunction. However, the patient is on optimal medical therapy with ACE inhibitor and spironolactone, which are standard treatments for heart failure with reduced ejection fraction (HFrEF). The patient's recent blood work does not show significant elevation in troponin, which suggests that there is no acute myocardial infarction. The patient's TSH level is slightly elevated, which may indicate hypothyroidism, but it is not significantly impacting the patient's heart function at this point. Considering the patient's age and medical history, the likelihood of survival with proper management and adherence to medication is relatively high. 
+
+2. Sudden cardiac death: The patient has a history of non-sustained ventricular tachycardia, which is a risk factor for sudden cardiac death. However, the patient is on amiodarone, which is an anti-arrhythmic medication that can help prevent arrhythmic events. The patient's LVEF of 30% and history of idiopathic dilated cardiomyopathy also increase the risk of sudden cardiac death. Nevertheless, the patient's low LVEF and the presence of non-sustained ventricular tachycardia make sudden cardiac death a possible but not the most likely outcome.
+
+3. Pump failure death: The patient has a low LVEF of 30% and a history of idiopathic dilated cardiomyopathy, which are significant risk factors for pump failure death. The patient's elevated BNP level (475.0 ng/L) also indicates that the patient is experiencing heart failure symptoms. The patient's creatinine level is slightly elevated at 125.0 umol/L, which may indicate some degree of renal dysfunction, a common complication in patients with heart failure. Considering the patient's age, low LVEF, and history of heart failure, pump failure death is the most likely outcome in the next few years if the patient's condition does not improve with medical therapy or if the patient develops additional complications."
+6,784,P0303,"Age: 71
+Gender: Male 
+Weight: 65 kg
+Height: 158 cm
+NYHA Class: II
+Blood Pressure: 120/60 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Myocardial Infarction
+Albumin (g/L): 38
+ALT or GPT (IU/L): 39.0
+AST or GOT (IU/L): 29.0
+Total Cholesterol (mmol/L): 5,92
+Creatinine (mmol/L): 106.0
+Gamma-glutamil transpeptidase (IU/L): 44
+Glucose (mmol/L): 6,7
+Hemoglobin (g/L): 113.0
+HDL (mmol/L): 1,14
+Potassium (mEq/L): 4,5
+LDL (mmol/L): 3,7
+Sodium (mEq/L): 137.0
+Pro-BNP (ng/L): 1160.0
+Protein (g/L): 74
+T3 (pg/dL): 0,03
+T4 (ng/L): 17
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 4,34
+Urea (mg/dL): 6,82
+LVEF (%): 42.0
+Medications: Beta Blockers, Loop Diuretics, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",pump failure death,"RANKING: 1. Survivor
+ REASONING: The patient is 71 years old with a history of ischemic dilated cardiomyopathy and myocardial infarction, which indicates a high risk of cardiac complications. However, the patient is on optimal medical therapy with beta blockers, loop diuretics, spironolactone, and an ACE inhibitor, which are all standard treatments for heart failure with reduced ejection fraction (HFrEF). The patient's LVEF is 42%, which is within the range of HFrEF, but not as low as some cases of advanced heart failure. The patient's NYHA Class II indicates that the patient has some limitations in physical activity but is still able to perform everyday tasks. The patient's BNP level is elevated at 1160.0 ng/L, which is consistent with heart failure, but not excessively high. The absence of ventricular tachycardia and the presence of TPSV suggest that the patient does not have a high risk of sudden cardiac death. Overall, while the patient's prognosis is guarded, the patient's current treatment and clinical presentation suggest that they may survive for several years with proper management.
+
+RANKING: 2. Sudden cardiac death
+ REASONING: The patient has a history of ischemic dilated cardiomyopathy and myocardial infarction, which increases their risk of sudden cardiac death. The patient's LVEF is 42%, which is within the range of HFrEF, and the patient's BNP level is elevated, suggesting that the patient has some degree of heart failure. However, the patient's ECG does not show any signs of ventricular tachycardia, which is a major risk factor for sudden cardiac death. The patient's TSH level is slightly elevated, which may suggest hypothyroidism, but this is not a significant risk factor for sudden cardiac death. The patient's medication regimen includes beta blockers, which are known to reduce the risk of sudden cardiac death. Overall, while the patient has some risk factors for sudden cardiac death, the patient's ECG and medication regimen suggest that this outcome is less likely than pump failure death.
+
+RANKING: 3. Pump failure death
+ REASONING: The patient's LVEF is 42%, which is within the range of HFrEF, and the patient's BNP level is elevated at 1160.0 ng/L, suggesting that the patient has some degree of heart failure. The patient's NYHA Class II indicates that the patient has some limitations in physical activity, which is consistent with advanced heart failure. The patient's creatinine level is elevated at 106.0 mmol/L, suggesting that the patient has some degree of kidney dysfunction, which is a common comorbidity in patients with heart failure. The patient's total cholesterol level is high at 5.92 mmol/L, which may contribute to the progression of heart failure. The patient's medication regimen includes loop diuretics, which are used to manage heart failure symptoms, but may not be sufficient to prevent pump failure death in a patient with advanced heart failure. Overall, the patient's clinical presentation and laboratory results suggest that pump failure death is the most likely outcome."
+7,795,P0461,"Age: 65
+Gender: Male 
+Weight: 113 kg
+Height: 176 cm
+NYHA Class: II
+Blood Pressure: 140/80 mmHg
+Past Medical History: Hypertensive cardiomyopathy, Peripheral vascular disease, Hypertension
+Albumin (g/L): 38
+ALT or GPT (IU/L): 40.0
+AST or GOT (IU/L): 28.0
+Total Cholesterol (mmol/L): 5,09
+Creatinine (mmol/L): 88.0
+Gamma-glutamil transpeptidase (IU/L): 115
+Glucose (mmol/L): 8,3
+Hemoglobin (g/L): 168.0
+HDL (mmol/L): 1,03
+Potassium (mEq/L): 4,2
+LDL (mmol/L): 3,44
+Sodium (mEq/L): 139.0
+Pro-BNP (ng/L): 339.0
+Protein (g/L): 76
+T4 (ng/L): 8
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 5,21
+Urea (mg/dL): 3,83
+LVEF (%): 60.0
+Medications: Amiodarone, Digoxin, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",pump failure death,"Based on the provided patient data, I will rank the possible prognoses from most likely to least likely as follows:
+
+RANKING: 2
+ REASONING: The patient is at high risk for pump failure death due to the combination of factors present in the data. The patient has a history of hypertensive cardiomyopathy, which is a known risk factor for heart failure. The patient's ejection fraction (LVEF) is 60%, which is below the normal range (60-70%), indicating some degree of systolic dysfunction. Additionally, the patient has elevated Pro-BNP levels (339.0 ng/L), which is a marker of cardiac stress and potential heart failure. Furthermore, the patient's weight is 113 kg, which is above the normal range for a person of his height, indicating potential obesity, which can exacerbate heart failure. However, the patient's NYHA Class is II, indicating that the patient is still able to perform some physical activity without symptoms, which slightly mitigates the risk of pump failure death.
+
+RANKING: 1
+ REASONING: Sudden cardiac death is a possible prognosis due to the presence of non-sustained ventricular tachycardia (NSVT) and polymorphic ventricular extrasystoles on the ECG. These arrhythmias can increase the risk of sudden cardiac death. Additionally, the patient is taking amiodarone, which is an anti-arrhythmic medication that can increase the risk of sudden cardiac death in certain patients. However, the patient's LVEF is still within a relatively normal range, and there is no clear indication of severe left ventricular dysfunction, making sudden cardiac death slightly less likely than pump failure death.
+
+RANKING: 3
+ REASONING: Survivor is the least likely prognosis due to the presence of multiple risk factors for cardiac disease, including hypertensive cardiomyopathy, peripheral vascular disease, and elevated Pro-BNP levels. While the patient's LVEF is still within a relatively normal range, the combination of these factors suggests that the patient is at increased risk for cardiac complications. However, the patient's NYHA Class II and lack of severe symptoms suggest that the patient may still be able to manage their condition with medication and lifestyle modifications, making survivor the least likely prognosis."
+8,789,P0336,"Age: 69
+Gender: Female 
+Weight: 69 kg
+Height: 150 cm
+NYHA Class: II
+Blood Pressure: 130/70 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy, Diabetes, Dyslipemia
+Albumin (g/L): 41,9
+ALT or GPT (IU/L): 16.0
+AST or GOT (IU/L): 16.0
+Total Cholesterol (mmol/L): 4,94
+Creatinine (mmol/L): 91.0
+Gamma-glutamil transpeptidase (IU/L): 14
+Glucose (mmol/L): 6,3
+Hemoglobin (g/L): 132.0
+HDL (mmol/L): 1,58
+Potassium (mEq/L): 4,7
+LDL (mmol/L): 2,4
+Sodium (mEq/L): 142.0
+Pro-BNP (ng/L): 3311.0
+Protein (g/L): 73
+T3 (pg/dL): 0,03
+T4 (ng/L): 8
+Troponin (ng/mL): 0,02
+TSH (mIU/L): 33,39
+Urea (mg/dL): 6,68
+LVEF (%): 22.0
+Medications: Angiotensin II Receptor Blocker, Digoxin
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death,"RANKING: 1. Survivor
+ REASONING: The patient's current medication regimen, including an Angiotensin II Receptor Blocker, is aimed at managing her idiopathic dilated cardiomyopathy. Although her left ventricular ejection fraction (LVEF) is severely reduced at 22%, her blood pressure is well-controlled, and she is not in New York Heart Association (NYHA) Class III or IV. These factors suggest that her condition is being somewhat managed. Additionally, her low levels of troponin and absence of significant ECG abnormalities, apart from non-sustained ventricular tachycardia, indicate that there is no acute cardiac damage or severe ischemia. Considering her age and the presence of diabetes, which is a risk factor for cardiac disease, the likelihood of sudden cardiac death is moderate. However, given her relatively controlled blood pressure and the fact that her condition is being managed with medication, the likelihood of pump failure death, which is typically associated with acute decompensation and severe cardiac dysfunction, is lower.
+
+RANKING: 2. Sudden Cardiac Death
+ REASONING: The patient's history of idiopathic dilated cardiomyopathy and diabetes puts her at increased risk for sudden cardiac death due to potential arrhythmias or cardiac arrest. Her severely reduced LVEF and elevated Pro-BNP levels also suggest that she is at risk for arrhythmias. The presence of non-sustained ventricular tachycardia on the ECG further supports this risk. However, her controlled blood pressure and the fact that her condition is being managed with medication reduce the likelihood of sudden cardiac death compared to pump failure death.
+
+RANKING: 3. Pump Failure Death
+ REASONING: The patient's severely reduced LVEF and elevated Pro-BNP levels are indicative of advanced heart failure. Her NYHA Class II classification suggests that she is experiencing symptoms of heart failure, but they are not severe enough to require bed rest. However, her condition is likely to progress to more severe symptoms if not properly managed. Given her low LVEF and the fact that her condition is not being adequately managed by medication (e.g., her LVEF is 22%, which is a sign of advanced heart failure), the likelihood of pump failure death is higher than sudden cardiac death. However, her controlled blood pressure and the fact that her condition is being managed with medication reduce the likelihood of pump failure death compared to the survivor prognosis."
+9,813,P0635,"Age: 70
+Gender: Female 
+Weight: 57 kg
+Height: 157 cm
+NYHA Class: III
+Blood Pressure: 120/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Myocardial Infarction
+Albumin (g/L): 44
+ALT or GPT (IU/L): 43.0
+AST or GOT (IU/L): 37.0
+Total Cholesterol (mmol/L): 5,09
+Creatinine (mmol/L): 100.0
+Gamma-glutamil transpeptidase (IU/L): 70
+Glucose (mmol/L): 10,5
+Hemoglobin (g/L): 121.0
+HDL (mmol/L): 1,76
+Potassium (mEq/L): 4,99
+LDL (mmol/L): 2,93
+Sodium (mEq/L): 136.0
+Pro-BNP (ng/L): 3190.0
+Protein (g/L): 76
+T3 (pg/dL): 0,0477
+T4 (ng/L): 13,4
+Troponin (ng/mL): 0,5
+TSH (mIU/L): 1,72
+Urea (mg/dL): 9,6
+LVEF (%): 25.0
+Medications: Calcium Channel Blocker, Diabetes Medication, Loop Diuretics, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death,"Based on the provided patient data, I will rank the three possible prognoses from most likely to least likely as follows:
+
+RANKING: 1. Sudden cardiac death, 2. Pump failure death, 3. Survivor
+
+REASONING:
+
+1. Sudden cardiac death: The patient has a history of ischemic dilated cardiomyopathy and a severely reduced left ventricular ejection fraction (LVEF) of 25%, indicating significant left ventricular dysfunction. The presence of polymorphic ventricular extrasystoles on the ECG also suggests an increased risk of arrhythmias. Furthermore, the patient has a high B-type natriuretic peptide (BNP) level of 3190 ng/L, which is indicative of heart failure. Given these factors, the risk of sudden cardiac death is relatively high.
+
+2. Pump failure death: The patient's NYHA Class III classification and severely reduced LVEF suggest that she has severe heart failure symptoms and reduced cardiac function. The elevated BNP level and presence of non-specific ST-T wave changes on the ECG also support this diagnosis. However, the patient is already on optimal medical therapy with a calcium channel blocker, diabetes medication, loop diuretics, ACE inhibitor, and nitrovasodilator, which may help alleviate symptoms and slow disease progression. Therefore, while pump failure death is a possible outcome, it is less likely than sudden cardiac death.
+
+3. Survivor: Given the patient's advanced age (70 years), severe heart failure symptoms, and reduced LVEF, the likelihood of survival is relatively low. However, it is not impossible. The patient's BNP level is high, indicating significant heart failure, but it is not extremely high, which might suggest some degree of compensatory mechanisms still present. Additionally, the patient's ECG shows no evidence of sustained ventricular tachycardia or other high-risk features. Therefore, while survival is the least likely outcome, it cannot be entirely ruled out.
+
+Please note that this prognosis is based on the provided data and should be considered in conjunction with a comprehensive clinical evaluation and risk assessment."
+10,768,P0194,"Age: 89
+Gender: Male 
+Weight: 70 kg
+Height: 171 cm
+NYHA Class: III
+Blood Pressure: 160/90 mmHg
+Past Medical History: Hypertensive cardiomyopathy, Hypertension
+Albumin (g/L): 49
+ALT or GPT (IU/L): 26.0
+AST or GOT (IU/L): 34.0
+Total Cholesterol (mmol/L): 6,1
+Creatinine (mmol/L): 103.0
+Gamma-glutamil transpeptidase (IU/L): 20
+Glucose (mmol/L): 5,6
+Hemoglobin (g/L): 143.0
+HDL (mmol/L): 1,81
+Potassium (mEq/L): 4,4
+LDL (mmol/L): 3,78
+Sodium (mEq/L): 141.0
+Pro-BNP (ng/L): 3179.0
+Protein (g/L): 78,1
+T3 (pg/dL): 0,0252
+T4 (ng/L): 18,79
+Troponin (ng/mL): 1,2
+TSH (mIU/L): 0,99
+Urea (mg/dL): 8,2
+LVEF (%): 70.0
+Medications: Digoxin, Loop Diuretics, Spironolactone, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: Sinus Node Dysfunction
+            ",pump failure death,"Based on the provided patient data, I will rank the three possible prognoses from most likely to least likely as follows:
+
+RANKING: 1. Sudden Cardiac Death, 2. Pump Failure Death, 3. Survivor
+
+REASONING:
+
+1. Sudden Cardiac Death (SCD): The patient is 89 years old, has a history of hypertensive cardiomyopathy and hypertension, and a low LVEF of 70%. The presence of non-sustained ventricular tachycardia (NSVT) and polymorphic ventricular extrasystoles on the ECG is concerning for an increased risk of SCD. Additionally, the high Pro-BNP level (3179 ng/L) and low ejection fraction suggest that the patient may be at risk for sudden cardiac death. The combination of these factors makes SCD the most likely prognosis.
+
+2. Pump Failure Death: While the patient has a low LVEF and a history of hypertensive cardiomyopathy, the LVEF is still within the normal range (50-70%). The patient is on medications such as ACE inhibitors, spironolactone, and loop diuretics, which are typically used to manage heart failure. The patient's creatinine level is elevated (103.0 umol/L), which may indicate some degree of renal dysfunction, but not severe enough to suggest end-stage renal disease. The patient's protein level is slightly low (78.1 g/L), which may indicate some degree of malnutrition or kidney disease. However, the patient's overall clinical picture does not strongly suggest pump failure death as the most likely prognosis.
+
+3. Survivor: Given the patient's advanced age (89 years), history of hypertensive cardiomyopathy, and the presence of NSVT and polymorphic ventricular extrasystoles, it is less likely that the patient will survive in the long term. However, the patient's LVEF is within the normal range, and the patient is on medications that are typically used to manage heart failure. The patient's creatinine level is elevated, but not severely so. The patient's protein level is slightly low, but not significantly so. While the patient's overall clinical picture is concerning, the patient's age and the presence of some risk factors for mortality suggest that survivorship is a possible prognosis, albeit less likely than SCD or pump failure death.
+
+It is essential to note that the prognosis for this patient will depend on various factors, including the patient's overall clinical condition, the effectiveness of the current treatment plan, and any potential changes in the patient's condition over time. A more detailed evaluation, including echocardiography and other diagnostic tests, may be necessary to further assess the patient's risk for SCD, pump failure death, or survivorship."
+11,792,P0391,"Age: 82
+Gender: Female 
+Weight: 77 kg
+Height: 159 cm
+NYHA Class: II
+Blood Pressure: 125/65 mmHg
+Past Medical History: Hypertensive cardiomyopathy, Dyslipemia, Hypertension
+Albumin (g/L): 40
+ALT or GPT (IU/L): 15.0
+AST or GOT (IU/L): 12.0
+Total Cholesterol (mmol/L): 4,63
+Creatinine (mmol/L): 159.0
+Gamma-glutamil transpeptidase (IU/L): 9
+Glucose (mmol/L): 4,9
+Hemoglobin (g/L): 112.0
+HDL (mmol/L): 1,06
+Potassium (mEq/L): 3,9
+LDL (mmol/L): 2,97
+Sodium (mEq/L): 139.0
+Pro-BNP (ng/L): 950.0
+Protein (g/L): 67
+T3 (pg/dL): 0,03
+T4 (ng/L): 21
+TSH (mIU/L): 0,79
+Urea (mg/dL): 14,64
+LVEF (%): 37.0
+Medications: Amiodarone, Loop Diuretics, Hydralazine, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: No
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death,"Based on the provided patient data, I will rank the prognoses from most likely to least likely as follows:
+
+RANKING: 1. Sudden Cardiac Death
+REASONING: The patient has a history of hypertensive cardiomyopathy, which is a significant risk factor for sudden cardiac death. The patient's LVEF is 37%, which is below the normal range (50-70%), indicating reduced cardiac function. The patient is also taking medications such as amiodarone, which is often used to prevent sudden cardiac death in patients with heart failure. Additionally, the patient's Pro-BNP level is elevated at 950.0 ng/L, which is a marker of heart failure and increased risk of sudden cardiac death. However, the patient's overall clinical picture does not suggest a high risk of sudden cardiac death.
+
+RANKING: 2. Pump Failure Death
+REASONING: The patient has a history of hypertensive cardiomyopathy and an LVEF of 37%, indicating reduced cardiac function. The patient's creatinine level is elevated at 159.0 mmol/L, suggesting renal impairment, which is a common complication of heart failure. The patient's NYHA class is II, indicating some limitations in physical activity but no symptoms at rest. The patient is taking loop diuretics, hydralazine, and nitrovasodilators, which are common treatments for heart failure. However, the patient's overall clinical picture suggests that the patient may still be experiencing some degree of cardiac dysfunction, making pump failure death a possible outcome.
+
+RANKING: 3. Survivor
+REASONING: While the patient has a history of hypertensive cardiomyopathy and reduced LVEF, the patient's overall clinical picture suggests that they may still be relatively stable. The patient's blood pressure is well-controlled, and they are taking medications to manage their heart failure symptoms. The patient's Pro-BNP level is elevated, but it is not extremely high, and the patient is not experiencing any symptoms of acute heart failure. Additionally, the patient's laboratory values, such as albumin and creatinine, are not severely abnormal. While the patient's prognosis is guarded, it is possible that they may survive with appropriate medical management."
+12,750,P0056,"Age: 54
+Gender: Male 
+Weight: 80 kg
+Height: 160 cm
+NYHA Class: III
+Blood Pressure: 110/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Peripheral vascular disease, Myocardial Infarction
+Albumin (g/L): 47,19
+ALT or GPT (IU/L): 22.0
+AST or GOT (IU/L): 15.0
+Total Cholesterol (mmol/L): 3,72
+Creatinine (mmol/L): 124.0
+Gamma-glutamil transpeptidase (IU/L): 249
+Glucose (mmol/L): 6,3
+Hemoglobin (g/L): 151.0
+HDL (mmol/L): 1,01
+Potassium (mEq/L): 4
+LDL (mmol/L): 1,99
+Sodium (mEq/L): 141.0
+Pro-BNP (ng/L): 3258.0
+Protein (g/L): 75
+T3 (pg/dL): 0,05
+T4 (ng/L): 19
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 3,58
+Urea (mg/dL): 12,03
+LVEF (%): 25.0
+Medications: Calcium Channel Blocker, Beta Blockers, Loop Diuretics, Spironolactone, Statins, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: No
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",pump failure death,"Based on the provided patient data, I will rank the three possible prognoses from most likely to least likely. 
+
+RANKING: 1. Sudden cardiac death
+ REASONING: The patient has a history of ischemic dilated cardiomyopathy with an LVEF of 25%, indicating significant left ventricular dysfunction. The elevated Pro-BNP level of 3258 ng/L suggests severe heart failure. The patient's NYHA Class III classification indicates that the patient has severe symptoms of heart failure, including shortness of breath and fatigue. The patient's history of myocardial infarction and peripheral vascular disease further increases the risk of sudden cardiac death. Additionally, the patient's low HDL level and high LDL level suggest poor cardiovascular risk factors. The presence of diabetes and dyslipemia also contribute to the increased risk of sudden cardiac death.
+
+RANKING: 2. Pump failure death
+ REASONING: The patient's LVEF of 25% and NYHA Class III classification indicate that the patient has severe heart failure, which increases the risk of pump failure death. The elevated Pro-BNP level and low albumin level also suggest severe heart failure and malnutrition, which can further contribute to the risk of pump failure death. The patient's history of myocardial infarction and peripheral vascular disease also increases the risk of pump failure death. However, the patient's treatment with ACE inhibitors, beta blockers, and spironolactone suggests that the patient is receiving appropriate medical therapy for heart failure.
+
+RANKING: 3. Survivor
+ REASONING: The patient's history of ischemic dilated cardiomyopathy and severe heart failure symptoms (NYHA Class III) suggest that the patient has a poor prognosis. However, the patient is receiving appropriate medical therapy for heart failure, including ACE inhibitors, beta blockers, and spironolactone, which can improve symptoms and slow disease progression. The patient's low LVEF and elevated Pro-BNP level suggest that the patient has significant heart failure, but the patient's age and other comorbidities (diabetes, dyslipemia, peripheral vascular disease) suggest that the patient may still have a relatively better prognosis compared to the other two options."
+13,783,P0294,"Age: 70
+Gender: Male 
+Weight: 79 kg
+Height: 168 cm
+NYHA Class: II
+Blood Pressure: 110/80 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy, Dyslipemia, Hypertension
+Albumin (g/L): 39
+ALT or GPT (IU/L): 26.0
+AST or GOT (IU/L): 19.0
+Total Cholesterol (mmol/L): 4,99
+Creatinine (mmol/L): 88.0
+Gamma-glutamil transpeptidase (IU/L): 78
+Glucose (mmol/L): 5,82
+Hemoglobin (g/L): 138.0
+HDL (mmol/L): 1,14
+Potassium (mEq/L): 4,57
+LDL (mmol/L): 3,53
+Sodium (mEq/L): 138.0
+Pro-BNP (ng/L): 1693.0
+Protein (g/L): 67
+T3 (pg/dL): 0,0369
+T4 (ng/L): 15,09
+Troponin (ng/mL): 0,3
+TSH (mIU/L): 1,21
+Urea (mg/dL): 8
+LVEF (%): 25.0
+Medications: Angiotensin II Receptor Blocker, Beta Blockers, Loop Diuretics, Spironolactone
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",pump failure death,"Based on the provided patient data, here is the ranking of the possible prognoses from most likely to least likely:
+
+RANKING: 1. Sudden cardiac death
+ REASONING: The patient has a history of idiopathic dilated cardiomyopathy with a left ventricular ejection fraction (LVEF) of 25%, which indicates severe left ventricular dysfunction. The presence of non-sustained ventricular tachycardia (NSVT) and polymorphic ventricular extrasystoles on the ECG suggests an increased risk of life-threatening arrhythmias. Additionally, the high level of B-type natriuretic peptide (BNP) at 1693 ng/L indicates severe heart failure symptoms. The combination of these factors increases the risk of sudden cardiac death.
+
+RANKING: 2. Pump failure death
+ REASONING: The patient's LVEF of 25% and the use of loop diuretics and spironolactone suggest that the patient is already experiencing symptoms of heart failure. The elevated creatinine level of 88.0 μmol/L indicates renal impairment, which is a common complication of advanced heart failure. However, the patient's NYHA class is II, indicating that the symptoms of heart failure are not yet severe. The patient's overall condition is likely to deteriorate over time, making pump failure death a possible outcome.
+
+RANKING: 3. Survivor
+ REASONING: While the patient's condition is severe, the fact that they are currently on optimal medical therapy for heart failure (angiotensin II receptor blocker, beta blockers, loop diuretics, and spironolactone) and have a relatively well-controlled blood pressure suggests that they are being managed appropriately. The patient's hemoglobin and albumin levels are within normal limits, indicating that they are not experiencing significant malnutrition or liver dysfunction. However, the patient's overall prognosis is still guarded due to the severity of their heart failure and the presence of arrhythmias, making survivor a less likely outcome compared to the other two possibilities."
+14,777,P0264,"Age: 63
+Gender: Male 
+Weight: 65 kg
+Height: 172 cm
+NYHA Class: II
+Blood Pressure: 90/55 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Myocardial Infarction
+Albumin (g/L): 41,9
+ALT or GPT (IU/L): 11.0
+AST or GOT (IU/L): 14.0
+Total Cholesterol (mmol/L): 4,48
+Creatinine (mmol/L): 154.0
+Gamma-glutamil transpeptidase (IU/L): 69
+Glucose (mmol/L): 4,9
+Hemoglobin (g/L): 134.0
+HDL (mmol/L): 1,17
+Potassium (mEq/L): 4,63
+LDL (mmol/L): 2,84
+Sodium (mEq/L): 141.0
+Protein (g/L): 71,7
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 4,74
+Urea (mg/dL): 11,9
+LVEF (%): 15.0
+Medications: Amiodarone, Digoxin, Loop Diuretics, Hydralazine, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",pump failure death,"Based on the provided patient data, I will rank the three possible prognoses from most likely to least likely as follows:
+
+RANKING: 1. Sudden cardiac death
+ REASONING: The patient has a history of ischemic dilated cardiomyopathy and a low left ventricular ejection fraction (LVEF) of 15%, indicating severe heart failure. The patient's blood pressure is also low at 90/55 mmHg, which may be indicative of a low cardiac output state. The presence of polymorphic ventricular extrasystoles on the ECG suggests an increased risk of arrhythmias, which can lead to sudden cardiac death. Additionally, the patient's low HDL cholesterol and high LDL cholesterol levels may contribute to atherosclerotic plaque instability, further increasing the risk of sudden cardiac death.
+
+RANKING: 2. Pump failure death
+ REASONING: The patient's low LVEF and history of ischemic dilated cardiomyopathy make pump failure a significant concern. The patient's high creatinine level (154.0 mmol/L) and low albumin level (41.9 g/L) may indicate renal dysfunction and malnutrition, which can further compromise cardiac function. The patient's use of loop diuretics and hydralazine suggests that the patient is already experiencing fluid overload and hypertension, which can exacerbate heart failure.
+
+RANKING: 3. Survivor
+ REASONING: While the patient's condition is severe, the patient's age (63) and sex (male) are not particularly high-risk factors for mortality. The patient's medication regimen, including amiodarone, digoxin, and nitrovasodilators, may help manage the patient's heart failure and arrhythmias. Additionally, the patient's hemoglobin level is within the normal range (134.0 g/L), which may indicate that the patient is not experiencing significant anemia, which can further compromise cardiac function. However, the patient's overall condition is still critical, and the risk of sudden cardiac death or pump failure remains high."
+15,669,P0148,"Age: 73
+Gender: Female 
+Weight: 68 kg
+Height: 172 cm
+NYHA Class: III
+Blood Pressure: 130/85 mmHg
+Past Medical History: Valvular cardiomyopathy, Peripheral vascular disease, Hypertension, Myocardial Infarction
+Albumin (g/L): 36,7
+ALT or GPT (IU/L): 54.0
+AST or GOT (IU/L): 62.0
+Total Cholesterol (mmol/L): 4,48
+Creatinine (mmol/L): 77.0
+Gamma-glutamil transpeptidase (IU/L): 78
+Glucose (mmol/L): 4,9
+Hemoglobin (g/L): 149.0
+Potassium (mEq/L): 4,23
+Sodium (mEq/L): 137.0
+Pro-BNP (ng/L): 3527.0
+Protein (g/L): 75,3
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 1,08
+Urea (mg/dL): 8,5
+LVEF (%): 20.0
+Medications: Angiotensin II Receptor Blocker, Beta Blockers, Digoxin, Loop Diuretics, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",sudden cardiac death,"Based on the provided patient data, I will generate a prognosis for the next few years. Please note that this is a prediction and not a definitive diagnosis. I will rank the possible prognoses from most likely to least likely.
+
+RANKING: 1. Pump Failure Death
+ REASONING: The patient is 73 years old with a history of valvular cardiomyopathy, myocardial infarction, and NYHA Class III, indicating severe heart failure symptoms. The left ventricular ejection fraction (LVEF) is 20%, which is significantly reduced, indicating poor heart function. The elevated Pro-BNP level (3527 ng/L) also suggests severe heart failure. The presence of non-sustained ventricular tachycardia and polymorphic ventricular extrasystoles on the ECG indicates an increased risk of arrhythmias, which can further compromise cardiac function. The patient's medications, including ACE inhibitors, beta blockers, and loop diuretics, suggest that they are being treated for heart failure, but the patient's symptoms and test results indicate that the condition is severe. Considering these factors, pump failure death is the most likely prognosis.
+
+RANKING: 2. Sudden Cardiac Death
+ REASONING: The patient's history of myocardial infarction, valvular cardiomyopathy, and reduced LVEF (20%) increase the risk of sudden cardiac death. The presence of non-sustained ventricular tachycardia on the ECG also suggests an increased risk of life-threatening arrhythmias. However, the patient's overall clinical presentation and test results suggest that the risk of pump failure is higher than the risk of sudden cardiac death.
+
+RANKING: 3. Survivor
+ REASONING: While the patient's condition is severe, the fact that they are receiving optimal medical treatment, including ACE inhibitors, beta blockers, and loop diuretics, suggests that the patient's condition is being managed. The patient's blood pressure is within a relatively normal range, and their hemoglobin and potassium levels are within normal limits. However, the patient's reduced LVEF, elevated Pro-BNP level, and history of valvular cardiomyopathy and myocardial infarction indicate a high risk of cardiac complications. While it is possible that the patient could survive for several years with optimal medical management, the high risk of pump failure and sudden cardiac death makes this prognosis less likely."
+16,674,P0183,"Age: 45
+Gender: Male 
+Weight: 120 kg
+Height: 172 cm
+NYHA Class: II
+Blood Pressure: 100/60 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Hypertension
+Albumin (g/L): 45
+ALT or GPT (IU/L): 41.0
+AST or GOT (IU/L): 25.0
+Total Cholesterol (mmol/L): 3,7
+Creatinine (mmol/L): 97.0
+Gamma-glutamil transpeptidase (IU/L): 206
+Glucose (mmol/L): 5,1
+Hemoglobin (g/L): 143.0
+HDL (mmol/L): 0,98
+Potassium (mEq/L): 4,4
+LDL (mmol/L): 2,4
+Sodium (mEq/L): 136.0
+Pro-BNP (ng/L): 2037.0
+Protein (g/L): 73
+T3 (pg/dL): 0,04
+T4 (ng/L): 27
+TSH (mIU/L): 2,87
+Urea (mg/dL): 8,65
+LVEF (%): 30.0
+Medications: Beta Blockers, Loop Diuretics, Spironolactone, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",sudden cardiac death,"Based on the provided patient data, I will rank the possible prognoses for the next few years as follows:
+
+RANKING: 1. Sudden Cardiac Death, 2. Pump Failure Death, 3. Survivor
+
+REASONING:
+
+1. Sudden Cardiac Death (SD): The patient has a high risk of sudden cardiac death due to the following factors:
+   - Ischemic dilated cardiomyopathy, which increases the risk of arrhythmias and sudden cardiac death.
+   - Low left ventricular ejection fraction (LVEF) of 30%, indicating reduced cardiac function.
+   - Presence of ventricular extrasystole, which may be a sign of electrical instability.
+   - Elevated Pro-BNP levels (2037.0 ng/L), indicating increased cardiac stress and potential for arrhythmias.
+   - High TSH levels (2.87 mIU/L), which may be indicative of subclinical hypothyroidism, a known risk factor for cardiac arrhythmias.
+   - Presence of TPSV (paroxysmal supraventricular tachyarrhythmia), which increases the risk of arrhythmias.
+
+2. Pump Failure Death: The patient has a moderate risk of pump failure death due to:
+   - Ischemic dilated cardiomyopathy, which can lead to progressive heart failure.
+   - Low LVEF of 30%, indicating reduced cardiac function.
+   - Elevated Pro-BNP levels (2037.0 ng/L), indicating increased cardiac stress.
+   - Presence of hypertension, which can exacerbate heart failure.
+   - High creatinine levels (97.0 mmol/L), indicating potential renal impairment, which can be a complication of heart failure.
+
+3. Survivor: The patient has a relatively low risk of being a survivor due to the following factors:
+   - Ischemic dilated cardiomyopathy, which indicates a significant underlying cardiac condition.
+   - Low LVEF of 30%, indicating reduced cardiac function.
+   - Presence of hypertension and elevated Pro-BNP levels, which indicate increased cardiac stress.
+   - However, the patient is on optimal medical therapy, including beta blockers, loop diuretics, spironolactone, statins, and ACE inhibitor, which can help manage symptoms and slow disease progression.
+
+Please note that this prognosis is based on the provided data and may not reflect the patient's actual outcome. A more accurate prognosis would require a comprehensive evaluation by a cardiologist and consideration of other factors, such as the patient's overall health, lifestyle, and response to treatment."
+17,680,P0243,"Age: 35
+Gender: Male 
+Weight: 92 kg
+Height: 177 cm
+NYHA Class: II
+Blood Pressure: 110/60 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy
+Albumin (g/L): 45
+ALT or GPT (IU/L): 13.0
+AST or GOT (IU/L): 20.0
+Total Cholesterol (mmol/L): 3,26
+Creatinine (mmol/L): 88.0
+Gamma-glutamil transpeptidase (IU/L): 29
+Glucose (mmol/L): 4,7
+Hemoglobin (g/L): 135.0
+HDL (mmol/L): 0,83
+Potassium (mEq/L): 4
+LDL (mmol/L): 1,97
+Sodium (mEq/L): 138.0
+Pro-BNP (ng/L): 10297.0
+Protein (g/L): 75
+T3 (pg/dL): 0,05
+T4 (ng/L): 15
+TSH (mIU/L): 2,54
+Urea (mg/dL): 6,32
+LVEF (%): 40.0
+Medications: Beta Blockers, Digoxin, Loop Diuretics, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",sudden cardiac death,"Based on the provided patient data, I will rank the prognoses from most likely to least likely as follows:
+
+RANKING: 1. Sudden cardiac death
+REASONING: The patient has a history of idiopathic dilated cardiomyopathy with a left ventricular ejection fraction (LVEF) of 40%, indicating reduced cardiac function. The presence of non-sustained ventricular tachycardia (NSVT) and polymorphic ventricular extrasystoles on the ECG suggests an increased risk of arrhythmic events. The elevated Pro-BNP level (10297.0 ng/L) also indicates elevated filling pressures and potential for cardiac remodeling, which can further increase the risk of arrhythmic events. Given the patient's NYHA Class II symptoms and the presence of reduced ejection fraction, the risk of sudden cardiac death is high due to the potential for arrhythmic events.
+
+RANKING: 2. Pump failure death
+REASONING: The patient's LVEF of 40% indicates reduced cardiac function, and the elevated Pro-BNP level suggests elevated filling pressures. The patient's NYHA Class II symptoms also indicate some limitation of physical activity due to symptoms. While the patient is on medications such as ACE inhibitor, beta-blockers, and spironolactone, which are standard treatments for heart failure, the risk of pump failure death is still present due to the patient's underlying cardiac dysfunction.
+
+RANKING: 3. Survivor
+REASONING: While the patient's LVEF is reduced, the patient is on standard heart failure medications and has NYHA Class II symptoms, indicating some limitation of physical activity but not severe symptoms. The patient's ECG findings of NSVT and polymorphic ventricular extrasystoles do increase the risk of arrhythmic events, but the overall prognosis is less likely to be sudden cardiac death compared to pump failure death. With proper management and monitoring, the patient may be able to maintain a stable condition and avoid both sudden cardiac death and pump failure death."
+18,675,P0187,"Age: 72
+Gender: Male 
+Weight: 82 kg
+Height: 175 cm
+NYHA Class: II
+Blood Pressure: 120/80 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Hypertension, Myocardial Infarction
+Albumin (g/L): 45
+ALT or GPT (IU/L): 15.0
+AST or GOT (IU/L): 23.0
+Total Cholesterol (mmol/L): 3,52
+Creatinine (mmol/L): 146.0
+Gamma-glutamil transpeptidase (IU/L): 36
+Glucose (mmol/L): 5,8
+Hemoglobin (g/L): 150.0
+HDL (mmol/L): 0,83
+Potassium (mEq/L): 4,54
+LDL (mmol/L): 1,89
+Sodium (mEq/L): 138.0
+Pro-BNP (ng/L): 3362.0
+Protein (g/L): 84,7
+T4 (ng/L): 17
+Troponin (ng/mL): 0,09
+TSH (mIU/L): 18,16
+Urea (mg/dL): 15,6
+LVEF (%): 22.0
+Medications: Angiotensin II Receptor Blocker, Beta Blockers, Digoxin, Loop Diuretics, Spironolactone
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",sudden cardiac death,"RANKING: 1. Survivor, 2. Pump failure death, 3. Sudden cardiac death
+
+REASONING: 
+
+Based on the provided patient data, I would rank the prognosis as follows:
+
+1. Survivor: The patient's LVEF (left ventricular ejection fraction) is 22%, which is severely reduced, indicating a poor prognosis. However, the patient is on a combination of medications that are standard for heart failure management, including ACE inhibitors (Angiotensin II Receptor Blocker), beta blockers, and spironolactone. The patient's blood pressure is well-controlled, and the troponin level is within normal limits, indicating no acute coronary syndrome. The patient's hemoglobin and protein levels are within normal limits, and the urea level is slightly elevated but not significantly high. The patient's ECG shows non-sustained ventricular tachycardia, but the presence of ventricular extrasystoles and bradycardia may be related to the heart failure itself rather than a separate condition. Given the patient's age, comorbidities, and medication regimen, I would rank survivor as the most likely outcome, but with a guarded prognosis.
+
+2. Pump failure death: The patient's LVEF of 22% and elevated Pro-BNP level of 3362.0 ng/L are indicative of advanced heart failure. The patient's creatinine level is elevated, suggesting some degree of renal impairment, which is common in patients with heart failure. However, the patient's blood pressure is well-controlled, and the absence of acute coronary syndrome or severe electrolyte imbalances makes pump failure death less likely in the short term.
+
+3. Sudden cardiac death: The patient's ECG shows non-sustained ventricular tachycardia, which is a risk factor for sudden cardiac death. The patient's LVEF of 22% and elevated Pro-BNP level also increase the risk of sudden cardiac death. However, the patient's age, comorbidities, and medication regimen, particularly the use of beta blockers and angiotensin II receptor blockers, make sudden cardiac death less likely than pump failure death."
+19,694,P0349,"Age: 77
+Gender: Female 
+Weight: 82 kg
+Height: 150 cm
+NYHA Class: III
+Blood Pressure: 140/80 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Peripheral vascular disease, Hypertension, Myocardial Infarction
+Albumin (g/L): 38
+ALT or GPT (IU/L): 108.0
+AST or GOT (IU/L): 55.0
+Total Cholesterol (mmol/L): 4,68
+Creatinine (mmol/L): 118.0
+Gamma-glutamil transpeptidase (IU/L): 35
+Glucose (mmol/L): 15,5
+Hemoglobin (g/L): 109.0
+HDL (mmol/L): 1,5
+Potassium (mEq/L): 5,4
+LDL (mmol/L): 2,33
+Sodium (mEq/L): 139.0
+Pro-BNP (ng/L): 910.0
+Protein (g/L): 66
+T3 (pg/dL): 0,05
+T4 (ng/L): 17
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 4,43
+Urea (mg/dL): 9,35
+LVEF (%): 35.0
+Medications: Diabetes Medication, Angiotensin II Receptor Blocker, Beta Blockers, Loop Diuretics, Statins
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",sudden cardiac death,"RANKING: 1. Sudden Cardiac Death, 2. Pump Failure Death, 3. Survivor
+
+REASONING: 
+
+Based on the provided patient data, I would rank the three possible prognoses as follows:
+
+1. Sudden Cardiac Death: Given the patient's history of ischemic dilated cardiomyopathy, low LVEF of 35%, and high Pro-BNP level of 910.0 ng/L, which is indicative of heart failure, I believe sudden cardiac death is the most likely prognosis. The patient's history of myocardial infarction and the presence of ventricular extrasystoles on the ECG also increase the risk of sudden cardiac death. Additionally, the patient's high glucose level (15.5 mmol/L) and low HDL cholesterol level (1.5 mmol/L) further increase the risk of cardiac complications.
+
+2. Pump Failure Death: Given the patient's low LVEF and high Pro-BNP level, pump failure is a significant concern. However, the patient is already on medications that are typically used to manage heart failure, such as beta blockers, angiotensin II receptor blockers, and loop diuretics. While the patient's creatinine level is elevated (118.0 mmol/L), indicating some degree of renal impairment, it is not significantly elevated, and the patient is not on dialysis. Therefore, while pump failure is a possibility, I believe it is less likely than sudden cardiac death.
+
+3. Survivor: Given the patient's advanced age (77), low LVEF, and high Pro-BNP level, I believe that survivorship is the least likely prognosis. However, the patient is on a regimen of medications that are typically used to manage heart failure and is being treated for diabetes and dyslipemia. Additionally, the patient's creatinine level is not severely elevated, and the patient does not have a history of renal failure. Therefore, while the patient's prognosis is guarded, I believe that survivorship is the least likely of the three options.
+
+It's worth noting that the patient's ECG shows ventricular extrasystoles, which may be a marker of increased risk of sudden cardiac death. However, the presence of these extrasystoles does not necessarily preclude the possibility of survivorship, and the patient's overall clinical picture should be carefully evaluated on an ongoing basis to determine the most likely prognosis."
+20,655,P0016,"Age: 72
+Gender: Male 
+Weight: 78 kg
+Height: 173 cm
+NYHA Class: III
+Blood Pressure: 95/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Dyslipemia, Myocardial Infarction
+Albumin (g/L): 38,1
+ALT or GPT (IU/L): 12.0
+AST or GOT (IU/L): 19.0
+Total Cholesterol (mmol/L): 6,72
+Creatinine (mmol/L): 225.0
+Gamma-glutamil transpeptidase (IU/L): 31
+Glucose (mmol/L): 7
+Hemoglobin (g/L): 151.0
+HDL (mmol/L): 0,96
+Potassium (mEq/L): 4,7
+LDL (mmol/L): 4,78
+Sodium (mEq/L): 136.0
+Pro-BNP (ng/L): 15509.0
+Protein (g/L): 70
+T3 (pg/dL): 0,05
+T4 (ng/L): 17
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 2,56
+Urea (mg/dL): 31,4
+LVEF (%): 18.0
+Medications: Beta Blockers, Digoxin, Loop Diuretics, Spironolactone, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",sudden cardiac death,"Based on the provided patient data, I will generate a prognosis for the next few years, ranking the three possible prognoses from most likely to least likely.
+
+RANKING: 1. Sudden Cardiac Death (SCD)
+REASONING: The patient has a high risk of SCD due to the following factors:
+- Age: 72 years, which is a significant risk factor for SCD.
+- Ischemic dilated cardiomyopathy with an LVEF of 18%, indicating severe left ventricular dysfunction.
+- Presence of non-sustained ventricular tachycardia (NSVT), which is a known risk factor for SCD.
+- Elevated Pro-BNP levels (15509 ng/L), indicating severe heart failure and increased risk of SCD.
+- Presence of ventricular extrasystole and polymorphic ventricular extrasystole, which can be a precursor to life-threatening arrhythmias.
+- History of myocardial infarction, which increases the risk of SCD.
+
+Given these factors, the risk of SCD is high, and it is the most likely prognosis for this patient.
+
+RANKING: 2. Pump Failure Death
+REASONING: The patient's LVEF is severely reduced at 18%, and the patient has a history of ischemic dilated cardiomyopathy, which increases the risk of pump failure. The patient is also taking medications such as loop diuretics and spironolactone, which are commonly used to manage heart failure symptoms. However, the patient's elevated Pro-BNP levels and reduced LVEF suggest that the patient's heart failure is not well-controlled, making pump failure a possible prognosis.
+
+RANKING: 3. Survivor
+REASONING: While the patient's prognosis is poor, it is still possible that with optimal medical management and close monitoring, the patient could survive for several years. The patient is already taking medications that can help manage heart failure symptoms and prevent SCD, such as beta blockers, ACE inhibitors, and statins. However, the patient's high risk factors for SCD and pump failure make this prognosis the least likely.
+
+Please note that this is a clinical assessment based on the provided data, and the actual prognosis may vary depending on various factors, including the patient's response to treatment and the presence of other comorbidities."
+21,726,P0806,"Age: 71
+Gender: Male 
+Weight: 78 kg
+Height: 170 cm
+NYHA Class: II
+Blood Pressure: 115/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Dyslipemia, Hypertension
+Albumin (g/L): 42
+ALT or GPT (IU/L): 16.0
+AST or GOT (IU/L): 16.0
+Total Cholesterol (mmol/L): 4,09
+Creatinine (mmol/L): 133.0
+Gamma-glutamil transpeptidase (IU/L): 22
+Glucose (mmol/L): 5,1
+Hemoglobin (g/L): 158.0
+HDL (mmol/L): 1,09
+Potassium (mEq/L): 4,3
+LDL (mmol/L): 2,4
+Sodium (mEq/L): 140.0
+Pro-BNP (ng/L): 170.0
+Protein (g/L): 68
+T4 (ng/L): 17
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 1,77
+Urea (mg/dL): 8,32
+LVEF (%): 35.0
+Medications: Beta Blockers, Spironolactone, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",sudden cardiac death,"Based on the provided patient data, I would rank the prognoses as follows:
+
+RANKING: 1. Survivor, 2. Pump failure death, 3. Sudden cardiac death
+
+REASONING: 
+
+1. Survivor: The patient is 71 years old with ischemic dilated cardiomyopathy, which is a significant risk factor for heart failure and mortality. However, the patient is on optimal medical therapy, including beta blockers, spironolactone, statins, and an ACE inhibitor, which are all evidence-based treatments for heart failure with reduced ejection fraction (HFrEF). The patient's LVEF of 35% is relatively stable, and there are no signs of acute coronary syndrome or significant arrhythmias on the ECG. The patient's BNP level is elevated at 170 ng/L, which is consistent with heart failure, but not excessively high, suggesting that the patient may be well-managed on current therapy. The patient's NYHA class is II, indicating that they are still able to perform everyday activities without significant limitation. Considering these factors, I believe that the patient has a reasonable chance of survival over the next few years.
+
+2. Pump failure death: The patient's LVEF of 35% indicates significant left ventricular dysfunction, which is a risk factor for heart failure progression and mortality. The patient's elevated BNP level and creatinine level also suggest that the patient may have some degree of renal impairment, which can further exacerbate heart failure. However, the patient's current medications are appropriate for HFrEF, and the patient is not showing any signs of acute decompensation. While the patient's risk of pump failure death is higher than that of sudden cardiac death, I believe that the patient's current management and relatively stable LVEF make pump failure death less likely than sudden cardiac death.
+
+3. Sudden cardiac death: The patient's history of ischemic dilated cardiomyopathy and polymorphic ventricular extrasystoles on the ECG increase the risk of sudden cardiac death. However, the patient's LVEF is relatively stable, and there are no other high-risk features such as a history of previous cardiac arrest or sustained ventricular tachycardia. While the patient's risk of sudden cardiac death is present, I believe that the patient's current management and relatively stable LVEF make sudden cardiac death less likely than pump failure death.
+
+Overall, while the patient's prognosis is guarded, I believe that the patient has a reasonable chance of survival over the next few years with continued optimal medical therapy and close monitoring."
+22,691,P0340,"Age: 71
+Gender: Male 
+Weight: 57 kg
+Height: 168 cm
+NYHA Class: III
+Blood Pressure: 85/50 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Dyslipemia, Peripheral vascular disease, Myocardial Infarction
+Albumin (g/L): 44,6
+ALT or GPT (IU/L): 20.0
+AST or GOT (IU/L): 19.0
+Total Cholesterol (mmol/L): 5,59
+Creatinine (mmol/L): 123.0
+Gamma-glutamil transpeptidase (IU/L): 57
+Glucose (mmol/L): 5,7
+Hemoglobin (g/L): 129.0
+HDL (mmol/L): 1,86
+Potassium (mEq/L): 4,5
+LDL (mmol/L): 3,36
+Sodium (mEq/L): 142.0
+Pro-BNP (ng/L): 2206.0
+Protein (g/L): 70
+T3 (pg/dL): 0,05
+T4 (ng/L): 17
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 0,954
+Urea (mg/dL): 4,9
+LVEF (%): 30.0
+Medications: Calcium Channel Blocker, Loop Diuretics, Spironolactone, Statins, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",sudden cardiac death,"Based on the provided patient data, I will rank the possible prognoses from most likely to least likely as follows:
+
+RANKING: 1. Pump Failure Death
+ REASONING: The patient has a history of ischemic dilated cardiomyopathy, which is a condition where the heart muscle becomes weakened due to a heart attack or coronary artery disease. The patient's left ventricular ejection fraction (LVEF) is severely reduced at 30%, indicating that the heart is not pumping efficiently. Additionally, the patient has a high Pro-BNP level of 2206.0 ng/L, which is a marker of heart failure. The patient's creatinine level of 123.0 mmol/L also suggests impaired renal function, which is common in patients with advanced heart failure. The patient's medications, such as Loop Diuretics and Spironolactone, are commonly used to manage heart failure symptoms. Considering these factors, pump failure death is the most likely prognosis.
+
+RANKING: 2. Sudden Cardiac Death
+ REASONING: The patient has a history of ischemic dilated cardiomyopathy and a non-sustained ventricular tachycardia, which increases the risk of sudden cardiac death. The patient's low blood pressure of 85/50 mmHg and low hemoglobin level of 129.0 g/L may indicate poor perfusion of vital organs, increasing the risk of sudden cardiac death. Additionally, the patient's T3 level of 0.05 pg/dL is low, which may indicate hypothyroidism, a condition that can increase the risk of sudden cardiac death. However, the patient's TSH level of 0.954 mIU/L is within the normal range, which may suggest that the hypothyroidism is not severe. Despite these factors, the patient's overall condition and history make sudden cardiac death a plausible prognosis.
+
+RANKING: 3. Survivor
+ REASONING: Given the patient's advanced age, severe heart failure, and history of ischemic dilated cardiomyopathy, survival is the least likely prognosis. The patient's NYHA Class III classification indicates that they have severe symptoms of heart failure, and their low LVEF and high Pro-BNP level suggest that their heart function is severely impaired. While the patient is on medications to manage their symptoms, the severity of their condition makes long-term survival less likely."
+23,735,P0967,"Age: 69
+Gender: Male 
+Weight: 58 kg
+Height: 156 cm
+NYHA Class: II
+Blood Pressure: 156/79 mmHg
+Past Medical History: Hypertensive cardiomyopathy
+Albumin (g/L): 39
+ALT or GPT (IU/L): 16.0
+AST or GOT (IU/L): 11.0
+Total Cholesterol (mmol/L): 6,41
+Creatinine (mmol/L): 124.0
+Gamma-glutamil transpeptidase (IU/L): 15
+Glucose (mmol/L): 4,6
+Hemoglobin (g/L): 119.0
+Pro-BNP (ng/L): 4999.0
+Protein (g/L): 70
+T3 (pg/dL): 0,05
+T4 (ng/L): 23
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 2,17
+Urea (mg/dL): 9,32
+LVEF (%): 35.0
+Medications: Calcium Channel Blocker, Beta Blockers, Loop Diuretics, Statins, Hydralazine
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",sudden cardiac death,"Based on the provided patient data, I will generate a prognosis for the next few years. However, please note that the patient's outcome is already stated as sudden cardiac death, which is not a typical approach for a prognosis. I will provide a revised prognosis based on the patient's current condition and available data.
+
+RANKING: 1. Sudden cardiac death, 2. Pump failure death, 3. Survivor
+
+REASONING:
+
+1. Sudden cardiac death (1st rank): The patient's high Pro-BNP level (4999.0 ng/L) suggests severe heart failure, and the low LVEF (35.0%) indicates significant left ventricular dysfunction. The presence of polymorphic ventricular extrasystoles on the ECG and the use of hydralazine (a medication often used for heart failure with preserved ejection fraction, but also used off-label for hypertensive emergencies) suggest a high risk of arrhythmias. The patient's low weight and low hemoglobin levels may indicate malnutrition or anemia, which can further exacerbate heart failure. The combination of these factors increases the risk of sudden cardiac death.
+
+2. Pump failure death (2nd rank): The patient's low LVEF (35.0%), high Pro-BNP level (4999.0 ng/L), and the use of loop diuretics suggest severe heart failure. The patient's low weight and low hemoglobin levels may indicate malnutrition or anemia, which can further exacerbate heart failure. While the patient's condition is severe, the risk of sudden cardiac death is higher due to the presence of polymorphic ventricular extrasystoles and the use of hydralazine.
+
+3. Survivor (3rd rank): While the patient's condition is severe, the presence of a low LVEF (35.0%) and high Pro-BNP level (4999.0 ng/L) suggests that the patient's heart function is compromised. However, the patient is on optimal medical therapy (Calcium Channel Blocker, Beta Blockers, Loop Diuretics, Statins, and Hydralazine), which may help manage symptoms and slow disease progression. The patient's relatively low age (69) and the fact that they are already on optimal medical therapy suggest a better prognosis compared to the other two options.
+
+Please note that this prognosis is based on the provided data and may not be entirely accurate without further clinical evaluation and assessment."
+24,713,P0649,"Age: 70
+Gender: Male 
+Weight: 110 kg
+Height: 180 cm
+NYHA Class: II
+Blood Pressure: 120/70 mmHg
+Past Medical History: Enolic dilated cardiomyopathy, Diabetes, Dyslipemia, Hypertension
+Albumin (g/L): 44
+ALT or GPT (IU/L): 10.0
+AST or GOT (IU/L): 18.0
+Total Cholesterol (mmol/L): 3,49
+Creatinine (mmol/L): 85.0
+Gamma-glutamil transpeptidase (IU/L): 29
+Glucose (mmol/L): 10,8
+Hemoglobin (g/L): 129.0
+HDL (mmol/L): 0,98
+Potassium (mEq/L): 5,4
+LDL (mmol/L): 2,22
+Sodium (mEq/L): 143.0
+Pro-BNP (ng/L): 437.0
+Protein (g/L): 72
+T3 (pg/dL): 0,04
+T4 (ng/L): 16
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 3,99
+Urea (mg/dL): 6,24
+LVEF (%): 40.0
+Medications: Diabetes Medication, Loop Diuretics, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",sudden cardiac death,"Based on the provided patient data, I will rank the prognoses for the next few years as follows:
+
+RANKING: 1. Survivor
+ REASONING: The patient has a history of enolic dilated cardiomyopathy, diabetes, dyslipemia, and hypertension, which are all significant risk factors for cardiovascular disease. However, the patient is currently on medications for diabetes, loop diuretics, and an ACE inhibitor, which suggests that the patient is receiving treatment for these conditions. The patient's LVEF (40%) is low, but it is not extremely low, and the patient does not have a history of sudden cardiac death or sustained ventricular tachycardia. The patient's blood pressure is well-controlled, and the patient does not have any signs of severe electrolyte imbalances. The patient's Pro-BNP level is elevated, but it is not extremely high, which may indicate some degree of heart failure, but not severe. Considering these factors, the patient has a relatively stable condition, and with proper management, the patient may be able to survive for the next few years.
+
+RANKING: 2. Pump failure death
+ REASONING: The patient has a history of enolic dilated cardiomyopathy, which is a condition that can lead to heart failure. The patient's LVEF is 40%, which is below the normal range, indicating some degree of systolic dysfunction. The patient's Pro-BNP level is elevated, which is a marker of heart failure. However, the patient is on medications for heart failure, including loop diuretics and an ACE inhibitor, which may help manage the condition. The patient's blood pressure is well-controlled, and the patient does not have any signs of severe electrolyte imbalances. While the patient's condition is concerning, it is not extremely severe, and with proper management, the patient may be able to avoid pump failure death.
+
+RANKING: 3. Sudden cardiac death
+ REASONING: The patient has a history of enolic dilated cardiomyopathy, which is a risk factor for sudden cardiac death. The patient's LVEF is 40%, which is below the normal range, indicating some degree of systolic dysfunction. The patient's Pro-BNP level is elevated, which is a marker of heart failure. However, the patient does not have any other high-risk features, such as a history of sustained ventricular tachycardia, a very low LVEF, or severe electrolyte imbalances. The patient's blood pressure is well-controlled, and the patient is on medications for heart failure. While the patient's condition is concerning, the risk of sudden cardiac death is not extremely high, and the patient's overall prognosis is more likely to be survivor or pump failure death.
+
+However, given the patient's age (70) and the presence of enolic dilated cardiomyopathy, I would revise the ranking as follows:
+
+RANKING: 1. Sudden cardiac death
+ REASONING: The patient's age and the presence of enolic dilated cardiomyopathy increase the risk of sudden cardiac death. The patient's LVEF is 40%, which is below the normal range, indicating some degree of systolic dysfunction. The patient's Pro-BNP level is elevated, which is a marker of heart failure. While the patient is on medications for heart failure, the patient's age and underlying condition increase the risk of sudden cardiac death.
+
+RANKING: 2. Pump failure death
+ REASONING: The patient has a history of enolic dilated cardiomyopathy, which is a condition that can lead to heart failure. The patient's LVEF is 40%, which is below the normal range, indicating some degree of systolic dysfunction. The patient's Pro-BNP level is elevated, which is a marker of heart failure. However, the patient is on medications for heart failure, including loop diuretics and an ACE inhibitor, which may help manage the condition. The patient's blood pressure is well-controlled, and the patient does not have any signs of severe electrolyte imbalances. While the patient's condition is concerning, it is not extremely severe, and with proper management, the patient may be able to avoid pump failure death.
+
+RANKING: 3. Survivor
+ REASONING: The patient has a history of enolic dilated cardiomyopathy, diabetes, dyslipemia, and hypertension, which are all significant risk factors for cardiovascular disease. However, the patient is currently on medications for diabetes, loop diuretics, and an ACE inhibitor, which suggests that the patient is receiving treatment for these conditions. The patient's LVEF is 40%, but the patient does not have a history of sudden cardiac death or sustained ventricular tachycardia. The patient's blood pressure is well-controlled, and the patient does not have any signs of"
+25,727,P0838,"Age: 75
+Gender: Male 
+Weight: 67 kg
+Height: 165 cm
+NYHA Class: II
+Blood Pressure: 130/80 mmHg
+Past Medical History: Hypertropic cardiomyopathy
+Albumin (g/L): 42,1
+ALT or GPT (IU/L): 16.0
+AST or GOT (IU/L): 18.0
+Total Cholesterol (mmol/L): 7,1
+Creatinine (mmol/L): 119.0
+Gamma-glutamil transpeptidase (IU/L): 31
+Glucose (mmol/L): 5,8
+Hemoglobin (g/L): 130.0
+HDL (mmol/L): 1,3
+Potassium (mEq/L): 3,92
+LDL (mmol/L): 5,23
+Sodium (mEq/L): 134.0
+Pro-BNP (ng/L): 8831.0
+Protein (g/L): 80
+Troponin (ng/mL): 0,03
+TSH (mIU/L): 3,01
+Urea (mg/dL): 10,8
+LVEF (%): 15.0
+Medications: Beta Blockers, Loop Diuretics, Spironolactone
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: First-degree Atrioventricular block (AVB)
+            ",sudden cardiac death,"Based on the provided patient data, here is the prognosis ranking from most likely to least likely:
+
+RANKING: 1. Pump Failure Death
+REASONING: The patient has a history of hypertrophic cardiomyopathy, which is a known cause of heart failure. The patient's left ventricular ejection fraction (LVEF) is severely reduced at 15%, indicating poor heart function. The elevated Pro-BNP level of 8831.0 ng/L further supports the presence of heart failure. The patient is already on medications for heart failure, including loop diuretics and spironolactone, which suggests that they are experiencing symptoms of fluid overload. The patient's creatinine level of 119.0 mmol/L is also elevated, indicating renal impairment, which is a common complication of heart failure. Given these factors, pump failure death is a significant concern.
+
+RANKING: 2. Sudden Cardiac Death
+REASONING: The patient has a history of hypertrophic cardiomyopathy, which is a risk factor for sudden cardiac death (SCD). The presence of polymorphic ventricular extrasystoles on the ECG is a concerning sign, as it can be a precursor to life-threatening arrhythmias. However, the absence of non-sustained ventricular tachycardia and other arrhythmias on the ECG makes SCD slightly less likely compared to pump failure death. The patient's medications, including beta blockers, may help reduce the risk of SCD.
+
+RANKING: 3. Survivor
+REASONING: While the patient has a history of hypertrophic cardiomyopathy and heart failure, their current treatment regimen and the absence of other high-risk factors make long-term survival more likely. The patient's blood pressure is well-controlled, and their kidney function is not severely impaired. The patient's hemoglobin level is within a normal range, and their TSH level is also normal. However, the patient's low LVEF and elevated Pro-BNP level indicate ongoing heart failure, and their prognosis is guarded.
+
+Note: The prognosis can be influenced by various factors, including the patient's overall health, adherence to treatment, and the presence of other comorbidities. This ranking is based on the provided data and should be used as a general guideline."
+26,687,P0322,"Age: 67
+Gender: Male 
+Weight: 73 kg
+Height: 160 cm
+NYHA Class: III
+Blood Pressure: 85/60 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Dyslipemia, Myocardial Infarction
+Albumin (g/L): 43,5
+ALT or GPT (IU/L): 16.0
+AST or GOT (IU/L): 25.0
+Total Cholesterol (mmol/L): 5,59
+Creatinine (mmol/L): 102.0
+Gamma-glutamil transpeptidase (IU/L): 79
+Glucose (mmol/L): 4,9
+Hemoglobin (g/L): 149.0
+HDL (mmol/L): 0,93
+Potassium (mEq/L): 4,1
+LDL (mmol/L): 3,8
+Sodium (mEq/L): 137.0
+Pro-BNP (ng/L): 3736.0
+Protein (g/L): 77
+T3 (pg/dL): 0,04
+T4 (ng/L): 18
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 5,04
+Urea (mg/dL): 6,01
+LVEF (%): 25.0
+Medications: Digoxin, Loop Diuretics, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",sudden cardiac death,"Based on the provided patient data, I will generate a prognosis for the next few years. I will rank the three possible prognoses from most likely to least likely and provide the reasoning behind each ranking.
+
+RANKING: 1. Sudden cardiac death, 2. Pump failure death, 3. Survivor
+
+REASONING:
+
+1. Sudden cardiac death: This prognosis is the most likely due to the following factors:
+   - The patient has a history of ischemic dilated cardiomyopathy, which is a condition that increases the risk of sudden cardiac death.
+   - The patient's LVEF is 25%, which is significantly reduced and indicates severe left ventricular dysfunction. This suggests that the heart is unable to pump blood effectively, increasing the risk of sudden cardiac death.
+   - The patient has non-sustained ventricular tachycardia, which is a known risk factor for sudden cardiac death.
+   - The patient's Pro-BNP level is 3736.0 ng/L, which is elevated and indicates increased stress on the heart.
+   - The patient's troponin level is 0.01 ng/mL, which is within normal limits, but the patient's history of myocardial infarction and reduced LVEF suggest that there may be underlying cardiac damage.
+
+2. Pump failure death: This prognosis is the second most likely due to the following factors:
+   - The patient's LVEF is 25%, which indicates severe left ventricular dysfunction and suggests that the heart is unable to pump blood effectively.
+   - The patient has a history of ischemic dilated cardiomyopathy, which increases the risk of pump failure.
+   - The patient's creatinine level is 102.0 mmol/L, which is elevated and suggests impaired kidney function, which can be a complication of heart failure.
+   - The patient is taking loop diuretics, which suggests that they are experiencing fluid overload, a common complication of heart failure.
+
+3. Survivor: This prognosis is the least likely due to the following factors:
+   - The patient's LVEF is 25%, which is significantly reduced and indicates severe left ventricular dysfunction.
+   - The patient has a history of ischemic dilated cardiomyopathy, which increases the risk of cardiac complications.
+   - The patient's Pro-BNP level is 3736.0 ng/L, which is elevated and indicates increased stress on the heart.
+   - The patient's troponin level is 0.01 ng/mL, which is within normal limits, but the patient's history of myocardial infarction and reduced LVEF suggest that there may be underlying cardiac damage.
+
+Note: The patient's age, weight, height, and blood pressure are not as significant factors in this prognosis as the cardiac-related factors."
+27,692,P0343,"Age: 63
+Gender: Male 
+Weight: 80 kg
+Height: 174 cm
+NYHA Class: II
+Blood Pressure: 100/60 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Hypertension, Myocardial Infarction
+Albumin (g/L): 42,4
+ALT or GPT (IU/L): 22.0
+AST or GOT (IU/L): 17.0
+Total Cholesterol (mmol/L): 4,14
+Creatinine (mmol/L): 112.0
+Gamma-glutamil transpeptidase (IU/L): 30
+Glucose (mmol/L): 8,9
+Hemoglobin (g/L): 116.0
+HDL (mmol/L): 0,98
+Potassium (mEq/L): 4,6
+LDL (mmol/L): 2,35
+Sodium (mEq/L): 137.0
+Pro-BNP (ng/L): 2125.0
+Protein (g/L): 74
+T3 (pg/dL): 0,02
+T4 (ng/L): 11
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 32,51
+Urea (mg/dL): 6,45
+LVEF (%): 40.0
+Medications: Diabetes Medication, Amiodarone, Loop Diuretics, Statins, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Parosysmal AF
+        - Bradycardia: No
+            ",sudden cardiac death,"Based on the provided patient data, I will rank the prognoses from most likely to least likely. 
+
+RANKING: 1. Sudden Cardiac Death, 2. Pump Failure Death, 3. Survivor
+
+REASONING: 
+
+1. Sudden Cardiac Death: The patient has a history of ischemic dilated cardiomyopathy, which increases the risk of sudden cardiac death. The patient's LVEF is 40%, indicating reduced left ventricular function. The presence of polymorphic ventricular extrasystoles on the ECG also suggests an increased risk of arrhythmias, which can lead to sudden cardiac death. Furthermore, the patient has a high Pro-BNP level of 2125.0 ng/L, indicating increased B-type natriuretic peptide, which is a marker of heart failure and increased risk of sudden cardiac death. Given these factors, sudden cardiac death is the most likely prognosis.
+
+2. Pump Failure Death: The patient's LVEF of 40% and high Pro-BNP level suggest that the patient's heart is under strain, and there is a risk of pump failure. However, the patient's NYHA Class II classification indicates that the patient is still able to perform daily activities without significant limitation, suggesting that the patient's symptoms are not severe enough to warrant an immediate risk of pump failure death. Additionally, the patient is on loop diuretics, which are commonly used to manage heart failure symptoms, and the patient's creatinine level is within normal limits, indicating that renal function is not severely impaired. Therefore, pump failure death is less likely than sudden cardiac death.
+
+3. Survivor: Given the patient's history of ischemic dilated cardiomyopathy, reduced LVEF, and high Pro-BNP level, the risk of sudden cardiac death and pump failure death is significant. However, the patient's NYHA Class II classification and ability to perform daily activities suggest that the patient's symptoms are manageable with current treatment. The patient is also on a combination of medications, including ACE inhibitors, statins, and nitrovasodilators, which can help manage heart failure symptoms and reduce the risk of adverse outcomes. Therefore, while the patient's prognosis is guarded, survivor is the least likely outcome."
+28,730,P0860,"Age: 67
+Gender: Male 
+Weight: 90 kg
+Height: 166 cm
+NYHA Class: II
+Blood Pressure: 190/110 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Peripheral vascular disease, Hypertension, Myocardial Infarction
+Albumin (g/L): 49,4
+ALT or GPT (IU/L): 14.0
+AST or GOT (IU/L): 14.0
+Total Cholesterol (mmol/L): 3,31
+Creatinine (mmol/L): 79.0
+Gamma-glutamil transpeptidase (IU/L): 17
+Glucose (mmol/L): 7,5
+Hemoglobin (g/L): 140.0
+HDL (mmol/L): 1,19
+Potassium (mEq/L): 4,1
+LDL (mmol/L): 1,55
+Sodium (mEq/L): 141.0
+Pro-BNP (ng/L): 597.0
+Protein (g/L): 84,2
+T3 (pg/dL): 0,06
+T4 (ng/L): 19
+TSH (mIU/L): 0,07
+Urea (mg/dL): 6,32
+LVEF (%): 35.0
+Medications: Calcium Channel Blocker, Beta Blockers, Statins, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",sudden cardiac death,"Based on the provided patient data, I will rank the three possible prognoses from most likely to least likely as follows:
+
+RANKING: Sudden Cardiac Death > Pump Failure Death > Survivor
+
+REASONING:
+
+1. Sudden Cardiac Death: The patient's profile indicates a high risk of sudden cardiac death due to the following factors:
+	* Age: 67 years, which increases the risk of cardiac events.
+	* Ischemic dilated cardiomyopathy with an LVEF of 35% indicates significant left ventricular dysfunction.
+	* Hypertension (190/110 mmHg) and peripheral vascular disease suggest systemic vascular disease, which can contribute to cardiac events.
+	* The presence of ventricular extrasystoles on the ECG may indicate electrical instability, which increases the risk of sudden cardiac death.
+	* Elevated Pro-BNP (597.0 ng/L) suggests heart failure with preserved ejection fraction, which is associated with a higher risk of sudden cardiac death.
+	* The patient's medications, such as beta-blockers and nitrovasodilators, are commonly used to reduce the risk of sudden cardiac death in patients with heart failure and ischemic cardiomyopathy.
+2. Pump Failure Death: The patient's profile also indicates a high risk of pump failure death due to:
+	* Ischemic dilated cardiomyopathy with an LVEF of 35%, which indicates significant left ventricular dysfunction.
+	* Hypertension (190/110 mmHg) and peripheral vascular disease suggest systemic vascular disease, which can contribute to cardiac events.
+	* Elevated Pro-BNP (597.0 ng/L) suggests heart failure with preserved ejection fraction, which is associated with a higher risk of pump failure.
+	* The patient's medications, such as beta-blockers and nitrovasodilators, are commonly used to manage heart failure symptoms.
+	* However, the patient's LVEF of 35% is relatively low, suggesting a higher risk of pump failure.
+3. Survivor: While the patient's profile indicates a high risk of cardiac events, the likelihood of a survivor outcome is still possible due to:
+	* The patient's NYHA Class II, which indicates mild to moderate symptoms of heart failure.
+	* The patient's medications, such as beta-blockers and nitrovasodilators, are commonly used to manage heart failure symptoms and reduce the risk of cardiac events.
+	* The patient's LVEF of 35% is relatively low, but not extremely low, suggesting some residual cardiac function.
+
+However, considering the patient's age, comorbidities, and low LVEF, the risk of sudden cardiac death is higher than pump failure death."
+29,659,P0049,"Age: 70
+Gender: Male 
+Weight: 88 kg
+Height: 170 cm
+NYHA Class: II
+Blood Pressure: 120/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Myocardial Infarction
+Albumin (g/L): 41,4
+ALT or GPT (IU/L): 24.0
+AST or GOT (IU/L): 18.0
+Total Cholesterol (mmol/L): 3,78
+Creatinine (mmol/L): 118.0
+Gamma-glutamil transpeptidase (IU/L): 77
+Glucose (mmol/L): 9
+Hemoglobin (g/L): 139.0
+HDL (mmol/L): 1,09
+Potassium (mEq/L): 4
+LDL (mmol/L): 2,04
+Sodium (mEq/L): 142.0
+Pro-BNP (ng/L): 2542.0
+Protein (g/L): 74
+T3 (pg/dL): 0,05
+T4 (ng/L): 18
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 2,21
+Urea (mg/dL): 8,91
+LVEF (%): 25.0
+Medications: Beta Blockers, Digoxin, Loop Diuretics, Spironolactone, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",sudden cardiac death,"Based on the provided patient data, I would rank the possible prognoses from most likely to least likely as follows:
+
+RANKING: Sudden Cardiac Death, Pump Failure Death, Survivor
+
+REASONING:
+
+1. Sudden Cardiac Death (SD): The patient has a history of ischemic dilated cardiomyopathy, which is a known risk factor for sudden cardiac death. The patient's LVEF is 25%, indicating severe left ventricular dysfunction, and the presence of non-sustained ventricular tachycardia (NSVT) and polymorphic ventricular extrasystoles on the ECG further increase the risk of sudden cardiac death. The elevated Pro-BNP level (2542 ng/L) also suggests heart failure, which is a known risk factor for sudden cardiac death. Given the patient's history and the presence of these risk factors, sudden cardiac death is the most likely prognosis.
+
+2. Pump Failure Death: The patient's LVEF is severely reduced (25%), and the presence of heart failure symptoms (NYHA Class II) and elevated Pro-BNP level indicate that the patient is at high risk of pump failure. The patient's renal function is also impaired (creatinine 118.0 μmol/L), which can further exacerbate heart failure. While the patient is on medications that are commonly used to manage heart failure (beta blockers, digoxin, loop diuretics, spironolactone, and ACE inhibitor), the severity of the patient's heart failure and the presence of other risk factors (e.g., NSVT) suggest that pump failure death is a possible prognosis.
+
+3. Survivor: While the patient's prognosis is guarded, the patient is still alive and receiving treatment for their heart failure and other comorbidities. The patient's medications are consistent with current guidelines for the management of heart failure, and the patient's blood pressure and electrolyte levels are within relatively normal limits. The patient's TSH level is also within the normal range, suggesting that there are no significant thyroid-related issues contributing to their condition. However, the presence of severe left ventricular dysfunction, NSVT, and polymorphic ventricular extrasystoles on the ECG, as well as the patient's history of ischemic dilated cardiomyopathy and myocardial infarction, make sudden cardiac death and pump failure death more likely than survival.
+
+Please note that this is a general assessment and that the actual prognosis may vary depending on various factors, including the patient's response to treatment, the presence of other comorbidities, and the patient's overall health status."
+30,565,P0877,"Age: 60
+Gender: Female 
+Weight: 74 kg
+Height: 163 cm
+NYHA Class: II
+Blood Pressure: 110/60 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Myocardial Infarction
+Albumin (g/L): 41
+ALT or GPT (IU/L): 15.0
+AST or GOT (IU/L): 15.0
+Total Cholesterol (mmol/L): 4,29
+Creatinine (mmol/L): 71.0
+Gamma-glutamil transpeptidase (IU/L): 15
+Glucose (mmol/L): 8,4
+Hemoglobin (g/L): 135.0
+HDL (mmol/L): 0,83
+Potassium (mEq/L): 4,4
+LDL (mmol/L): 2,38
+Sodium (mEq/L): 140.0
+Pro-BNP (ng/L): 593.0
+Protein (g/L): 65
+T4 (ng/L): 13
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 2,84
+Urea (mg/dL): 6,16
+LVEF (%): 15.0
+Medications: Beta Blockers, Digoxin, Loop Diuretics, Spironolactone, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",survivor,"Based on the provided patient data, I will rank the three possible prognoses from most likely to least likely. 
+
+RANKING: 1. Survivor
+ REASONING: The patient is currently on optimal medical therapy for heart failure, including beta blockers, digoxin, loop diuretics, spironolactone, statins, and ACE inhibitors. Her LVEF is 15%, which is severely reduced, but she is being treated for ischemic dilated cardiomyopathy. The presence of non-sustained ventricular tachycardia on the ECG is concerning, but it's not a contraindication for medical therapy. The patient's Pro-BNP level is elevated at 593 ng/L, indicating some degree of heart failure, but it's not excessively high. The patient's hemoglobin is within the normal range, which is a good sign. Considering her age, comorbidities, and current treatment, the likelihood of her surviving the next few years is higher compared to the other two options.
+
+RANKING: 2. Pump Failure Death
+ REASONING: The patient's LVEF of 15% indicates severe heart failure, which increases her risk of pump failure. However, her current treatment regimen and lack of severe renal impairment (creatinine 71.0 μmol/L) suggest that she is being adequately managed. The presence of non-sustained ventricular tachycardia on the ECG is a risk factor for sudden cardiac death, but it's not a direct indicator of pump failure. The patient's blood pressure is well-controlled, and her albumin levels are within the normal range. Considering her current treatment and relatively stable condition, the likelihood of pump failure death is lower compared to sudden cardiac death.
+
+RANKING: 3. Sudden Cardiac Death
+ REASONING: The patient's ECG shows non-sustained ventricular tachycardia, which is a risk factor for sudden cardiac death. Additionally, her LVEF of 15% and ischemic dilated cardiomyopathy increase her risk of arrhythmic events. However, her current treatment regimen includes beta blockers, which are effective in reducing the risk of sudden cardiac death. The patient's Pro-BNP level is elevated, but not excessively high, and her hemoglobin is within the normal range. Considering her age and comorbidities, the likelihood of sudden cardiac death is still present, but it's the least likely option compared to the other two.
+
+Note: These rankings are based on general clinical judgment and may vary depending on individual patient factors and the specific clinical context."
+31,326,P0534,"Age: 73
+Gender: Male 
+Weight: 94 kg
+Height: 163 cm
+NYHA Class: III
+Blood Pressure: 140/70 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Diabetes, Dyslipemia, Peripheral vascular disease, Hypertension, Myocardial Infarction
+Albumin (g/L): 35
+ALT or GPT (IU/L): 15.0
+AST or GOT (IU/L): 20.0
+Total Cholesterol (mmol/L): 4,03
+Creatinine (mmol/L): 109.0
+Gamma-glutamil transpeptidase (IU/L): 23
+Glucose (mmol/L): 6,9
+Hemoglobin (g/L): 136.0
+HDL (mmol/L): 1,14
+Potassium (mEq/L): 4,3
+LDL (mmol/L): 2,35
+Sodium (mEq/L): 140.0
+Pro-BNP (ng/L): 1860.0
+Protein (g/L): 74
+T3 (pg/dL): 0,03
+T4 (ng/L): 19
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 2,42
+Urea (mg/dL): 9,57
+LVEF (%): 45.0
+Medications: Diabetes Medication, Beta Blockers, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",survivor,"Based on the provided patient data, here is the prognosis for the next few years:
+
+RANKING: 1. Survivor
+REASONING: Despite the patient's advanced age, history of ischemic dilated cardiomyopathy, and low left ventricular ejection fraction (LVEF) of 45%, the patient's current medications (diabetes medication, beta blockers, statins, and ACE inhibitor) are appropriate and likely contributing to a relatively stable condition. The patient's blood pressure is within a relatively normal range, and the absence of sustained ventricular tachycardia or non-sustained ventricular tachycardia suggests that the patient's heart is not experiencing significant arrhythmia issues. The elevated Pro-BNP level indicates some degree of heart failure, but the patient's NYHA Class III classification suggests that the patient is experiencing some symptoms but is still able to perform daily activities. The patient's low HDL cholesterol and high LDL cholesterol levels indicate a need for improved lipid management, but the patient is currently on statins, which should help mitigate this risk. Overall, while the patient has multiple comorbidities and a history of heart disease, the current treatment plan and lack of severe symptoms suggest a relatively stable condition and a higher likelihood of survival.
+
+RANKING: 2. Pump Failure Death
+REASONING: The patient's LVEF of 45% and elevated Pro-BNP level suggest that the patient's heart is experiencing some degree of dysfunction. The patient's history of ischemic dilated cardiomyopathy and peripheral vascular disease also increases the risk of pump failure. However, the patient's current medications and relatively stable blood pressure suggest that the patient is not experiencing acute decompensation. The patient's weight is within a relatively normal range for their height, which is a positive factor. The patient's low T3 level may indicate some degree of thyroid dysfunction, which can contribute to heart failure. However, the patient's T4 level is within a normal range, and the TSH level is slightly elevated but not significantly so. Overall, while the patient's risk of pump failure is increased, the current treatment plan and relatively stable condition suggest that this outcome is less likely than sudden cardiac death.
+
+RANKING: 3. Sudden Cardiac Death
+REASONING: The patient's history of myocardial infarction, ischemic dilated cardiomyopathy, and ventricular extrasystoles increases the risk of sudden cardiac death. The patient's low LVEF and elevated Pro-BNP level also suggest that the patient's heart is experiencing some degree of dysfunction, which can increase the risk of sudden cardiac death. The patient's history of peripheral vascular disease may also contribute to a higher risk of cardiac arrhythmias and sudden death. However, the patient's current medications, including beta blockers and ACE inhibitors, are appropriate for reducing the risk of sudden cardiac death. The patient's relatively stable blood pressure and lack of sustained ventricular tachycardia or non-sustained ventricular tachycardia suggest that the patient is not experiencing acute arrhythmia issues. Overall, while the patient's risk of sudden cardiac death is increased, the current treatment plan and relatively stable condition suggest that this outcome is the least likely of the three."
+32,74,P0118,"Age: 61
+Gender: Male 
+Weight: 60 kg
+Height: 156 cm
+NYHA Class: II
+Blood Pressure: 124/55 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Dyslipemia, Hypertension, Myocardial Infarction
+Albumin (g/L): 43
+ALT or GPT (IU/L): 24.0
+AST or GOT (IU/L): 21.0
+Total Cholesterol (mmol/L): 4,86
+Creatinine (mmol/L): 80.0
+Gamma-glutamil transpeptidase (IU/L): 14
+Glucose (mmol/L): 5
+Hemoglobin (g/L): 130.0
+HDL (mmol/L): 1,78
+Potassium (mEq/L): 4,2
+LDL (mmol/L): 2,61
+Sodium (mEq/L): 139.0
+Pro-BNP (ng/L): 709.0
+Protein (g/L): 66
+T4 (ng/L): 15
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 3,49
+Urea (mg/dL): 7,32
+LVEF (%): 35.0
+Medications: Beta Blockers, Spironolactone, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",survivor,"Based on the provided patient data, here are the prognoses for the next few years, ranked from most likely to least likely:
+
+RANKING: Survivor
+REASONING: The patient is 61 years old with a history of ischemic dilated cardiomyopathy, which is a chronic condition affecting the heart's ability to pump blood effectively. However, the patient is currently on a treatment plan that includes beta blockers, spironolactone, statins, and an ACE inhibitor, which are standard medications for managing heart failure and improving survival. The patient's left ventricular ejection fraction (LVEF) is 35%, which is low but not extremely low. The patient's blood pressure is well-controlled, and the lack of sustained ventricular tachycardia and other arrhythmias on the ECG is a positive sign. The patient's pro-BNP level is elevated at 709.0 ng/L, indicating some level of heart failure, but it is not extremely high. The patient's weight and body mass index (BMI) are not provided, but the patient's weight of 60 kg and height of 156 cm suggest a relatively low BMI, which can be beneficial for patients with heart failure. Overall, while the patient has a history of heart failure, their current treatment plan and the lack of severe symptoms suggest a relatively favorable prognosis.
+
+RANKING: Pump Failure Death
+REASONING: The patient's LVEF of 35% indicates a significant impairment of the heart's pumping function, which increases the risk of pump failure. The patient's history of myocardial infarction and ischemic dilated cardiomyopathy also contribute to this risk. However, the patient's current treatment plan and the lack of severe symptoms and arrhythmias suggest that pump failure is not the most likely outcome.
+
+RANKING: Sudden Cardiac Death
+REASONING: Sudden cardiac death is a possible outcome for patients with heart failure, but it is relatively rare. The patient's LVEF of 35% and history of myocardial infarction increase the risk of sudden cardiac death, but the patient's current treatment plan and the lack of severe symptoms and arrhythmias on the ECG suggest that sudden cardiac death is the least likely outcome. The patient's troponin level is very low, which suggests that there is no acute myocardial infarction and reduces the risk of sudden cardiac death."
+33,616,P0962,"Age: 55
+Gender: Male 
+Weight: 105 kg
+Height: 182 cm
+NYHA Class: II
+Blood Pressure: 137/102 mmHg
+Past Medical History: Enolic dilated cardiomyopathy, Dyslipemia, Peripheral vascular disease, Hypertension
+Albumin (g/L): 46
+ALT or GPT (IU/L): 11.0
+AST or GOT (IU/L): 12.0
+Total Cholesterol (mmol/L): 4,16
+Creatinine (mmol/L): 97.0
+Gamma-glutamil transpeptidase (IU/L): 12
+Glucose (mmol/L): 5
+Hemoglobin (g/L): 151.0
+HDL (mmol/L): 0,7
+Potassium (mEq/L): 4,4
+LDL (mmol/L): 2,38
+Sodium (mEq/L): 139.0
+Pro-BNP (ng/L): 1083.0
+Protein (g/L): 75
+T3 (pg/dL): 0,06
+T4 (ng/L): 18
+Troponin (ng/mL): 0,03
+TSH (mIU/L): 2,22
+Urea (mg/dL): 6,82
+LVEF (%): 40.0
+Medications: Beta Blockers, Digoxin, Loop Diuretics, Spironolactone, Hydralazine, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",survivor,"Based on the provided patient data, I will rank the three possible prognoses from most likely to least likely as follows:
+
+RANKING: 1. Survivor
+ REASONING: The patient has a history of enolic dilated cardiomyopathy, which is a significant underlying condition affecting the heart's pumping function. However, the patient is currently on a comprehensive treatment regimen, including beta blockers, digoxin, loop diuretics, spironolactone, hydralazine, and nitrovasodilator, which suggests that the patient's condition is being actively managed. The patient's LVEF of 40% indicates some preserved cardiac function, and the low troponin level suggests minimal ongoing myocardial damage. Additionally, the patient's hemoglobin and electrolyte levels are within a relatively normal range, which reduces the risk of complications such as anemia or electrolyte imbalances. Considering these factors, the most likely prognosis is that the patient will survive in the short to medium term.
+
+RANKING: 2. Pump Failure Death
+ REASONING: The patient's LVEF of 40% indicates some degree of left ventricular dysfunction, which increases the risk of pump failure. However, the patient's current treatment regimen and the absence of other high-risk features, such as severe hypotension or significant electrolyte imbalances, suggest that pump failure is not the most immediate concern. The patient's elevated Pro-BNP level (1083.0 ng/L) may indicate some degree of heart failure, but it is not uncommon in patients with preserved LVEF and can be managed with current medications.
+
+RANKING: 3. Sudden Cardiac Death
+ REASONING: The patient has a history of ventricular extrasystoles, which can be a risk factor for sudden cardiac death. However, the absence of sustained ventricular tachycardia or other high-risk features, such as a history of syncope or near-syncope, reduces the likelihood of sudden cardiac death. The patient's LVEF of 40% and the presence of a comprehensive treatment regimen also suggest that sudden cardiac death is less likely. While the patient's Pro-BNP level is elevated, it is not at a level typically associated with high risk of sudden cardiac death."
+34,264,P0441,"Age: 73
+Gender: Male 
+Weight: 90 kg
+Height: 163 cm
+NYHA Class: II
+Blood Pressure: 110/55 mmHg
+Past Medical History: Ischemic dilated cardiomyopathy, Myocardial Infarction
+Albumin (g/L): 39
+ALT or GPT (IU/L): 18.0
+AST or GOT (IU/L): 22.0
+Total Cholesterol (mmol/L): 4,73
+Creatinine (mmol/L): 106.0
+Gamma-glutamil transpeptidase (IU/L): 23
+Glucose (mmol/L): 5,4
+Hemoglobin (g/L): 137.0
+HDL (mmol/L): 1,68
+Potassium (mEq/L): 4,1
+LDL (mmol/L): 2,4
+Sodium (mEq/L): 138.0
+Pro-BNP (ng/L): 1107.0
+Protein (g/L): 62
+T3 (pg/dL): 0,04
+T4 (ng/L): 16
+TSH (mIU/L): 2,55
+Urea (mg/dL): 8,99
+LVEF (%): 34.0
+Medications: Angiotensin II Receptor Blocker, Beta Blockers, Loop Diuretics, Spironolactone, Statins, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",survivor,"Based on the provided patient data, here is the ranking of the three possible prognoses from most likely to least likely, along with the reasoning behind each ranking.
+
+RANKING: 1. Survivor
+ REASONING: The patient's current condition suggests that they are at a high risk of adverse cardiac events. However, considering the patient's current treatment regimen, which includes Angiotensin II Receptor Blocker, Beta Blockers, Loop Diuretics, Spironolactone, Statins, and Nitrovasodilator, it appears that the patient is being actively managed for their ischemic dilated cardiomyopathy and myocardial infarction. The patient's LVEF of 34% is low, but it is not extremely low, and the patient is being treated with medications that are known to improve survival in patients with heart failure. The patient's Pro-BNP level of 1107 ng/L is elevated, but it is not extremely high, and the patient's kidney function is relatively preserved with a creatinine level of 106.0 umol/L. The patient's blood pressure is also well-controlled. While the patient has a history of ischemic dilated cardiomyopathy and myocardial infarction, the fact that they are being actively managed and have not yet experienced a sudden cardiac death or pump failure death suggests that the patient is likely to survive in the short to medium term.
+
+RANKING: 2. Sudden Cardiac Death
+ REASONING: The patient's ECG shows non-sustained ventricular tachycardia (NSVT), which is a risk factor for sudden cardiac death. However, the patient is being treated with Beta Blockers, which are known to reduce the risk of sudden cardiac death. The patient's LVEF is low, but it is not extremely low, and the patient's kidney function is relatively preserved. While the patient's Pro-BNP level is elevated, it is not extremely high, and the patient's blood pressure is well-controlled. The patient's history of ischemic dilated cardiomyopathy and myocardial infarction increases the risk of sudden cardiac death, but the fact that the patient is being actively managed and has not yet experienced a sudden cardiac death suggests that this outcome is less likely than pump failure death.
+
+RANKING: 3. Pump Failure Death
+ REASONING: The patient's LVEF of 34% is low, indicating reduced cardiac function, and the patient's Pro-BNP level of 1107 ng/L is elevated, indicating increased ventricular stretch and potential fluid overload. The patient's kidney function is relatively preserved, but the patient's creatinine level is slightly elevated, suggesting some degree of renal impairment. The patient's blood pressure is well-controlled, but the patient's history of ischemic dilated cardiomyopathy and myocardial infarction increases the risk of pump failure. However, the patient is being treated with medications that are known to improve survival in patients with heart failure, and the patient's NYHA class is II, indicating that the patient is not in advanced heart failure. Therefore, while pump failure death is a possible outcome, it is less likely than sudden cardiac death, given the patient's current treatment regimen and relatively preserved kidney function."
+35,334,P0547,"Age: 30
+Gender: Female 
+Weight: 64 kg
+Height: 161 cm
+NYHA Class: II
+Blood Pressure: 110/70 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy
+Albumin (g/L): 43
+ALT or GPT (IU/L): 7.0
+AST or GOT (IU/L): 13.0
+Total Cholesterol (mmol/L): 6,65
+Creatinine (mmol/L): 71.0
+Gamma-glutamil transpeptidase (IU/L): 11
+Glucose (mmol/L): 4,6
+Hemoglobin (g/L): 142.0
+HDL (mmol/L): 1,34
+Potassium (mEq/L): 4,4
+LDL (mmol/L): 4,99
+Sodium (mEq/L): 136.0
+Pro-BNP (ng/L): 89.0
+Protein (g/L): 72
+T3 (pg/dL): 0,04
+T4 (ng/L): 18
+Troponin (ng/mL): 0,03
+TSH (mIU/L): 0,44
+Urea (mg/dL): 3,83
+LVEF (%): 50.0
+Medications: Beta Blockers, Loop Diuretics, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",survivor,"Based on the provided patient data, here is the ranking of the three possible prognoses from most likely to least likely:
+
+RANKING: 1. Survivor
+
+REASONING: The patient is a 30-year-old female with idiopathic dilated cardiomyopathy, which is a significant underlying condition affecting her heart function. However, her ejection fraction (LVEF) is 50%, which is relatively preserved, and she is on optimal medical therapy with beta blockers, loop diuretics, and an ACE inhibitor. Her other laboratory values are also relatively well-controlled, with no significant abnormalities that would indicate severe cardiac decompensation or advanced disease. Her NT-proBNP level is 89 ng/L, which is slightly elevated but not excessively high. The patient's overall clinical picture suggests that she is relatively stable and responsive to treatment, making a survivor prognosis more likely.
+
+RANKING: 2. Pump Failure Death
+
+REASONING: While the patient has idiopathic dilated cardiomyopathy, her LVEF is 50%, which is relatively preserved. Her NT-proBNP level is also not excessively high, suggesting that her cardiac function is not severely compromised. However, there is a risk of progressive disease and potential pump failure, especially considering the underlying condition. However, the patient's age and relatively preserved LVEF make this prognosis less likely compared to the survivor prognosis.
+
+RANKING: 3. Sudden Cardiac Death
+
+REASONING: The patient's ECG shows polymorphic ventricular extrasystoles, which may indicate a risk of arrhythmias. However, the absence of ventricular tachycardia or other high-risk features on the ECG, combined with her relatively preserved LVEF and controlled laboratory values, makes sudden cardiac death less likely. Additionally, the patient is on beta blockers, which can help reduce the risk of arrhythmias. While there is some risk, the overall clinical picture suggests that sudden cardiac death is the least likely prognosis."
+36,305,P0508,"Age: 66
+Gender: Male 
+Weight: 77 kg
+Height: 162 cm
+NYHA Class: II
+Blood Pressure: 150/60 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy
+Albumin (g/L): 44
+ALT or GPT (IU/L): 28.0
+AST or GOT (IU/L): 21.0
+Total Cholesterol (mmol/L): 6,65
+Creatinine (mmol/L): 94.0
+Gamma-glutamil transpeptidase (IU/L): 23
+Glucose (mmol/L): 5,3
+Hemoglobin (g/L): 146.0
+HDL (mmol/L): 1,6
+Potassium (mEq/L): 4,62
+LDL (mmol/L): 4,32
+Sodium (mEq/L): 140.0
+Pro-BNP (ng/L): 200.0
+Protein (g/L): 74,5
+T3 (pg/dL): 0,0669
+T4 (ng/L): 15,24
+Troponin (ng/mL): 0,5
+TSH (mIU/L): 1,35
+Urea (mg/dL): 5,3
+LVEF (%): 35.0
+Medications: Loop Diuretics, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",survivor,"Based on the provided patient data, I will generate a prognosis for the next few years. 
+
+RANKING: 1. Survivor
+REASONING: The patient is 66 years old with a history of idiopathic dilated cardiomyopathy, which is a significant risk factor for heart failure. However, the patient's current medications (Loop Diuretics and ACE Inhibitor) are appropriate for managing heart failure symptoms and slowing disease progression. The patient's LVEF of 35% is low, but it's not extremely low, indicating some preserved cardiac function. The patient's NYHA Class II classification suggests that the patient has some limitations in physical activity but is still able to perform everyday activities without significant symptoms. The patient's blood pressure is slightly elevated, but it's not extremely high. The patient's troponin level is within normal limits, and there are no signs of acute coronary syndrome. The patient's TSH level is within the normal range, and there are no signs of thyroid dysfunction. The patient's pro-BNP level is elevated, indicating some degree of heart failure, but it's not extremely high. Considering these factors, the patient's overall prognosis is more favorable, and with continued medical management, the likelihood of survival is higher.
+
+RANKING: 2. Pump Failure Death
+REASONING: The patient's LVEF of 35% indicates significant left ventricular dysfunction, which increases the risk of pump failure. The patient's NYHA Class II classification suggests some limitations in physical activity, which may indicate some degree of heart failure symptoms. The patient's elevated pro-BNP level and slightly elevated creatinine level suggest some degree of cardiac dysfunction and potential renal impairment. The patient's weight is within the normal range, which may indicate some degree of fluid overload, which is a common complication in heart failure patients. However, the patient's overall clinical presentation does not suggest an extremely high risk of pump failure. With continued medical management, the patient may be able to slow the progression of heart failure, reducing the likelihood of pump failure.
+
+RANKING: 3. Sudden Cardiac Death
+REASONING: The patient's history of non-sustained ventricular tachycardia (VT) and polymorphic ventricular extrasystoles on the ECG suggest an increased risk of arrhythmias. However, the patient's troponin level is within normal limits, and there are no signs of acute coronary syndrome. The patient's TSH level is within the normal range, and there are no signs of thyroid dysfunction, which can sometimes contribute to arrhythmias. The patient's medications include an ACE inhibitor, which is beneficial for reducing the risk of arrhythmias. While the patient's ECG findings do suggest an increased risk of arrhythmias, the overall clinical presentation does not suggest an extremely high risk of sudden cardiac death. The patient's NYHA Class II classification and the presence of heart failure symptoms may indicate a more gradual progression of the disease rather than a sudden catastrophic event."
+37,171,P0288,"Age: 80
+Gender: Female 
+Weight: 81 kg
+Height: 161 cm
+NYHA Class: III
+Blood Pressure: 150/65 mmHg
+Past Medical History: Valvular cardiomyopathy, Diabetes, Dyslipemia, Hypertension
+Albumin (g/L): 39
+ALT or GPT (IU/L): 15.0
+AST or GOT (IU/L): 15.0
+Total Cholesterol (mmol/L): 4,91
+Creatinine (mmol/L): 118.0
+Gamma-glutamil transpeptidase (IU/L): 16
+Glucose (mmol/L): 4,8
+Hemoglobin (g/L): 114.0
+HDL (mmol/L): 1,32
+Potassium (mEq/L): 4,4
+LDL (mmol/L): 2,53
+Sodium (mEq/L): 139.0
+Pro-BNP (ng/L): 195.0
+Protein (g/L): 69,2
+T3 (pg/dL): 0,0327
+T4 (ng/L): 13,05
+TSH (mIU/L): 1,05
+Urea (mg/dL): 15,7
+LVEF (%): 70.0
+Medications: Diabetes Medication, Angiotensin II Receptor Blocker, Beta Blockers, Loop Diuretics, Statins, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: Sinus Node Dysfunction
+            ",survivor,"Based on the provided patient data, here is the ranking of the possible prognoses from most likely to least likely:
+
+RANKING: Survivor
+
+REASONING: The patient is 80 years old with a history of valvular cardiomyopathy, diabetes, dyslipemia, and hypertension, which are all significant risk factors for cardiovascular disease. However, despite these risk factors, the patient's ejection fraction (LVEF) is 70%, which is within the normal range (50-70%). This suggests that the patient's heart function is relatively preserved. Additionally, the patient is on a comprehensive medication regimen that includes beta blockers, angiotensin II receptor blockers, loop diuretics, statins, and nitrovasodilators, which are all aimed at managing heart failure and reducing cardiovascular risk. The patient's pro-BNP level is 195.0 ng/L, which is elevated but not excessively high, indicating some degree of heart failure but not severe. The absence of sustained ventricular tachycardia and non-sustained ventricular tachycardia on the ECG also suggests that the patient's heart rhythm is relatively stable. Considering these factors, the most likely prognosis is that the patient will survive, albeit with ongoing management and monitoring of their condition.
+
+RANKING: Pump Failure Death
+
+REASONING: While the patient's LVEF is within the normal range, the patient's ejection fraction is at the lower end of the normal range (70%), which may indicate some degree of cardiac dysfunction. The patient's pro-BNP level is elevated, suggesting some degree of heart failure. Additionally, the patient has a history of valvular cardiomyopathy, which can lead to progressive cardiac dysfunction over time. The patient's weight is also above the ideal weight range, which can put additional strain on the heart. However, the patient's ejection fraction is not severely depressed, and the patient is on a comprehensive medication regimen, which may help slow the progression of cardiac dysfunction. While pump failure death is a possible outcome, it is less likely given the patient's relatively preserved ejection fraction and ongoing treatment.
+
+RANKING: Sudden Cardiac Death
+
+REASONING: The patient's ECG shows a monomorphic ventricular extrasystole, which can be a risk factor for sudden cardiac death. However, the patient does not have a history of sustained ventricular tachycardia or non-sustained ventricular tachycardia, which are more significant risk factors for sudden cardiac death. The patient's ejection fraction is within the normal range, and the patient is on beta blockers, which can help reduce the risk of sudden cardiac death. The patient's TSH level is within the normal range, and the patient does not have a history of thyroid disease, which can increase the risk of sudden cardiac death. While sudden cardiac death is a possible outcome, it is the least likely given the patient's relatively preserved ejection fraction and the absence of more significant risk factors."
+38,87,P0137,"Age: 58
+Gender: Male 
+Weight: 70 kg
+Height: 173 cm
+NYHA Class: II
+Blood Pressure: 110/60 mmHg
+Past Medical History: Enolic dilated cardiomyopathy
+Albumin (g/L): 42
+ALT or GPT (IU/L): 13.0
+AST or GOT (IU/L): 23.0
+Total Cholesterol (mmol/L): 6,44
+Creatinine (mmol/L): 88.0
+Gamma-glutamil transpeptidase (IU/L): 61
+Glucose (mmol/L): 5,8
+Hemoglobin (g/L): 160.0
+HDL (mmol/L): 2,51
+Potassium (mEq/L): 4,2
+LDL (mmol/L): 3,39
+Sodium (mEq/L): 142.0
+Pro-BNP (ng/L): 320.0
+Protein (g/L): 67
+T3 (pg/dL): 0,06
+T4 (ng/L): 20
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 4,19
+Urea (mg/dL): 6,16
+LVEF (%): 53.0
+Medications: Beta Blockers, Digoxin, Loop Diuretics, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): Yes
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",survivor,"Based on the provided patient data, here is the ranking of the three possible prognoses from most likely to least likely, along with the reasoning behind the order:
+
+RANKING: Survivor
+
+REASONING: The patient has a history of enolic dilated cardiomyopathy, which is a significant underlying condition affecting the heart's pumping ability. However, the patient's LVEF (left ventricular ejection fraction) is 53%, which is relatively preserved, indicating that the heart is still pumping adequately. The patient is also on a regimen of beta blockers, digoxin, loop diuretics, spironolactone, and an ACE inhibitor, which are all standard treatments for heart failure and arrhythmias. The patient's blood pressure is within a relatively normal range, and the absence of significant elevation in troponin levels suggests that there is not an acute myocardial infarction. While the patient has a non-sustained ventricular tachycardia and a monomorphic ventricular extrasystole on the ECG, these are relatively mild and not indicative of a high-risk arrhythmia. The patient's TSH is within a normal range, which suggests that there is no underlying thyroid disorder contributing to the cardiac condition. The patient's weight and BMI are not provided, but the height and weight suggest that the patient is likely overweight, which is a risk factor for heart disease. However, the patient's albumin and protein levels are within normal ranges, indicating that there is no significant malnutrition or liver disease contributing to the cardiac condition. Overall, considering the patient's relatively preserved LVEF, the absence of significant arrhythmias, and the presence of standard treatments for heart failure and arrhythmias, the most likely prognosis is that the patient will survive.
+
+RANKING: Sudden Cardiac Death
+
+REASONING: While the patient has a history of enolic dilated cardiomyopathy and a relatively low LVEF, the patient's overall clinical picture suggests that sudden cardiac death is less likely. The patient's LVEF is preserved, and the patient is on standard treatments for heart failure and arrhythmias. The patient's troponin levels are normal, indicating that there is no acute myocardial infarction. The patient's TSH is within a normal range, which suggests that there is no underlying thyroid disorder contributing to the cardiac condition. The patient's ECG shows non-sustained ventricular tachycardia and a monomorphic ventricular extrasystole, but these are relatively mild and not indicative of a high-risk arrhythmia. While the patient's weight and BMI are not provided, the height and weight suggest that the patient is likely overweight, which is a risk factor for heart disease. However, the patient's albumin and protein levels are within normal ranges, indicating that there is no significant malnutrition or liver disease contributing to the cardiac condition. Overall, considering the patient's relatively preserved LVEF, the absence of significant arrhythmias, and the presence of standard treatments for heart failure and arrhythmias, sudden cardiac death is less likely.
+
+RANKING: Pump Failure Death
+
+REASONING: The patient has a history of enolic dilated cardiomyopathy and a relatively low LVEF of 53%, which suggests that the patient's heart is not pumping as efficiently as it should be. The patient's creatinine levels are elevated, indicating that there may be some degree of renal dysfunction, which can contribute to heart failure. The patient's albumin and protein levels are within normal ranges, but the patient's weight and BMI are not provided, which suggests that the patient may be overweight, which is a risk factor for heart disease. The patient's TSH is within a normal range, which suggests that there is no underlying thyroid disorder contributing to the cardiac condition. The patient's ECG shows non-sustained ventricular tachycardia and a monomorphic ventricular extrasystole, but these are relatively mild and not indicative of a high-risk arrhythmia. While the patient is on standard treatments for heart failure and arrhythmias, the patient's relatively low LVEF and elevated creatinine levels suggest that pump failure is a possible outcome. However, considering the patient's relatively preserved LVEF and the absence of significant arrhythmias, pump failure death is less likely than survivor."
+39,115,P0189,"Age: 83
+Gender: Female 
+Weight: 58 kg
+Height: 148 cm
+NYHA Class: III
+Blood Pressure: 140/70 mmHg
+Past Medical History: Hypertensive cardiomyopathy, Hypertension, Myocardial Infarction
+Albumin (g/L): 44
+ALT or GPT (IU/L): 10.0
+AST or GOT (IU/L): 27.0
+Total Cholesterol (mmol/L): 6,7
+Creatinine (mmol/L): 118.0
+Gamma-glutamil transpeptidase (IU/L): 24,6
+Glucose (mmol/L): 6,6
+Hemoglobin (g/L): 130.0
+HDL (mmol/L): 0,88
+Potassium (mEq/L): 4,49
+LDL (mmol/L): 2,77
+Sodium (mEq/L): 141.0
+Pro-BNP (ng/L): 1094.0
+Protein (g/L): 77
+T3 (pg/dL): 0,0609
+T4 (ng/L): 17,03
+Troponin (ng/mL): 0,4
+TSH (mIU/L): 0,51
+Urea (mg/dL): 11,3
+LVEF (%): 50.0
+Medications: Digoxin, Loop Diuretics, Spironolactone, ACE Inhibitor, Nitrovasodilator
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: Non-sustained VT
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",survivor,"Based on the provided patient data, I will rank the three possible prognoses from most likely to least likely as follows:
+
+RANKING: 1. Sudden Cardiac Death (SCD)
+ REASONING: The patient is 83 years old with a history of Hypertensive cardiomyopathy, Hypertension, and Myocardial Infarction, which are all risk factors for SCD. The patient's NYHA Class III indicates significant symptoms of heart failure, and the elevated Pro-BNP level (1094.0 ng/L) suggests increased ventricular strain. Additionally, the presence of non-sustained ventricular tachycardia on the ECG further increases the risk of SCD. Although the patient is on medications that can help manage these conditions, the combination of these factors makes SCD a significant concern.
+
+RANKING: 2. Pump Failure Death
+ REASONING: The patient's LVEF (50.0%) is slightly below the normal range, indicating some degree of left ventricular dysfunction. The patient's NYHA Class III and elevated Pro-BNP level also suggest that the patient is experiencing symptoms of heart failure and has increased ventricular strain. While the patient is on medications that can help manage heart failure, the patient's age, comorbidities, and decreased LVEF make pump failure death a possible outcome.
+
+RANKING: 3. Survivor
+ REASONING: While the patient has several risk factors for cardiac complications, the patient's overall clinical picture suggests that they are still receiving appropriate medical management. The patient is on a combination of medications that can help manage their conditions, and the patient's laboratory values (e.g., hemoglobin, albumin, and total protein levels) are relatively stable. Additionally, the patient's TSH level is within the normal range, which suggests that the patient's thyroid function is well-managed. While the patient's risk factors are concerning, the patient's current clinical status and treatment regimen make survival a more likely outcome than the other two options."
+40,620,P0971,"Age: 66
+Gender: Female 
+Weight: 78 kg
+Height: 160 cm
+NYHA Class: III
+Blood Pressure: 150/90 mmHg
+Past Medical History: Hypertensive cardiomyopathy, Diabetes, Dyslipemia, Hypertension
+Albumin (g/L): 36
+ALT or GPT (IU/L): 24.0
+AST or GOT (IU/L): 18.0
+Total Cholesterol (mmol/L): 6,05
+Creatinine (mmol/L): 106.0
+Gamma-glutamil transpeptidase (IU/L): 160
+Glucose (mmol/L): 12,1
+Hemoglobin (g/L): 112.0
+HDL (mmol/L): 1,14
+Potassium (mEq/L): 4,1
+LDL (mmol/L): 3,7
+Sodium (mEq/L): 139.0
+Pro-BNP (ng/L): 104.0
+Protein (g/L): 75
+T3 (pg/dL): 0,02
+T4 (ng/L): 13
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 49,17
+Urea (mg/dL): 8,99
+LVEF (%): 56.0
+Medications: Diabetes Medication, Beta Blockers, Loop Diuretics, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: Second-degree AVB - type II
+            ",survivor,"Based on the provided patient data, I will generate a prognosis for the next few years. I will rank the possible prognoses from most likely to least likely.
+
+RANKING: 1. Survivor
+ REASONING: The patient is 66 years old with a history of hypertensive cardiomyopathy, diabetes, dyslipemia, and hypertension. However, despite these risk factors, the patient is currently being treated with medications that are likely helping to manage these conditions. The patient's LVEF is 56%, which is below the normal range (60% or higher), indicating some degree of heart failure. However, the patient's ejection fraction is not severely decreased, and the patient is not showing any signs of acute cardiac decompensation. The patient's TSH level is elevated, which could be indicative of hypothyroidism, but this is not directly related to cardiac prognosis. The patient's Pro-BNP level is elevated, which is a marker of heart failure, but it is not extremely high (104 ng/L). The patient's ECG shows polymorphic ventricular extrasystoles, which can be a sign of cardiac stress, but it is not a strong indicator of poor prognosis. Overall, while the patient has significant risk factors and some signs of cardiac dysfunction, the current treatment plan and the absence of acute decompensation or severe cardiac dysfunction make a survivor prognosis more likely.
+
+RANKING: 2. Pump Failure Death
+ REASONING: The patient's LVEF is 56%, which indicates some degree of heart failure. The patient's Pro-BNP level is elevated, and the patient has a history of hypertensive cardiomyopathy, which can lead to heart failure. However, the patient's ejection fraction is not severely decreased, and the patient is not showing any signs of acute cardiac decompensation. The patient's treatment plan includes medications that are likely helping to manage heart failure, such as beta blockers, loop diuretics, and ACE inhibitors. While pump failure is a possible prognosis, the patient's current treatment plan and the absence of severe cardiac dysfunction make it less likely compared to survivor.
+
+RANKING: 3. Sudden Cardiac Death
+ REASONING: The patient's ECG shows polymorphic ventricular extrasystoles, which can be a sign of cardiac stress, but it is not a strong indicator of sudden cardiac death. The patient's TSH level is elevated, which could be indicative of hypothyroidism, but this is not directly related to cardiac prognosis. The patient's Pro-BNP level is elevated, but it is not extremely high (104 ng/L). The patient's treatment plan includes medications that are likely helping to manage cardiac stress and prevent arrhythmias, such as beta blockers and ACE inhibitors. While sudden cardiac death is a possible prognosis, the patient's current treatment plan and the absence of other indicators of high risk (such as a history of arrhythmias or severe cardiac dysfunction) make it the least likely prognosis."
+41,377,P0610,"Age: 71
+Gender: Female 
+Weight: 73 kg
+Height: 162 cm
+NYHA Class: II
+Blood Pressure: 140/70 mmHg
+Past Medical History: Hypertensive cardiomyopathy
+Albumin (g/L): 44,3
+ALT or GPT (IU/L): 22.0
+AST or GOT (IU/L): 21.0
+Total Cholesterol (mmol/L): 5,12
+Creatinine (mmol/L): 123.0
+Gamma-glutamil transpeptidase (IU/L): 13
+Glucose (mmol/L): 7
+Hemoglobin (g/L): 123.0
+HDL (mmol/L): 1,29
+Potassium (mEq/L): 4,2
+LDL (mmol/L): 3,1
+Sodium (mEq/L): 141.0
+Pro-BNP (ng/L): 433.0
+Protein (g/L): 73
+T4 (ng/L): 15
+TSH (mIU/L): 1,95
+Urea (mg/dL): 8,49
+LVEF (%): 62.0
+Medications: Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: TPSV
+        - Bradycardia: No
+            ",survivor,"RANKING: 1
+ REASONING: Based on the provided patient data, I predict that the patient has a relatively high likelihood of survival over the next few years. The patient is a 71-year-old female with a history of hypertensive cardiomyopathy, which is a significant risk factor for cardiovascular disease. However, the patient's current left ventricular ejection fraction (LVEF) is 62%, which is within the normal range (>50%). This indicates that the patient's heart function is relatively preserved.
+
+The patient's blood pressure is controlled at 140/70 mmHg, which is within a relatively normal range for her age. Her renal function, as indicated by the creatinine level of 123.0 mmol/L, is mildly impaired but not severely so. The patient's albumin level is within the normal range, suggesting that her liver function is preserved.
+
+The patient is on spironolactone and an ACE inhibitor, which are appropriate medications for managing heart failure and hypertension. The absence of sustained ventricular tachycardia and non-sustained ventricular tachycardia on the ECG is also a positive sign.
+
+While the patient's pro-BNP level is elevated at 433.0 ng/L, which may indicate some degree of heart failure, it is not excessively high. The patient's hemoglobin level is within the normal range, and her TSH level is within the normal range, suggesting that her thyroid function is well-controlled.
+
+Given these factors, I predict that the patient has a relatively high likelihood of survival over the next few years, with a moderate risk of complications related to her heart disease. However, the likelihood of sudden cardiac death or pump failure death is relatively low.
+
+RANKING: 2
+ REASONING: The patient's risk of sudden cardiac death is moderate, but not high. The presence of polymorphic ventricular extrasystoles on the ECG is a concern, as it may indicate an increased risk of arrhythmias. However, the absence of sustained ventricular tachycardia and non-sustained ventricular tachycardia on the ECG suggests that the patient's risk of sudden cardiac death may be mitigated.
+
+Additionally, the patient's LVEF is within the normal range, which reduces the risk of pump failure death. However, the patient's mildly impaired renal function and mildly elevated pro-BNP level may indicate some degree of heart failure, which could increase the risk of sudden cardiac death.
+
+RANKING: 3
+ REASONING: The patient's risk of pump failure death is relatively low, given her preserved LVEF and well-controlled blood pressure. However, the patient's mildly impaired renal function and mildly elevated pro-BNP level may indicate some degree of heart failure, which could increase the risk of pump failure death over time.
+
+Additionally, the patient's age and history of hypertensive cardiomyopathy are risk factors for heart failure progression. However, the patient's current medications and lack of severe symptoms suggest that the patient's heart function is relatively well-managed, reducing the risk of pump failure death."
+42,220,P0371,"Age: 61
+Gender: Female 
+Weight: 73 kg
+Height: 162 cm
+NYHA Class: III
+Blood Pressure: 120/80 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy, Dyslipemia, Hypertension
+Albumin (g/L): 39
+ALT or GPT (IU/L): 84.0
+AST or GOT (IU/L): 68.0
+Total Cholesterol (mmol/L): 6,67
+Creatinine (mmol/L): 71.0
+Gamma-glutamil transpeptidase (IU/L): 89
+Glucose (mmol/L): 11,7
+Hemoglobin (g/L): 131.0
+HDL (mmol/L): 1,03
+Potassium (mEq/L): 4,7
+LDL (mmol/L): 4,27
+Sodium (mEq/L): 136.0
+Pro-BNP (ng/L): 27434.0
+Protein (g/L): 71
+T3 (pg/dL): 0,05
+T4 (ng/L): 20
+TSH (mIU/L): 1,25
+Urea (mg/dL): 7,82
+LVEF (%): 26.0
+Medications: Beta Blockers, Digoxin, Loop Diuretics, Spironolactone, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Polymorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",survivor,"Based on the provided patient data, I will generate a prognosis for the next few years. However, please note that a patient's outcome can never be predicted with certainty, and this prognosis is based on my analysis of the given data.
+
+RANKING: Survivor
+
+REASONING: The patient is a 61-year-old female with a history of idiopathic dilated cardiomyopathy, which is a significant risk factor for heart failure. However, despite this, her LVEF (Left Ventricular Ejection Fraction) is 26%, which is relatively low, indicating a poor cardiac function. 
+
+Despite the low LVEF, the patient's overall clinical picture is not as dire as it could be. She is on a comprehensive treatment regimen that includes beta blockers, digoxin, loop diuretics, spironolactone, and an ACE inhibitor, which are all standard treatments for heart failure. Her blood pressure is well-controlled, and her electrolyte levels are within a normal range.
+
+The patient's BNP (B-type Natriuretic Peptide) level is elevated at 27434.0 ng/L, which is consistent with heart failure, but it's not extremely high. Her creatinine level is 71.0 μmol/L, which is slightly elevated, but not to the point where it suggests significant renal impairment.
+
+The patient's NYHA Class III classification indicates that she experiences symptoms of heart failure, but they are not limiting her daily activities. The presence of polymorphic ventricular extrasystoles on the ECG is a concern, but it's not uncommon in patients with heart failure.
+
+Given these factors, I believe that the patient's prognosis is more likely to be a survivor. She is already on optimal medical therapy, and while her cardiac function is poor, her clinical status is relatively stable. With continued close monitoring and management of her condition, I would expect her to survive for the next few years."
+43,24,P0038,"Age: 69
+Gender: Male 
+Weight: 98 kg
+Height: 188 cm
+NYHA Class: II
+Blood Pressure: 110/80 mmHg
+Past Medical History: Idiopathic dilated cardiomyopathy, Dyslipemia, Hypertension
+Albumin (g/L): 41,4
+ALT or GPT (IU/L): 11.0
+AST or GOT (IU/L): 17.0
+Total Cholesterol (mmol/L): 4,45
+Creatinine (mmol/L): 104.0
+Gamma-glutamil transpeptidase (IU/L): 13
+Glucose (mmol/L): 5,8
+Hemoglobin (g/L): 132.0
+HDL (mmol/L): 1,03
+Potassium (mEq/L): 4,5
+LDL (mmol/L): 2,72
+Sodium (mEq/L): 139.0
+Pro-BNP (ng/L): 458.0
+Protein (g/L): 73
+T3 (pg/dL): 0,04
+T4 (ng/L): 18
+Troponin (ng/mL): 0,01
+TSH (mIU/L): 1,88
+Urea (mg/dL): 3,79
+LVEF (%): 40.0
+Medications: Amiodarone, Angiotensin II Receptor Blocker, Beta Blockers, Loop Diuretics, Statins
+ECG Impression:
+        - Ventricular Extrasystole: No
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: Unknown paroxysmal supraventricular tachyarrhythmia code
+        - Bradycardia: Unknown bradycardia code
+            ",survivor,"Based on the provided patient data, I will rank the three possible prognoses from most likely to least likely as follows:
+
+RANKING: 1. Survivor
+ REASONING: The patient is 69 years old with a history of idiopathic dilated cardiomyopathy, which is a significant risk factor for heart failure. However, the patient is on optimal medical therapy, including beta blockers, angiotensin II receptor blockers, and statins, which are all evidence-based treatments for heart failure. The patient's LVEF is 40%, which is relatively stable, and the troponin level is normal, indicating that there is no acute coronary syndrome. The patient's blood pressure is well-controlled, and the creatinine level is slightly elevated but not significantly so. The Pro-BNP level is elevated, which is consistent with heart failure, but not excessively high. The patient's NYHA class is II, indicating that the patient is able to perform some physical activity without symptoms. Overall, while the patient has a significant underlying condition, the optimal medical therapy and relatively stable LVEF suggest that survival is the most likely outcome.
+
+RANKING: 2. Pump Failure Death
+ REASONING: The patient's LVEF is 40%, which is below the normal range, indicating some degree of systolic dysfunction. The patient's creatinine level is slightly elevated, which may indicate some degree of renal impairment, which can be a consequence of heart failure. The Pro-BNP level is elevated, which is consistent with heart failure. However, the patient is on optimal medical therapy, and the troponin level is normal, indicating that there is no acute coronary syndrome. The patient's NYHA class is II, indicating that the patient is able to perform some physical activity without symptoms. While the patient's underlying condition is significant, the relatively stable LVEF and lack of acute coronary syndrome suggest that pump failure death is less likely than sudden cardiac death.
+
+RANKING: 3. Sudden Cardiac Death
+ REASONING: The patient has a history of idiopathic dilated cardiomyopathy, which is a significant risk factor for sudden cardiac death. However, the patient is on amiodarone, which is an anti-arrhythmic medication that is commonly used to prevent sudden cardiac death in patients with heart failure. The patient's troponin level is normal, indicating that there is no acute coronary syndrome. The patient's ECG is not mentioned as showing any signs of ventricular tachycardia or other arrhythmias that would increase the risk of sudden cardiac death. While the patient's underlying condition is significant, the use of amiodarone and the lack of acute coronary syndrome suggest that sudden cardiac death is the least likely outcome."
+44,124,P0202,"Age: 75
+Gender: Male 
+Weight: 77 kg
+Height: 157 cm
+NYHA Class: II
+Blood Pressure: 160/85 mmHg
+Past Medical History: Hypertensive cardiomyopathy, Diabetes, Dyslipemia, Hypertension
+Albumin (g/L): 39
+ALT or GPT (IU/L): 25.0
+AST or GOT (IU/L): 22.0
+Total Cholesterol (mmol/L): 3,83
+Creatinine (mmol/L): 123.0
+Gamma-glutamil transpeptidase (IU/L): 20
+Glucose (mmol/L): 13,2
+Hemoglobin (g/L): 136.0
+HDL (mmol/L): 0,93
+Potassium (mEq/L): 4,32
+LDL (mmol/L): 2,22
+Sodium (mEq/L): 139.0
+Pro-BNP (ng/L): 918.0
+Protein (g/L): 71,6
+T3 (pg/dL): 0,0585
+T4 (ng/L): 12,73
+Troponin (ng/mL): 0,2
+TSH (mIU/L): 1,16
+Urea (mg/dL): 8,3
+LVEF (%): 45.0
+Medications: Diabetes Medication, Beta Blockers, Loop Diuretics, Statins, ACE Inhibitor
+ECG Impression:
+        - Ventricular Extrasystole: Monomorphic
+        - Ventricular Tachycardia: No
+        - Non-sustained ventricular tachycardia (CH>10): No
+        - Paroxysmal supraventricular tachyarrhythmia: No
+        - Bradycardia: No
+            ",survivor,"Based on the provided patient data, I will rank the three possible prognoses from most likely to least likely. 
+
+RANKING: Survivor
+
+REASONING: The patient is 75 years old with a history of Hypertensive cardiomyopathy, Diabetes, Dyslipemia, and Hypertension. Despite these comorbidities, the patient is on a comprehensive treatment plan that includes diabetes medication, beta blockers, loop diuretics, statins, and an ACE inhibitor, which suggests that the patient's condition is being actively managed. The LVEF of 45% indicates that the patient's heart function is compromised, but not severely impaired. The Pro-BNP level of 918.0 ng/L is elevated, indicating some degree of heart failure, but not to the extent that would suggest a high risk of sudden cardiac death or pump failure. The absence of ventricular tachycardia, non-sustained ventricular tachycardia, and paroxysmal supraventricular tachyarrhythmia on the ECG suggests that the patient is not at high risk for arrhythmic events. The patient's NYHA Class II indicates that the patient experiences some limitation of physical activity but is still able to perform light physical activity. Overall, while the patient's condition is concerning, the comprehensive treatment plan and relatively stable heart function suggest that the patient is more likely to survive in the next few years.
+
+RANKING: Sudden Cardiac Death
+
+REASONING: Sudden cardiac death is a possible prognosis for this patient due to the presence of Hypertensive cardiomyopathy and an LVEF of 45%. However, the patient's treatment plan and lack of arrhythmic events on the ECG make sudden cardiac death less likely compared to pump failure death. The elevated Pro-BNP level suggests that the patient has some degree of heart failure, but not to the extent that would suggest a high risk of sudden cardiac death.
+
+RANKING: Pump Failure Death
+
+REASONING: Pump failure death is the least likely prognosis for this patient. While the patient has an LVEF of 45%, which is below the normal range, the patient's treatment plan and relatively stable heart function suggest that the patient is not at high risk for pump failure. The patient's NYHA Class II indicates that the patient is able to perform light physical activity, which suggests that the patient's heart function is not severely impaired. The absence of signs of severe heart failure, such as anemia (Hemoglobin 136.0 g/L), hypoalbuminemia (Albumin 39 g/L), or elevated creatinine (123.0 mmol/L), also suggests that pump failure is less likely."
