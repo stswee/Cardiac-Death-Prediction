@@ -51,7 +51,7 @@ if __name__ == "__main__":
                         torch_dtype=torch.float16, device_map='auto')
 
     # Load in csv file with prompts
-    df = pd.read_csv("../Data/subject-info-cleaned-with-prompts-sampled.csv") # Plan D does not require repeats
+    df = pd.read_csv("../Data/subject-info-cleaned-with-prompts.csv") # Plan D does not require repeats
 
     # Create empty column to store results
     df['Prognosis'] = None
@@ -75,4 +75,4 @@ if __name__ == "__main__":
         df.loc[i, 'Prognosis'] = result
 
     # Store dataframe as csv file
-    df.to_csv("../Data/subject-info-cleaned-with-prognosis-sampled-D.csv") # Plan D
+    df.to_csv("../Data/subject-info-cleaned-with-prognosis-D.csv") # Plan D
