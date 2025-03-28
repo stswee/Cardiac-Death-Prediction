@@ -33,7 +33,7 @@ def extract_assistant_response(response):
 if __name__ == "__main__":
 
     # Set GPUs
-    os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "3,4"
     
     # Log into Huggingface
     with open("../../huggingface_token.txt", "r") as file:
