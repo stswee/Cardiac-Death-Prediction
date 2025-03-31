@@ -19,7 +19,8 @@ def prompt_outcome(note, outcome):
     return note + "\nPATIENT OUTCOME: " + outcome
 
 def get_message(note):
-    system = 'You are a cardiologist. You are given the patient outcome. Your task is to provide reasoning for the patient outcome. Please structure the results as follows: REASONING: [Your explanation here]'
+    system = 'You are a cardiologist. Your task is to generate a prognosis for the next few years with reasoning. The three possible prognoses are survivor, sudden cardiac death, and pump failure death. Order the three prognoses from most likely to least likely and explain the reasoning behind the order. Please structure the results as follows: RANKING: [Your ranking here] \n REASONING: [Your explanation here]'
+    prompt = f"Here is the patient data: \n{note}"
     prompt = f"Here is the patient data: \n{note}"
 
     messages = [
@@ -36,7 +37,7 @@ def extract_assistant_response(response):
 if __name__ == "__main__":
 
     # Set GPUs
-    os.environ["CUDA_VISIBLE_DEVICES"] = "3,4"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
     
     # Log into Huggingface
     with open("../../huggingface_token.txt", "r") as file:
@@ -44,13 +45,13 @@ if __name__ == "__main__":
     login(access_token)
     
     # Load Huggingface Model
-    model_name = "meta-llama/Llama-3.1-8B-Instruct"
+    model_name = "meta-llama/Llama-3.2-3B-Instruct"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(model_name, token=access_token, low_cpu_mem_usage=True,
                         torch_dtype=torch.float16, device_map='auto')
 
     # Load in csv file with prompts
-    df = pd.read_csv("../Data/subject-info-cleaned-with-prompts-repeated.csv") # Plan C does require repeats
+    df = pd.read_csv("../Data/subject-info-cleaned-with-prompts.csv") # Plan D does not require repeats
 
     # Create empty column to store results
     df['Prognosis'] = None
@@ -74,4 +75,4 @@ if __name__ == "__main__":
         df.loc[i, 'Prognosis'] = result
 
     # Store dataframe as csv file
-    df.to_csv("../Data/subject-info-cleaned-with-prognosis-C.csv") # Plan C
+    df.to_csv("../Data/subject-info-cleaned-with-prognosis-D.csv") # Plan D

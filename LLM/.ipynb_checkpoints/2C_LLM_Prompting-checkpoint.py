@@ -36,7 +36,7 @@ def extract_assistant_response(response):
 if __name__ == "__main__":
 
     # Set GPUs
-    os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "3,4"
     
     # Log into Huggingface
     with open("../../huggingface_token.txt", "r") as file:
@@ -50,7 +50,7 @@ if __name__ == "__main__":
                         torch_dtype=torch.float16, device_map='auto')
 
     # Load in csv file with prompts
-    df = pd.read_csv("../Data/subject-info-cleaned-with-prompts-sampled-repeated.csv") # Plan C does require repeats
+    df = pd.read_csv("../Data/subject-info-cleaned-with-prompts-repeated.csv") # Plan C does require repeats
 
     # Create empty column to store results
     df['Prognosis'] = None
@@ -74,4 +74,4 @@ if __name__ == "__main__":
         df.loc[i, 'Prognosis'] = result
 
     # Store dataframe as csv file
-    df.to_csv("../Data/subject-info-cleaned-with-prognosis-sampled-C.csv") # Plan C
+    df.to_csv("../Data/subject-info-cleaned-with-prognosis-C.csv") # Plan C
