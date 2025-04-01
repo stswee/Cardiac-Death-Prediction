@@ -75,4 +75,4 @@ if __name__ == "__main__":
         df.loc[i, 'Prognosis'] = result
 
     # Store dataframe as csv file
-    df.to_csv("../Data/subject-info-cleaned-with-prognosis-D.csv") # Plan D
+    df.to_csv("../Data/subject-info-cleaned-with-prognosis-D-Llama3B.csv") # Plan D

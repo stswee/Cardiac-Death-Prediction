@@ -16,6 +16,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, roc_auc_score
 import numpy as np
 from datasets import Dataset
+from sklearn.preprocessing import label_binarize
+from scipy.special import softmax
 
 
 # Set seeds
@@ -28,32 +30,38 @@ def tokenize_function(examples):
 
 def compute_metrics(eval_pred):
     logits, labels = eval_pred
-    predictions = np.argmax(logits, axis=-1)  # Convert logits to class predictions
+
+    # Convert logits to probabilities
+    probs = softmax(logits, axis=1)
+
+    # Convert labels to one-hot encoding
+    labels_one_hot = label_binarize(labels, classes=[0, 1, 2])  # Ensure class order matches label mapping
 
     # Compute accuracy
+    predictions = np.argmax(logits, axis=-1)
     acc = accuracy_score(labels, predictions)
 
     # Compute precision, recall, f1-score
     precision, recall, f1, _ = precision_recall_fscore_support(labels, predictions, average="weighted")
 
-    # Compute AUC (only if there are at least 2 classes)
-    # auc = roc_auc_score(labels, logits, multi_class="ovr") if len(set(labels)) > 1 else 0
+    # Compute multi-class AUC
+    auc = roc_auc_score(labels_one_hot, probs, multi_class="ovr")
 
     return {
         "accuracy": acc,
         "precision": precision,
         "recall": recall,
-        "f1": f1
-        #"auc": auc
+        "f1": f1,
+        "auc": auc
     }
 
 if __name__ == "__main__":
 
     # Set GPUs
-    os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "1,2"
 
     # Import data
-    df = pd.read_csv("../Data/subject-info-cleaned-with-prognosis-D.csv")
+    df = pd.read_csv("../Data/subject-info-cleaned-with-prognosis-D-Llama3B.csv")
     
     # Get prognosis and outcome
     df = df[['Prognosis', 'Outcome']]
