@@ -13,16 +13,24 @@ import os
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from torch import cuda
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, precision_recall_fscore_support, roc_auc_score
+from sklearn.metrics import accuracy_score, precision_recall_fscore_support, roc_auc_score, confusion_matrix, ConfusionMatrixDisplay, roc_curve
 import numpy as np
+import matplotlib.pyplot as plt
 from datasets import Dataset
 from sklearn.preprocessing import label_binarize
 from scipy.special import softmax
+import argparse
 
-
-# Set seeds
+# Ensure reproducibility
+os.environ["CUBLAS_WORKSPACE_CONFIG"] = ":16:8"
 random.seed(0)
+np.random.seed(0)
 torch.manual_seed(0)
+torch.cuda.manual_seed(0)
+torch.cuda.manual_seed_all(0)  # For multi-GPU
+torch.backends.cudnn.deterministic = True
+torch.backends.cudnn.benchmark = False
+torch.use_deterministic_algorithms(True)
 
 # Tokenization function
 def tokenize_function(examples):
@@ -55,37 +63,67 @@ def compute_metrics(eval_pred):
         "auc": auc
     }
 
+def plot_metrics(labels, predictions, probs, dataset_name, model_name):
+    # Format file names
+    dataset_filename = os.path.basename(dataset_name).replace(".csv", "")
+    model_filename = model_name.replace("/", "_")
+    plot_prefix = f"{dataset_filename}_{model_filename}"
+    
+    # Plot AUROC
+    labels_one_hot = label_binarize(labels, classes=[0, 1, 2])
+    plt.figure()
+    for i in range(3):
+        fpr, tpr, _ = roc_curve(labels_one_hot[:, i], probs[:, i])
+        plt.plot(fpr, tpr, label=f"Class {i}")
+    plt.xlabel("False Positive Rate")
+    plt.ylabel("True Positive Rate")
+    plt.title("AUROC Curve")
+    plt.legend()
+    plt.savefig(f"{plot_prefix}_auroc_plot.png")
+    plt.show()
+
+    # Plot confusion matrix
+    cm = confusion_matrix(labels, predictions)
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm)
+    disp.plot()
+    plt.savefig(f"{plot_prefix}_confusion_matrix.png")
+    plt.show()
+
 if __name__ == "__main__":
 
+    # User arguments
+    parser = argparse.ArgumentParser(description="Process dataset and model name.")
+    parser.add_argument("dataset_path", type=str, help="Path to the dataset CSV file") # Datasets: ../Data/subject-info-cleaned-with-prognosis-D-Llama3B.csv, ../Data/subject-info-cleaned-with-prognosis-D-Llama8B.csv
+    parser.add_argument("model_name", type=str, help="Name of the pre-trained model") # Models: dmis-lab/biobert-base-cased-v1.1, emilyalsentzer/Bio_ClinicalBERT
+    args = parser.parse_args()
+
     # Set GPUs
-    os.environ["CUDA_VISIBLE_DEVICES"] = "1,2"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "5,6"
 
     # Import data
-    df = pd.read_csv("../Data/subject-info-cleaned-with-prognosis-D-Llama3B.csv")
+    df = pd.read_csv(args.dataset_path)
     
     # Get prognosis and outcome
     df = df[['Prognosis', 'Outcome']]
     
     # Map labels to integers
-    # Survivor = 0, SCD = 1, PFD = 2
     label_map = {"survivor": 0, "sudden cardiac death": 1, "pump failure death": 2}
     df['Outcome'] = df['Outcome'].map(label_map)
-    df.rename(columns = {"Outcome": "labels"}, inplace = True)
+    df.rename(columns={"Outcome": "labels"}, inplace=True)
 
     # Convert to Hugging Face Dataset format
     dataset = Dataset.from_pandas(df)
 
-    # Load BioBERT
-    model_name = "dmis-lab/biobert-base-cased-v1.1"
+    # Load BioBERT (or any specified model)
     num_labels = 3  # Three possible outcomes
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=num_labels)
+    tokenizer = AutoTokenizer.from_pretrained(args.model_name)
+    model = AutoModelForSequenceClassification.from_pretrained(args.model_name, num_labels=num_labels)
     
     # Apply tokenization
     dataset = dataset.map(tokenize_function, batched=True)
 
     # Split data
-    train_test = dataset.train_test_split(test_size=0.2)
+    train_test = dataset.train_test_split(test_size=0.2, seed = 0)
     train_dataset = train_test["train"]
     val_dataset = train_test["test"]
 
@@ -115,4 +153,20 @@ if __name__ == "__main__":
     trainer.train()
 
     # Evaluate
-    print(trainer.evaluate())
+    eval_results = trainer.evaluate()
+    print(eval_results)
+
+    # Save evaluation metrics
+    metrics_filename = f"{os.path.basename(args.dataset_path).replace('.csv', '')}_{args.model_name.replace('/', '_')}_metrics.json"
+    with open(metrics_filename, "w") as f:
+        json.dump(eval_results, f, indent=4)
+
+    # Generate predictions for validation set
+    predictions_output = trainer.predict(val_dataset)
+    logits = predictions_output.predictions
+    predictions = np.argmax(logits, axis=-1)
+    probs = softmax(logits, axis=1)
+    labels = np.array(val_dataset["labels"])
+
+    # Plot AUROC and Confusion Matrix
+    plot_metrics(labels, predictions, probs, args.dataset_path, args.model_name)
