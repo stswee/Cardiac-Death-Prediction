@@ -5,8 +5,8 @@
     "eval_recall": 0.8764705882352941,
     "eval_f1": 0.8583823529411765,
     "eval_auc": 0.8796288087332863,
-    "eval_runtime": 1.6816,
-    "eval_samples_per_second": 101.096,
-    "eval_steps_per_second": 13.083,
+    "eval_runtime": 1.4685,
+    "eval_samples_per_second": 115.766,
+    "eval_steps_per_second": 14.981,
     "epoch": 3.0
 }

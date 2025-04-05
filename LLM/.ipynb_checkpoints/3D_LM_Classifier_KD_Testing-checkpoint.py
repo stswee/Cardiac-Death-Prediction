@@ -122,10 +122,28 @@ if __name__ == "__main__":
     # Apply tokenization
     dataset = dataset.map(tokenize_function, batched=True)
 
+    # Step 1: Add an index column
+    dataset = dataset.add_column("original_idx", list(range(len(dataset))))
+
     # Split data
     train_test = dataset.train_test_split(test_size=0.2, seed = 0)
     train_dataset = train_test["train"]
     val_dataset = train_test["test"]
+
+    # Get indices of train and validation sets
+    # Step 3: Access original indices
+    train_indices = train_dataset["original_idx"]
+    val_indices = val_dataset["original_idx"]
+
+    # Prepare the data to store
+    index_data = {
+        "train_indices": train_indices,
+        "val_indices": val_indices
+    }
+    
+    # Save to JSON
+    with open("split_indices.json", "w") as f:
+        json.dump(index_data, f)
 
     # Define training arguments
     training_args = TrainingArguments(
