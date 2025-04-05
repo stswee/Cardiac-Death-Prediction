@@ -103,8 +103,8 @@ if __name__ == "__main__":
     # Import data
     df = pd.read_csv(args.dataset_path)
     
-    # Get prognosis and outcome
-    df = df[['Prognosis', 'Outcome']]
+    # Get patient ID, prognosis, and outcome
+    df = df[['Patient ID', 'Prognosis', 'Outcome']]
     
     # Map labels to integers
     label_map = {"survivor": 0, "sudden cardiac death": 1, "pump failure death": 2}
@@ -122,18 +122,14 @@ if __name__ == "__main__":
     # Apply tokenization
     dataset = dataset.map(tokenize_function, batched=True)
 
-    # Step 1: Add an index column
-    dataset = dataset.add_column("original_idx", list(range(len(dataset))))
-
     # Split data
     train_test = dataset.train_test_split(test_size=0.2, seed = 0)
     train_dataset = train_test["train"]
     val_dataset = train_test["test"]
 
-    # Get indices of train and validation sets
-    # Step 3: Access original indices
-    train_indices = train_dataset["original_idx"]
-    val_indices = val_dataset["original_idx"]
+    # Get patient IDs of train and validation sets
+    train_indices = train_dataset["Patient ID"]
+    val_indices = val_dataset["Patient ID"]
 
     # Prepare the data to store
     index_data = {
