@@ -64,28 +64,54 @@ def compute_metrics(eval_pred):
     }
 
 def plot_metrics(labels, predictions, probs, dataset_name, model_name):
-    # Format file names
-    dataset_filename = os.path.basename(dataset_name).replace(".csv", "")
+    # Define mappings for the dataset and model to human-readable names
+    dataset_map = {
+        "../Data/subject-info-cleaned-with-prognosis-D-Llama3B.csv": "Llama3B",
+        "../Data/subject-info-cleaned-with-prognosis-D-Llama8B.csv": "Llama8B",
+    }
+    model_map = {
+        "dmis-lab/biobert-base-cased-v1.1": "BioBERT",
+        "emilyalsentzer/Bio_ClinicalBERT": "ClinicalBERT",
+    }
+
+    # Extract readable LLM and LM names
+    dataset_filename = os.path.basename(dataset_name)
+    llm_name = dataset_map.get(dataset_filename, "UnknownLLM")
+    lm_name = model_map.get(model_name, "UnknownLM")
+    
+    # Title and filename prefix
+    title_prefix = f"{llm_name} + {lm_name}"
     model_filename = model_name.replace("/", "_")
-    plot_prefix = f"{dataset_filename}_{model_filename}"
+    plot_prefix = f"{dataset_filename.replace('.csv', '')}_{model_filename}"
     
     # Plot AUROC
     labels_one_hot = label_binarize(labels, classes=[0, 1, 2])
-    plt.figure()
+    class_names = ["Survivor", "Sudden Cardiac Death", "Pump Failure Death"]
+    
+    plt.figure(figsize=(8, 6))
+    
     for i in range(3):
         fpr, tpr, _ = roc_curve(labels_one_hot[:, i], probs[:, i])
-        plt.plot(fpr, tpr, label=f"Class {i}")
+        auc_score = auc(fpr, tpr)
+        plt.plot(fpr, tpr, label=f"{class_names[i]} (AUC = {auc_score:.2f})")
+    
+    # Random guess line
+    plt.plot([0, 1], [0, 1], linestyle='--', color='gray', label="Random Guess")
+    
     plt.xlabel("False Positive Rate")
     plt.ylabel("True Positive Rate")
-    plt.title("AUROC Curve")
-    plt.legend()
+    plt.title(f"AUROC Curve: {title_prefix}")
+    plt.grid(True)
+    plt.legend(loc="lower right")
+    plt.tight_layout()
     plt.savefig(f"{plot_prefix}_auroc_plot.png")
     plt.show()
 
     # Plot confusion matrix
     cm = confusion_matrix(labels, predictions)
-    disp = ConfusionMatrixDisplay(confusion_matrix=cm)
-    disp.plot()
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=class_names)
+    disp.plot(cmap='Blues')
+    plt.title(f"Confusion Matrix: {title_prefix}")
     plt.savefig(f"{plot_prefix}_confusion_matrix.png")
     plt.show()
 
@@ -98,7 +124,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Set GPUs
-    os.environ["CUDA_VISIBLE_DEVICES"] = "5,6"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
 
     # Import data
     df = pd.read_csv(args.dataset_path)
